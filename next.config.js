@@ -11,6 +11,18 @@ const nextConfig = {
       }
     ];
   },
+  images: {
+    domains: ['localhost'],
+    remotePatterns: [
+      {
+        protocol: 'http',
+        hostname: 'localhost',
+        port: '',
+        pathname: '/downloaded_images/**',
+      },
+    ],
+    unoptimized: true
+  },
 };
 
 module.exports = nextConfig;

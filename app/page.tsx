@@ -1,22 +1,18 @@
 "use client";
 
-import { useState, useEffect, useCallback, useRef } from 'react';
+import { useState, useEffect } from 'react';
 import axios from 'axios';
-import videojs from 'video.js';
-import type VideoJsPlayer from 'video.js/dist/types/player';
-import 'video.js/dist/video-js.css';
-import Layout from './layout';
-import './styles.css';
 import { track } from '@vercel/analytics';
-import Head from 'next/head';
 
 // Components
-import { PhotoFrameIcon, MagnifyingGlassIcon, QuestionMarkCircleIcon } from './components/Icons';
+import Header from './components/Header';
+import FileUpload from './components/FileUpload';
+import ResultsList from './components/ResultsList';
 import Footer from './components/Footer';
-import { handleFileUpload } from './components/FileUploadHandler';
+import DisclaimerBanner from './components/DisclaimerBanner';
 
 // Handles Python backend API URL based on the environment
-const API_URL = "http://localhost:8000"
+const API_URL = "http://localhost:8000";
 
 interface Result {
   score: number;
@@ -27,84 +23,39 @@ interface Result {
 }
 
 export default function Home() {
-  const [query, setQuery] = useState<string>('');
   const [results, setResults] = useState<Result[]>([]);
   const [isUploading, setIsUploading] = useState<boolean>(false);
   const [isSearching, setIsSearching] = useState<boolean>(false);
-  const [dragging, setDragging] = useState<boolean>(false);
   const [totalVectors, setTotalVectors] = useState<number | null>(null);
   const [isSearchComplete, setIsSearchComplete] = useState<boolean>(false);
   const [searchTime, setSearchTime] = useState<number | null>(null);
-  const [searchType, setSearchType] = useState<'text' | 'image' | 'video' | null>(null);
-  const [isInputEmpty, setIsInputEmpty] = useState<boolean>(true);
   const [errorMessage, setErrorMessage] = useState<string | null>(null);
   const [isLoadingResults, setIsLoadingResults] = useState<boolean>(false);
-  const [showSuggestions, setShowSuggestions] = useState<boolean>(false);
-  const suggestions = [
-    "Summer beach outfit",
-    "Business casual for women",
-    "Streetwear look",
-    "Autumn jewelry aesthetic",
-    "Minimalist wardrobe essential",
-    "Athleisure outfit ideas",
-    "Formal evening wear",
-    "Vintage inspired look",
-    "Thrift store gems",
-    "Casual kpop"
-  ];
-  const handleSuggestionClick = (suggestion: string) => {
-    setQuery(suggestion);
-    setIsInputEmpty(false);
-    setShowSuggestions(false);
-  };
+  const [darkMode, setDarkMode] = useState<boolean>(true);
 
-  const clearResults = () => {
-    setQuery('');
-    setResults([]);
-    setIsInputEmpty(true);
-    setIsSearchComplete(false);
-    setSearchTime(null);
-    setSearchType(null);
-    setErrorMessage(null);
-  };
-
-  const playersRef = useRef<{ [key: string]: VideoJsPlayer }>({});
-
-  const VerticalDivider = () => (
-    <div className="h-6 w-px bg-gray-200"></div>
-  );
+  // Determine if we should show the side-by-side layout (results exist and not loading)
+  const showSideBySide = results.length > 0 && !isLoadingResults;
 
   useEffect(() => {
-    let scrollTracked = false;
-    const handleScroll = () => {
-      const scrollPercentage = (window.scrollY / (document.documentElement.scrollHeight - window.innerHeight)) * 100;
-      if (scrollPercentage > 50 && !scrollTracked) {
-        track('scroll_depth', { depth: '50%' });
-        scrollTracked = true;
-      }
-    };
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
+    // Check if user has a preferred theme
+    const savedTheme = localStorage.getItem('theme');
+    if (savedTheme) {
+      setDarkMode(savedTheme === 'dark');
+    } else {
+      // Check if user has a preferred system theme
+      const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      setDarkMode(prefersDark);
+    }
   }, []);
 
   useEffect(() => {
-    const pageViewData = {
-      timestamp: new Date().toISOString(),
-      screenSize: `${window.screen.width}x${window.screen.height}`,
-      deviceType: /Mobi|Android/i.test(navigator.userAgent) ? 'mobile' : 'desktop',
-      browserName: navigator.userAgent,
-      referrer: document.referrer,
-      loadTime: performance.now(),
-      language: navigator.language,
-      totalVectors: totalVectors,
-      appVersion: process.env.NEXT_PUBLIC_APP_VERSION || 'unknown',
-    };
-
-    track('page_viewed', pageViewData);
-  }, [totalVectors]);
+    // Apply theme to document
+    document.documentElement.setAttribute('data-theme', darkMode ? 'dark' : 'light');
+    // Save theme preference
+    localStorage.setItem('theme', darkMode ? 'dark' : 'light');
+  }, [darkMode]);
 
   useEffect(() => {
-
     const fetchTotalVectors = async () => {
       try {
         const response = await axios.get(`${API_URL}/api/index/info`);
@@ -115,55 +66,64 @@ export default function Home() {
     };
 
     fetchTotalVectors();
-  }, []);
 
-  useEffect(() => {
-    return () => {
-      Object.values(playersRef.current).forEach(player => {
-        if (player && typeof player.dispose === 'function') {
-          player.dispose();
-        }
-      });
-      playersRef.current = {};
+    // Track page view
+    const pageViewData = {
+      timestamp: new Date().toISOString(),
+      screenSize: `${window.screen.width}x${window.screen.height}`,
+      deviceType: /Mobi|Android/i.test(navigator.userAgent) ? 'mobile' : 'desktop',
+      browserName: navigator.userAgent,
+      loadTime: performance.now(),
+      theme: darkMode ? 'dark' : 'light'
     };
-  }, []);
+    track('page_viewed', pageViewData);
+  }, [darkMode]);
 
-  const resetSearchState = () => {
-    setResults([]);
-    setIsSearchComplete(false);
-    setSearchTime(null);
-    setSearchType(null);
-    setErrorMessage(null);
+  const toggleDarkMode = () => {
+    setDarkMode(!darkMode);
   };
 
-  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
-    if (isInputEmpty) return;
+  const handleFileUpload = async (file: File) => {
+    if (!file.type.startsWith('image/')) {
+      setErrorMessage('Please upload an image file (JPG, PNG, GIF)');
+      return;
+    }
 
-    setShowSuggestions(false);
+    const allowedFormats = ['bmp', 'gif', 'jpeg', 'png', 'jpg'];
+    const fileExtension = file.name.split('.').pop()?.toLowerCase();
+    if (!fileExtension || !allowedFormats.includes(fileExtension)) {
+      setErrorMessage(`We don't support this image format: ${fileExtension || 'unknown'}. Please upload an image in one of the following formats: ${allowedFormats.join(', ')}.`);
+      return;
+    }
 
-    resetSearchState();
-
-    setIsSearching(true);
+    setIsUploading(true);
     setIsSearchComplete(false);
     setSearchTime(null);
-    setSearchType('text');
     setErrorMessage(null);
     setIsLoadingResults(true);
     const startTime = Date.now();
+
     try {
-      const response = await axios.post(`${API_URL}/api/search/text`, { query });
-      setResults(response.data.results);
-      const endTime = Date.now();
-      setSearchTime(endTime - startTime);
-      setIsSearchComplete(true);
-      track('search_results', {
-        searchType,
-        query,
-        searchTime
+      const formData = new FormData();
+      formData.append('file', file);
+
+      const response = await axios.post(`${API_URL}/api/search/image`, formData, {
+        headers: {
+          'Content-Type': 'multipart/form-data',
+        }
       });
+
+      const endTime = Date.now();
+      setResults(response.data.results);
+      setSearchTime(endTime - startTime);
+      track('image_search', {
+        fileType: 'image',
+        fileName: file.name,
+        fileSize: file.size
+      });
+      setIsSearchComplete(true);
     } catch (error) {
-      console.error('Error during text search:', error);
+      console.error('Error during file upload:', error);
       if (axios.isAxiosError(error) && error.response) {
         setErrorMessage(`Oops! ${error.response.data.detail || 'An unexpected error occurred'}`);
       } else {
@@ -171,265 +131,50 @@ export default function Home() {
       }
     } finally {
       setIsSearching(false);
+      setIsUploading(false);
       setIsLoadingResults(false);
     }
   };
 
-  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    const value = e.target.value;
-    setQuery(value);
-    setIsInputEmpty(value.trim() === '');
-    setShowSuggestions(value.trim() !== '');
-  };
-
-  const handleFileUploadWrapper = async (file: File) => {
-    resetSearchState();
-    await handleFileUpload(file, {
-      API_URL,
-      setSearchType,
-      setErrorMessage,
-      setIsUploading,
-      setIsSearchComplete,
-      setSearchTime,
-      setIsLoadingResults,
-      setResults,
-      setQuery,
-      setIsInputEmpty,
-      setIsSearching
-    });
-  };
-
-  const handleFileChange = async (e: React.ChangeEvent<HTMLInputElement>) => {
-    if (e.target.files && e.target.files[0]) {
-      track('file_selected');
-      await handleFileUploadWrapper(e.target.files[0]);
-    }
-  };
-
-  const handleDragOver = useCallback((e: React.DragEvent<HTMLDivElement>) => {
-    e.preventDefault();
-    e.stopPropagation();
-    setDragging(true);
-  }, []);
-
-  const handleDragLeave = useCallback((e: React.DragEvent<HTMLDivElement>) => {
-    e.preventDefault();
-    e.stopPropagation();
-    setDragging(false);
-  }, []);
-
-  const handleDrop = async (e: React.DragEvent<HTMLDivElement>) => {
-    e.preventDefault();
-    e.stopPropagation();
-    setDragging(false);
-
-    if (e.dataTransfer.files && e.dataTransfer.files[0]) {
-      track('file_dropped');
-      await handleFileUploadWrapper(e.dataTransfer.files[0]);
-    }
-  };
-
-  const getScoreLabel = (score: number) => {
-    return { score: score.toFixed(4) };
-  };
-
-  const getVideoId = (result: Result, index: number) => `image-${index}-${result.metadata.id}`;
-
   return (
-    <Layout>
-      <Head>
-        <title>Whisky Googles</title>
-      </Head>
-      <div
-        className={`flex flex-col items-center justify-start min-h-screen bg-black ${dragging ? 'border-4 border-dashed border-amber-500' : ''}`}
-        onDragOver={handleDragOver}
-        onDragLeave={handleDragLeave}
-        onDrop={handleDrop}
-        style={{ fontFamily: "'Inter', 'Helvetica', 'Arial', sans-serif" }}
-      >
-        <div className="max-w-6xl w-full px-4 md:px-0 mt-12">
-          <h1 className="font-sans text-4xl mb-3 text-center text-amber-500">Whisky Googles</h1>
-          <h1 className="font-sans text-base mb-5 text-center text-amber-400">Upload a photo or search by text for outfit inspiration</h1>
-          <div className="max-w-xl mx-auto relative">
-            <form onSubmit={handleSubmit} className="flex items-center">
-              <div className="flex-grow flex items-center bg-gray-900 rounded shadow-md">
-                <div className="flex-grow relative">
-                  <input
-                    type="text"
-                    value={query}
-                    onChange={handleInputChange}
-                    onFocus={() => setShowSuggestions(true)}
-                    onBlur={() => setTimeout(() => setShowSuggestions(false), 200)}
-                    placeholder="Describe the outfit, or drag in an image"
-                    className="w-full flex-grow px-6 py-3 text-amber-100 bg-transparent focus:outline-none placeholder-amber-600"
-                    disabled={isUploading || isSearching}
-                  />
-                  {showSuggestions && suggestions.length > 0 && (
-                    <div className="absolute left-0 right-0 mt-2 w-full bg-gray-900 border border-amber-800 rounded shadow-lg max-h-60 overflow-y-auto z-10" style={{ width: 'calc(100% + 59px)', marginLeft: '-1px' }}>
-                      <div className="mt-3"></div>
-                      {suggestions.map((suggestion, index) => (
-                        <div
-                          key={index}
-                          className="px-6 py-1.5 hover:bg-amber-900 cursor-pointer text-amber-100 flex items-center"
-                          onClick={() => handleSuggestionClick(suggestion)}
-                        >
-                          <MagnifyingGlassIcon className="h-4 w-4 mr-3 text-amber-500" />
-                          {suggestion}
-                        </div>
-                      ))}
-                    </div>
-                  )}
+    <main className="flex min-h-screen flex-col items-center justify-between w-full">
+      <div className="w-full max-w-[1440px] px-4 py-4 mx-auto">
+        <Header darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
+        
+        <div className={`mt-6 ${showSideBySide ? 'lg:flex lg:gap-6' : 'max-w-4xl mx-auto'} layout-transition`}>
+          {/* Upload Section - centered initially, left side when results show */}
+          <div className={`${showSideBySide ? 'lg:w-4/12 lg:sticky lg:top-4' : 'w-full max-w-md mx-auto'} layout-transition`}>
+            <div className="glass-morphism p-4 sm:p-6 rounded-2xl">
+              <FileUpload onFileSelected={handleFileUpload} isUploading={isUploading} />
+              
+              {errorMessage && (
+                <div className="mt-4 p-3 bg-red-500/10 border border-red-500/30 rounded-lg text-red-400 text-center text-sm">
+                  <p>{errorMessage}</p>
                 </div>
-                <input
-                  type="file"
-                  accept="image/*"
-                  onChange={handleFileChange}
-                  style={{ display: 'none' }}
-                  id="upload-input"
-                  disabled={isUploading || isSearching}
-                />
-                <input
-                  type="file"
-                  accept="image/*"
-                  capture="environment"
-                  onChange={handleFileChange}
-                  style={{ display: 'none' }}
-                  id="camera-input"
-                  disabled={isUploading || isSearching}
-                />
-                {!isInputEmpty && (
-                  <>
-                    <button
-                      type="button"
-                      onClick={clearResults}
-                      className="text-amber-600 hover:text-amber-500 mr-0.5 focus:outline-none"
-                      disabled={isUploading || isSearching}
-                    >
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="44"
-                        height="44"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        strokeWidth="1"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      >
-                        <line x1="15" y1="9" x2="9" y2="15" />
-                        <line x1="9" y1="9" x2="15" y2="15" />
-                      </svg>
-                    </button>
-                    <VerticalDivider />
-                  </>
-                )}
-                <label htmlFor="upload-input" className={`cursor-pointer px-4 ${isUploading || isSearching ? 'text-amber-600' : 'text-amber-500 hover:text-amber-400'} focus:outline-none`}>
-                  <PhotoFrameIcon className="h-6 w-6" />
-                </label>
-                <label htmlFor="camera-input" className={`cursor-pointer px-4 ${isUploading || isSearching ? 'text-amber-600' : 'text-amber-500 hover:text-amber-400'} focus:outline-none`}>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                    <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path>
-                    <circle cx="12" cy="13" r="4"></circle>
-                  </svg>
-                </label>
-              </div>
-              <button
-                type="submit"
-                className={`ml-1 px-3 ${
-                  isInputEmpty
-                    ? 'text-amber-600 cursor-not-allowed'
-                    : isUploading || isSearching
-                    ? 'text-amber-600 cursor-wait'
-                    : 'text-amber-500 hover:text-amber-400'
-                } focus:outline-none`}
-                disabled={isInputEmpty || isUploading || isSearching}
-              >
-                <MagnifyingGlassIcon className="h-6 w-6" />
-              </button>
-            </form>
-
-            {errorMessage && (
-              <div className="w-full mt-4 text-amber-500 text-center">
-                {errorMessage}
-              </div>
-            )}
-            {(isUploading || isSearching) && (
-              <div className="w-full mt-8 flex items-center justify-center">
-                <span className="text-amber-500 pulse">
-                  {isUploading ? "Uploading, embedding, and searching..." : "Searching..."}
-                </span>
-                <div className="ml-3 spinner border-4 border-t-transparent border-amber-500 rounded-full w-6 h-6 animate-spin"></div>
-              </div>
-            )}
+              )}
+              
+              {isSearchComplete && searchTime !== null && totalVectors !== null && (
+                <div className="mt-4 text-center text-amber-400 bg-amber-500/5 p-2 rounded-lg border border-amber-500/20 text-sm">
+                  <p>
+                    Searched {totalVectors.toLocaleString()} whiskeys in {(searchTime / 1000).toFixed(2)} seconds
+                  </p>
+                </div>
+              )}
+              
+              {showSideBySide && <DisclaimerBanner />}
+            </div>
           </div>
-          <div>
-            {isSearchComplete && searchTime !== null && totalVectors !== null && (
-              <div className="ml-1 mt-6 mb-2 flex items-center text-left text-amber-400">
-                <p>
-                  Searched {totalVectors.toLocaleString()} styles
-                  {searchType === 'text' && <> for <strong className="text-amber-500">{query}</strong></>}
-                  {searchType === 'image' && <> for <strong className="text-amber-500">your image</strong></>}
-                </p>
-                <button
-                  type="button"
-                  onClick={clearResults}
-                  className="text-amber-600 hover:text-amber-500 mb-0.4 ml-2 focus:outline-none"
-                  disabled={isUploading || isSearching}
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="16"
-                    height="16"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  >
-                    <circle cx="12" cy="12" r="10" />
-                    <line x1="15" y1="9" x2="9" y2="15" />
-                    <line x1="9" y1="9" x2="15" y2="15" />
-                  </svg>
-                </button>
-              </div>
-            )}
-            {isLoadingResults && (
-              <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-                {[...Array(20)].map((_, index) => (
-                  <div key={index} className="animate-pulse">
-                    <div className="bg-gray-900 h-64 w-full rounded-sm"></div>
-                    <div className="h-4 bg-gray-900 rounded w-3/4 mt-2"></div>
-                  </div>
-                ))}
-              </div>
-            )}
-            {!isLoadingResults && results.length > 0 && (
-              <div className="mt-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-                {results.map((result, index) => {
-                  const { score } = getScoreLabel(result.score);
-                  const imageId = getVideoId(result, index);
-                  return (
-                    <div key={imageId}>
-                      <img src={`/downloaded_images/downloaded_images/image_${result.metadata.id}.jpg`} alt="Result" className="w-full h-auto object-cover mt-2 rounded hover-shadow" />
-                      <div className="inline-block mt-2 mb-2 px-1 py-1 text-sm text-amber-400 flex items-center">
-                        Similarity score: {score}
-                        <div className="relative ml-1 group">
-                          <QuestionMarkCircleIcon className="h-4 w-4 text-amber-400" />
-                          <div className="absolute bottom-full left-1/2 transform -translate-x-1/2 bg-gray-900 text-amber-100 text-xs rounded py-1 px-2 hidden group-hover:block whitespace-nowrap border border-amber-800">
-                            Cosine similarity score between 0 - 1, higher is more similar. 
-                            <a href="https://www.pinecone.io/learn/vector-similarity?utm_source=shop-the-look&utm_medium=referral)" target="_blank" rel="noopener noreferrer" className="text-amber-500 hover:text-amber-400"> About vector similarity.</a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  );
-                })}
-              </div>
-            )}
+          
+          {/* Results Section - below upload initially, right side on larger screens when results show */}
+          <div className={`${showSideBySide ? 'lg:w-8/12 lg:mt-0 results-container' : 'w-full max-w-screen-lg'} mt-6 layout-transition mx-auto`}>
+            <ResultsList results={results} isLoading={isLoadingResults} />
           </div>
         </div>
+        
+        <div className="mt-10">
+          <Footer />
+        </div>
       </div>
-    </Layout>
+    </main>
   );
 }

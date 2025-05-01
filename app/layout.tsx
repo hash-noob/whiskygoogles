@@ -1,21 +1,19 @@
 import { ReactNode } from 'react';
-import { Fira_Mono } from 'next/font/google';
-import { Roboto } from 'next/font/google';
-import './styles.css';
+import { Inter, Poppins } from 'next/font/google';
+import './globals.css';
 import { Analytics } from '@vercel/analytics/react';
 
-const fira_mono = Fira_Mono({
+const inter = Inter({
   subsets: ['latin'],
   display: 'swap',
-  weight: ['400','500','700'],
-  variable: '--font-fira_mono',
+  variable: '--font-inter',
 });
 
-const roboto = Roboto({
+const poppins = Poppins({
   subsets: ['latin'],
   display: 'swap',
-  weight: ['400','500','700'],
-  variable: '--font-roboto',
+  weight: ['400', '500', '600', '700'],
+  variable: '--font-poppins',
 });
 
 interface LayoutProps {
@@ -26,10 +24,12 @@ export default function Layout({ children }: LayoutProps) {
   return (
     <html lang="en">
       <head>
-        <title>Shop The Look</title>
-        <meta name='description' content='Shop The Look is an outfit inspiration app built with Pinecone, Google Multimodal Embedding Model, and Next.js.' />
+        <title>WhiskeyGoggles</title>
+        <meta name="description" content="WhiskeyGoggles is a whiskey bottle identification app that helps you discover similar options." />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="theme-color" content="#000000" />
       </head>
-      <body className={`${fira_mono.variable} ${roboto.variable}`}>
+      <body className={`${inter.variable} ${poppins.variable} min-h-screen`}>
         {children}
         <Analytics />
       </body>

@@ -4,6 +4,43 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --primary: #f59e0b;
+  --primary-dark: #d97706;
+  --secondary: #0ea5e9;
+  --dark: #111827;
+  --light: #f3f4f6;
+  --bg-gradient-start: #111827;
+  --bg-gradient-end: #000000;
+  --card-bg: rgba(31, 41, 55, 0.8);
+  --text-primary: #ffffff;
+  --text-secondary: #e5e7eb;
+  --text-muted: #9ca3af;
+}
+
+[data-theme='light'] {
+  --primary: #d97706;
+  --primary-dark: #b45309;
+  --bg-gradient-start: #f9fafb;
+  --bg-gradient-end: #e5e7eb;
+  --card-bg: rgba(255, 255, 255, 0.8);
+  --text-primary: #111827;
+  --text-secondary: #374151;
+  --text-muted: #6b7280;
+}
+
+body {
+  font-family: var(--font-inter), -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  color: var(--text-primary);
+  background: linear-gradient(to bottom, var(--bg-gradient-start), var(--bg-gradient-end));
+  transition: background 0.3s ease;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-poppins), -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  color: var(--text-primary);
+}
+
 .tooltip {
   position: relative;
   display: inline-block;
@@ -11,19 +48,21 @@
 
 .tooltip .tooltiptext {
   visibility: hidden;
-  width: 120px;
-  background-color: black;
+  width: 200px;
+  background-color: rgba(0, 0, 0, 0.8);
   color: #fff;
   text-align: center;
-  border-radius: 5px;
-  padding: 5px;
+  border-radius: 8px;
+  padding: 8px;
   position: absolute;
-  z-index: 1;
+  z-index: 10;
   bottom: 125%;
   left: 50%;
-  margin-left: -60px;
+  margin-left: -100px;
   opacity: 0;
   transition: opacity 0.3s;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
 }
 
 .tooltip .tooltiptext::after {
@@ -31,15 +70,178 @@
   position: absolute;
   top: 100%;
   left: 50%;
-  margin-left: -5px;
-  border-width: 5px;
+  margin-left: -8px;
+  border-width: 8px;
   border-style: solid;
-  border-color: black transparent transparent transparent;
+  border-color: rgba(0, 0, 0, 0.8) transparent transparent transparent;
 }
 
 .tooltip:hover .tooltiptext {
   visibility: visible;
   opacity: 1;
+}
+
+.result-card {
+  @apply rounded-lg overflow-hidden transition-transform duration-300 hover:shadow-xl;
+  background-color: var(--card-bg);
+}
+
+.result-card:hover {
+  transform: translateY(-5px);
+}
+
+.upload-area {
+  @apply border-2 border-dashed rounded-xl p-6 flex flex-col items-center justify-center transition-all;
+  border-color: var(--primary);
+  background-color: rgba(245, 158, 11, 0.05);
+}
+
+.upload-area.active {
+  @apply bg-amber-500/10;
+  border-color: var(--primary);
+}
+
+.pulse {
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 0.6;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.6;
+  }
+}
+
+.spinner {
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.glass-morphism {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+}
+
+.gradientBg {
+  background: linear-gradient(to right, rgba(245, 158, 11, 0.8), rgba(245, 158, 11, 0.4));
+}
+
+/* Progress bar animation */
+.progress-bar {
+  height: 4px;
+  background: linear-gradient(to right, #f59e0b, #d97706);
+  animation: progressAnimation 2s ease-in-out infinite;
+}
+
+@keyframes progressAnimation {
+  0% { width: 0%; }
+  50% { width: 70%; }
+  100% { width: 100%; }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-gradient-end);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary);
+  opacity: 0.5;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--primary-dark);
+}
+
+.toggle-switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 30px;
+}
+
+.toggle-switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #2c3e50;
+  transition: .4s;
+  border-radius: 34px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 22px;
+  width: 22px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  transition: .4s;
+  border-radius: 50%;
+}
+
+input:checked + .slider {
+  background-color: #f59e0b;
+}
+
+input:checked + .slider:before {
+  transform: translateX(30px);
+}
+
+.slider .sun, .slider .moon {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 7px;
+}
+
+.slider .sun {
+  left: 7px;
+  opacity: 0;
+  transition: .4s;
+}
+
+.slider .moon {
+  right: 7px;
+  opacity: 1;
+  transition: .4s;
+}
+
+input:checked + .slider .sun {
+  opacity: 1;
+}
+
+input:checked + .slider .moon {
+  opacity: 0;
 }
 
 .grid {
@@ -66,4 +268,53 @@
   .grid {
     grid-template-columns: repeat(2, 1fr);
   }
+}
+
+/* Add smooth transitions for layout changes */
+.layout-transition {
+  transition: all 0.5s ease-in-out;
+}
+
+@media (min-width: 1024px) {
+  .results-container {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 0.6s forwards;
+  }
+  
+  @keyframes fadeInUp {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
+
+/* Add scrollbar styling for results container */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 5px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: var(--primary);
+  opacity: 0.3;
+  border-radius: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: var(--primary-dark);
+}
+
+/* Hide scrollbar when not hovering */
+.custom-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent;
+}
+
+.custom-scrollbar:hover {
+  scrollbar-color: var(--primary) transparent;
 }
