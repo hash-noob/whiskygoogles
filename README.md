@@ -160,4 +160,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 - Google Cloud Platform for AI capabilities
 - Pinecone for vector search infrastructure
-- The whiskey community for their support and feedback
+- The Baxus whiskey community for their support and feedback
