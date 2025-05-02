@@ -153,6 +153,7 @@ const SearchBar: FC<SearchBarProps> = ({
               : 'bg-amber-500 hover:bg-amber-600'
           }`}
           disabled={isSearching || (!searchQuery.trim() && !selectedImage)}
+          onClick={handleSubmit}
         >
           {isSearching ? 'Searching...' : (
             <>
