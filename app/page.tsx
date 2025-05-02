@@ -85,6 +85,28 @@ export default function Home() {
     setDarkMode(!darkMode);
   };
 
+  const saveSearchToHistory = (query: string, type: 'text' | 'image', imageFile?: File) => {
+    try {
+      const savedHistory = localStorage.getItem('whiskeySearchHistory') || '[]';
+      const history = JSON.parse(savedHistory);
+      
+      // Add new search to history  
+      const newItem = {
+        id: Date.now().toString(),
+        query,
+        type,
+        timestamp: Date.now(),
+        imageFile
+      };
+
+      // Limit history to 20 items
+      const updatedHistory = [newItem, ...history].slice(0, 20);
+      localStorage.setItem('whiskeySearchHistory', JSON.stringify(updatedHistory));
+    } catch (error) { 
+      console.error('Error saving search history:', error);
+    }
+  };
+
   const handleFileUpload = async (file: File) => {
     if (!file.type.startsWith('image/')) {
       setErrorMessage('Please upload an image file (JPG, PNG, GIF)');
@@ -103,11 +125,13 @@ export default function Home() {
     setSearchTime(null);
     setErrorMessage(null);
     setIsLoadingResults(true);
+
     const startTime = Date.now();
 
     try {
       const formData = new FormData();
       formData.append('file', file);
+      console.log(file);
 
       const response = await axios.post(`${API_URL}/api/search/image`, formData, {
         headers: {
@@ -124,6 +148,7 @@ export default function Home() {
         fileSize: file.size
       });
       setIsSearchComplete(true);
+      saveSearchToHistory(file.name, 'image', file);
     } catch (error) {
       console.error('Error during file upload:', error);
       if (axios.isAxiosError(error) && error.response) {
@@ -161,6 +186,7 @@ export default function Home() {
         searchTerm: query
       });
       setIsSearchComplete(true);
+      saveSearchToHistory(query, 'text');
     } catch (error) {
       console.error('Error during text search:', error);
       if (axios.isAxiosError(error) && error.response) {
@@ -174,10 +200,18 @@ export default function Home() {
     }
   };
 
+  const handleSelectHistory = (query: string, imageFile?: File) => {
+    if (imageFile) {
+      handleFileUpload(imageFile);
+    } else {
+      handleTextSearch(query);
+    }
+  };
+
   return (
     <main className="flex min-h-screen flex-col items-center justify-between w-full">
       <div className="w-full max-w-[1440px] px-4 py-4 mx-auto">
-        <Header darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
+        <Header darkMode={darkMode} toggleDarkMode={toggleDarkMode} onSelectHistory={handleSelectHistory} />
         
         <div className={`mt-6 ${showSideBySide ? 'lg:flex lg:gap-6' : 'max-w-4xl mx-auto'} layout-transition`}>
           {/* Upload Section - centered initially, left side when results show */}

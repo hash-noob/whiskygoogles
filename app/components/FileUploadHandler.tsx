@@ -75,6 +75,7 @@ export const handleFileUpload = async (
 
     const formData = new FormData();
     formData.append('file', fileToUpload);
+    console.log(fileToUpload);
 
     const response = await axios.post(endpoint, formData, {
       headers: {

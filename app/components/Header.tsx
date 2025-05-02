@@ -1,13 +1,15 @@
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
+import SearchHistory from './SearchHistory';
 
 interface HeaderProps {
   darkMode: boolean;
   toggleDarkMode: () => void;
+  onSelectHistory: (query: string, imageFile?: File) => void;
 }
 
-const Header: React.FC<HeaderProps> = ({ darkMode, toggleDarkMode }) => {
+const Header: React.FC<HeaderProps> = ({ darkMode, toggleDarkMode, onSelectHistory }) => {
   return (
     <header className="w-full py-6">
       <div className="container mx-auto px-4">
@@ -28,8 +30,10 @@ const Header: React.FC<HeaderProps> = ({ darkMode, toggleDarkMode }) => {
             </h1>
           </div>
           
-          {/* Dark Mode Toggle on the right */}
-          <div>
+          {/* SearchHistory and Dark Mode Toggle on the right */}
+          <div className="flex items-center gap-3">
+            <SearchHistory isDarkMode={darkMode} onSelectHistory={onSelectHistory} />
+            
             <label className="toggle-switch">
               <input 
                 type="checkbox" 
