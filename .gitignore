@@ -79,6 +79,5 @@ logs/
 *.7z
 *.tar
 *.gz
-*.bz2
 *.wim
 *.iso
