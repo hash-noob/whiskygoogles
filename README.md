@@ -70,7 +70,7 @@ WhiskeyGoggles is an AI-powered whiskey identification and search application th
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/whiskey-goggles.git
+   git clone https://github.com/hash-noob/whiskygoogles.git
    cd whiskey-goggles
    ```
 
