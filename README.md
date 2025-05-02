@@ -1,8 +1,10 @@
 # Whisky Goggles
 
+![Whisky Goggles Logo](public/images/logo.png)
+
 Whisky Goggles is an AI-powered application that helps users identify whiskey bottles through both image recognition and text search. Upload a photo of a whiskey bottle or search by name, and the app will match it against a database of 500+ whiskeys, providing detailed information about the closest matches.
 
-![Whisky Goggles Logo](public/images/logo.png)
+
 
 ## Features
 
