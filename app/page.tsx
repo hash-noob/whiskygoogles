@@ -11,7 +11,6 @@ import SearchBar from './components/SearchBar';
 import ResultsList from './components/ResultsList';
 import Footer from './components/Footer';
 import DisclaimerBanner from './components/DisclaimerBanner';
-
 // Handles Python backend API URL based on the environment
 const API_URL = "https://whiskygoogles.onrender.com";
 
@@ -211,7 +210,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between w-full">
       <div className="w-full max-w-[1440px] px-4 py-4 mx-auto">
-        <Header darkMode={darkMode} toggleDarkMode={toggleDarkMode} onSelectHistory={handleSelectHistory} />
+        <Header darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
         
         <div className={`mt-6 ${showSideBySide ? 'lg:flex lg:gap-6' : 'max-w-4xl mx-auto'} layout-transition`}>
           {/* Upload Section - centered initially, left side when results show */}

@@ -1,37 +1,45 @@
-# Whisky Goggles
+# WhiskeyGoggles
 
-![Whisky Goggles Logo](public/images/logo.png)
+![WhiskeyGoggles Logo](public/images/logo.png)
 
-Whisky Goggles is an AI-powered application that helps users identify whiskey bottles through both image recognition and text search. Upload a photo of a whiskey bottle or search by name, and the app will match it against a database of 500+ whiskeys, providing detailed information about the closest matches.
+WhiskeyGoggles is an AI-powered whiskey identification and search application that helps users identify whiskey bottles through image recognition and text search. The app matches uploaded images or text queries against a comprehensive database of whiskeys, providing detailed information about the closest matches.
 
+## Key Features
 
-
-## Features
-
-- **Dual Search Capabilities**: 
-  - Upload images of whiskey bottles to find matching products
-  - Search by text to find whiskeys by name 
+- **Dual Search Capabilities**:
+  - **Image Recognition**: Upload photos of whiskey bottles for instant identification
+  - **Text Search**: Search by whiskey name or description
 - **Detailed Whiskey Information**: View comprehensive details about each whiskey in a modal view
-- **Whiskey Database**: Access details on 500+ whiskey bottles with accurate metadata
-- **Top Matches**: View the top matching whiskey bottles with similarity scores
-- **Responsive Design**: Works on desktop and mobile devices
-- **Dark/Light Mode**: Seamless theme switching with consistent styling throughout
+- **Responsive Design**: Optimized for both desktop and mobile devices
+- **Dark/Light Mode**: Seamless theme switching with consistent styling
+- **Real-time Search Results**: Fast and accurate matching with similarity scores
 
-## Technology Stack
+## Technical Highlights
 
-### Frontend
-- Next.js 13 (React framework)
-- TypeScript
-- Tailwind CSS
-- Axios for API requests
+### Advanced AI Integration
 
-### Backend
-- FastAPI (Python)
-- Pinecone Vector Database for similarity search
-- Google Vertex AI for image embedding generation
-- Python libraries:
-  - Pillow for image processing
-  - Requests for API communication
+- **Zero-shot Classification**: Utilizes CLIP (Contrastive Language-Image Pre-training) for accurate image recognition without prior training on whiskey images
+- **Vector Search**: Implements Pinecone vector database for efficient similarity search
+- **Google Vertex AI**: Leverages state-of-the-art multimodal embedding models for robust image understanding
+
+### Modern Tech Stack
+
+- **Frontend**:
+  - Next.js 13 with TypeScript
+  - Tailwind CSS for responsive design
+  - React Icons for consistent iconography
+  - Axios for API communication
+- **Backend**:
+  - FastAPI (Python) for high-performance API endpoints
+  - Pinecone for vector similarity search
+  - Google Cloud services for AI capabilities
+
+### Performance Optimizations
+
+- **Efficient Image Processing**: Optimized image handling with Pillow
+- **Caching**: Local storage for search history and user preferences
+- **Responsive Design**: Mobile-first approach with adaptive layouts
+- **Progressive Loading**: Optimized image loading and lazy loading of components
 
 ## Getting Started
 
@@ -44,31 +52,26 @@ Whisky Goggles is an AI-powered application that helps users identify whiskey bo
 ### Installation
 
 1. Clone the repository:
+
    ```bash
-   git clone https://github.com/yourusername/whisky-goggles.git
-   cd whisky-goggles
+   git clone https://github.com/yourusername/whiskey-goggles.git
+   cd whiskey-goggles
    ```
 
 2. Install frontend dependencies:
+
    ```bash
    npm install
    ```
 
-3. Install backend dependencies: (use venv for easy installation)
+3. Install backend dependencies:
+
    ```bash
    pip install -r requirements.txt
    ```
 
-4. Download whiskey images (required for the frontend):
-   ```bash
-   cd whiskygoogles
-   python -m api.v1.endpoints.download_images
-   ```
-   This will download all whiskey bottle images and create a metadata JSON file.
-
-### Configuration
-
-1. Create a `.env` file in the project root with the necessary credentials:
+4. Set up environment variables:
+   Create a `.env` file with the following:
    ```
    GOOGLE_CREDENTIALS_BASE64=your_google_cred_base64
    GOOGLE_CLOUD_PROJECT_ID=your_google_cloud_project_id
@@ -81,12 +84,14 @@ Whisky Goggles is an AI-powered application that helps users identify whiskey bo
 ### Running the Application
 
 1. Start the backend server:
+
    ```bash
    cd whiskygoogles
    uvicorn api.index:app --reload
    ```
 
 2. In a new terminal, start the frontend:
+
    ```bash
    cd whiskygoogles
    npm run dev
@@ -115,32 +120,33 @@ whiskygoogles/
 │   │   └── endpoints/        # API endpoint definitions
 │   │       ├── image.py      # Image search endpoint
 │   │       ├── search.py     # Text search endpoint
-│   │       └── download_images.py # Image downloading utility
+│   │       └── ...           # Other endpoints
 │   ├── config.py             # API configuration
 │   └── index.py              # FastAPI application entry point
 ├── public/                   # Static files
-│   ├── downloaded_images/    # Downloaded whiskey bottle images
-│   └── whisky_metadata.json  # Whiskey metadata
-└── dataset/                  # Contains whiskey dataset CSV
+│   ├── images/               # Application images
+│   └── ...                   # Other static assets
+└── dataset/                  # Contains whiskey dataset
 ```
 
-## Using the Application
+## Technical Architecture
 
-1. **Search for Whiskeys**:
-   - **Image Search**: Click on the upload area or drag and drop an image of a whiskey bottle.
-   - **Text Search**: Type in the search bar to find whiskeys by name or characteristics.
-2. **View Results**: The application will show the top matching whiskeys with similarity scores.
-3. **Explore Details**: Click "View Details" on any result to see comprehensive information in a modal view.
+### Image Recognition Pipeline
 
-## Image Download Utility
+1. **Image Upload**: User uploads an image of a whiskey bottle
+2. **Preprocessing**: Image is processed and optimized for analysis
+3. **Embedding Generation**: Google Vertex AI generates image embeddings
+4. **Vector Search**: Pinecone performs similarity search against whiskey database
+5. **Results Ranking**: Top matches are ranked by similarity score
+6. **Response**: Detailed whiskey information is returned to the user
 
-The application includes a utility to download whiskey bottle images from the provided dataset:
+### Text Search Pipeline
 
-```bash
-python -m api.v1.endpoints.download_images
-```
-
-For more details, see [README_IMAGE_DOWNLOAD.md](README_IMAGE_DOWNLOAD.md).
+1. **Query Processing**: User enters search text
+2. **Embedding Generation**: Text is converted to vector embeddings
+3. **Vector Search**: Pinecone performs similarity search
+4. **Results Ranking**: Matches are ranked by relevance
+5. **Response**: Relevant whiskey information is returned
 
 ## Contributing
 
@@ -152,5 +158,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Acknowledgments
 
-- Whiskey database courtesy of a comprehensive 501-bottle dataset
-- Built with Next.js, FastAPI, and Pinecone vector database 
+- Google Cloud Platform for AI capabilities
+- Pinecone for vector search infrastructure
+- The whiskey community for their support and feedback

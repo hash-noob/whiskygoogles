@@ -39,7 +39,7 @@ const SearchBar: FC<SearchBarProps> = ({
   isSearching, 
   isDarkMode, 
   searchQuery, 
-  setSearchQuery 
+  setSearchQuery
 }) => {
   const [selectedImage, setSelectedImage] = useState<File | null>(null);
   const [previewUrl, setPreviewUrl] = useState<string | null>(null);
