@@ -13,7 +13,7 @@ import Footer from './components/Footer';
 import DisclaimerBanner from './components/DisclaimerBanner';
 
 // Handles Python backend API URL based on the environment
-const API_URL = "http://localhost:8000";
+const API_URL = "https://whiskygoogles.onrender.com";
 
 interface Result {
   score: number;

@@ -74,3 +74,11 @@ logs/
 # Local development
 # public/downloaded_images/
 /scripts/ 
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+*.wim
+*.iso
