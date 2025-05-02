@@ -11,6 +11,19 @@ const FileUpload: React.FC<FileUploadProps> = ({ onFileSelected, isUploading }) 
   const [preview, setPreview] = useState<string | null>(null);
   const fileInputRef = useRef<HTMLInputElement>(null);
 
+  // Wrap handleFile in useCallback
+  const handleFile = useCallback((file: File) => {
+    // Only process image files
+    if (file.type.startsWith('image/')) {
+      const reader = new FileReader();
+      reader.onloadend = () => {
+        setPreview(reader.result as string);
+      };
+      reader.readAsDataURL(file);
+      onFileSelected(file);
+    }
+  }, [onFileSelected]);
+
   const handleDragOver = useCallback((e: React.DragEvent<HTMLDivElement>) => {
     e.preventDefault();
     e.stopPropagation();
@@ -32,24 +45,12 @@ const FileUpload: React.FC<FileUploadProps> = ({ onFileSelected, isUploading }) 
       const file = e.dataTransfer.files[0];
       handleFile(file);
     }
-  }, []);
+  }, [handleFile]);
 
   const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     if (e.target.files && e.target.files[0]) {
       const file = e.target.files[0];
       handleFile(file);
-    }
-  };
-
-  const handleFile = (file: File) => {
-    // Only process image files
-    if (file.type.startsWith('image/')) {
-      const reader = new FileReader();
-      reader.onloadend = () => {
-        setPreview(reader.result as string);
-      };
-      reader.readAsDataURL(file);
-      onFileSelected(file);
     }
   };
 
@@ -98,10 +99,10 @@ const FileUpload: React.FC<FileUploadProps> = ({ onFileSelected, isUploading }) 
             </div>
             <h3 className="text-base font-semibold text-amber-600 dark:text-amber-500 mb-2 text-center">Upload a Whiskey Bottle Image</h3>
             <p className="text-gray-600 dark:text-gray-400 text-center text-xs mb-3">
-              Drag & drop your image here, or click to browse
+              Drag &amp; drop your image here, or click to browse
             </p>
             <div className="w-full max-w-xs mx-auto bg-amber-100 dark:bg-amber-500/10 p-2 rounded-lg border border-amber-200 dark:border-amber-500/20 text-amber-700 dark:text-amber-300 text-xs">
-              <p className="text-center mb-1">We'll identify the whiskey and find similar options</p>
+              <p className="text-center mb-1">We&apos;ll identify the whiskey and find similar options</p>
               <ul className="list-disc list-inside space-y-1 text-xs text-amber-600 dark:text-amber-400/80">
                 <li>Ensure label is visible in frame</li>
                 <li>Max file size: 4.5MB</li>

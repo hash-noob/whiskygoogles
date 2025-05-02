@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import Image from 'next/image';
 import ResultsFilter from './ResultsFilter';
 import DisclaimerBanner from './DisclaimerBanner';
 import WhiskeyModal from './WhiskeyModal';
@@ -150,9 +151,11 @@ const ResultsList: React.FC<ResultsListProps> = ({ results, isLoading, darkMode 
               return (
               <div key={`result-${index}`} className={`result-card shadow-md rounded-lg overflow-hidden flex flex-col ${darkMode ? 'bg-gray-800' : 'bg-white'}`}>
                 <div className={`relative aspect-[3/4] max-h-60 flex items-center justify-center ${darkMode ? 'bg-gray-900' : 'bg-gray-100'}`}>
-                  <img 
+                  <Image 
                     src={`/downloaded_images/image_${result.metadata.id}.jpg`} 
                     alt={`Result ${index + 1}`}
+                    width={200}
+                    height={267}
                     className="max-h-full max-w-full object-contain"
                   />
                   <div className="absolute top-0 left-0 bg-amber-500 text-black px-2 py-1 rounded-tr-lg rounded-bl-lg font-bold text-xs">

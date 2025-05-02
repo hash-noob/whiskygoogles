@@ -1,4 +1,5 @@
 import React, { useEffect, useRef } from 'react';
+import Image from 'next/image';
 
 interface WhiskyMetadata {
   id: string;
@@ -106,9 +107,11 @@ const WhiskeyModal: React.FC<WhiskeyModalProps> = ({ isOpen, onClose, whiskey, d
               <div className={`rounded-lg overflow-hidden aspect-[3/4] w-48 ${
                 darkMode ? 'bg-gray-900' : 'bg-gray-100'
               }`}>
-                <img 
+                <Image 
                   src={`/downloaded_images/image_${whiskey.id}.jpg`} 
                   alt={whiskey.name} 
+                  width={192}
+                  height={256}
                   className="w-full h-full object-contain"
                 />
               </div>

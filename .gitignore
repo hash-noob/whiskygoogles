@@ -72,5 +72,5 @@ logs/
 *.log
 
 # Local development
-public/downloaded_images/
+# public/downloaded_images/
 /scripts/ 

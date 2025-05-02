@@ -1,5 +1,5 @@
 {
-  "name": "Shop The Look",
+  "name": "whisky-googles",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -7,7 +7,7 @@
     "next-dev": "npm install; ",
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "next start -p $PORT",
     "lint": "next lint"
   },
   "dependencies": {
