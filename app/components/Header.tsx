@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 interface HeaderProps {
   darkMode: boolean;
@@ -13,31 +14,14 @@ const Header: React.FC<HeaderProps> = ({ darkMode, toggleDarkMode }) => {
         <div className="flex justify-between items-center">
           {/* Logo and Title on the left */}
           <div className="flex items-center">
-            <div className="mr-3">
-              <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                {/* Liquid in bottle - amber color with opacity */}
-                <path d="M9 22H15C16.1 22 17 21.1 17 20V13C17 11.9 16.1 11 15 11H9C7.9 11 7 11.9 7 13V20C7 21.1 7.9 22 9 22Z" fill="#F59E0B" fillOpacity="0.2" />
-                
-                {/* Bottle shape */}
-                <path d="M9 22H15C16.1 22 17 21.1 17 20V13C17 11.9 16.1 11 15 11H9C7.9 11 7 11.9 7 13V20C7 21.1 7.9 22 9 22Z" stroke="#F59E0B" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                {/* Bottle neck */}
-                <path d="M10 11V6H14V11" stroke="#F59E0B" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                {/* Bottle cap */}
-                <path d="M10 6C10 4.9 10.9 4 12 4C13.1 4 14 4.9 14 6" stroke="#F59E0B" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                
-                {/* Goggles frame */}
-                <path d="M7 13.5C6.2 13.5 5.5 14.2 5.5 15C5.5 15.8 6.2 16.5 7 16.5" stroke="#F59E0B" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                <path d="M17 13.5C17.8 13.5 18.5 14.2 18.5 15C18.5 15.8 17.8 16.5 17 16.5" stroke="#F59E0B" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                <path d="M17 15H7" stroke="#F59E0B" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                
-                {/* Liquid levels in bottle */}
-                <path d="M9 18H15" stroke="#F59E0B" strokeWidth="1" strokeLinecap="round" strokeDasharray="1 1" />
-                <path d="M9 16H15" stroke="#F59E0B" strokeWidth="1" strokeLinecap="round" strokeDasharray="1 1" />
-                
-                {/* Goggles lens reflection */}
-                <circle cx="9" cy="15" r="1" fill="#F59E0B" fillOpacity="0.3" />
-                <circle cx="15" cy="15" r="1" fill="#F59E0B" fillOpacity="0.3" />
-              </svg>
+            <div className="mr-3 relative w-10 h-10">
+              <Image 
+                src="/images/logo.png" 
+                alt="WhiskeyGoggles Logo" 
+                width={40} 
+                height={40}
+                className="object-contain"
+              />
             </div>
             <h1 className="text-2xl md:text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-amber-400 to-amber-600 leading-relaxed py-1">
               WhiskeyGoggles
