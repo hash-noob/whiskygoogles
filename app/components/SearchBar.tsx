@@ -1,4 +1,5 @@
 import { FC, FormEvent, useState, useRef, useEffect } from 'react';
+import { IconContext } from 'react-icons';
 import { FaCamera, FaSearch, FaTimes } from 'react-icons/fa';
 
 interface SearchBarProps {
@@ -109,7 +110,9 @@ const SearchBar: FC<SearchBarProps> = ({
             } text-amber-500`}
             disabled={isSearching}
           >
-            <FaCamera />
+            <IconContext.Provider value={{ className: "react-icons" }}>
+              <FaCamera />
+            </IconContext.Provider>
           </button>
         </div>
 
@@ -139,7 +142,9 @@ const SearchBar: FC<SearchBarProps> = ({
                 } text-red-500 shadow-md`}
                 disabled={isSearching}
               >
-                <FaTimes />
+                <IconContext.Provider value={{ className: "react-icons" }}>
+                  <FaTimes />
+                </IconContext.Provider>
               </button>
             </div>
           </div>
@@ -157,7 +162,9 @@ const SearchBar: FC<SearchBarProps> = ({
         >
           {isSearching ? 'Searching...' : (
             <>
-              <FaSearch />
+              <IconContext.Provider value={{ className: "react-icons" }}>
+                <FaSearch />
+              </IconContext.Provider>
               <span>{selectedImage ? 'Search with Image' : 'Search'}</span>
             </>
           )}
