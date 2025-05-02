@@ -91,23 +91,23 @@ const FileUpload: React.FC<FileUploadProps> = ({ onFileSelected, isUploading }) 
           </div>
         ) : (
           <>
-            <div className="text-amber-500 mb-3">
+            <div className="text-amber-600 dark:text-amber-500 mb-3">
               <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
               </svg>
             </div>
-            <h3 className="text-base font-semibold text-amber-500 mb-2 text-center">Upload a Whiskey Bottle Image</h3>
-            <p className="text-gray-400 text-center text-xs mb-3">
+            <h3 className="text-base font-semibold text-amber-600 dark:text-amber-500 mb-2 text-center">Upload a Whiskey Bottle Image</h3>
+            <p className="text-gray-600 dark:text-gray-400 text-center text-xs mb-3">
               Drag & drop your image here, or click to browse
             </p>
-            <div className="w-full max-w-xs mx-auto bg-amber-500/10 p-2 rounded-lg border border-amber-500/20 text-amber-300 text-xs">
+            <div className="w-full max-w-xs mx-auto bg-amber-100 dark:bg-amber-500/10 p-2 rounded-lg border border-amber-200 dark:border-amber-500/20 text-amber-700 dark:text-amber-300 text-xs">
               <p className="text-center mb-1">We'll identify the whiskey and find similar options</p>
-              <ul className="list-disc list-inside space-y-1 text-xs text-amber-400/80">
+              <ul className="list-disc list-inside space-y-1 text-xs text-amber-600 dark:text-amber-400/80">
                 <li>Ensure label is visible in frame</li>
                 <li>Max file size: 4.5MB</li>
               </ul>
             </div>
-            <p className="text-gray-500 text-xs mt-3 text-center">Supports: JPG, PNG, GIF, JPEG</p>
+            <p className="text-gray-600 dark:text-gray-500 text-xs mt-3 text-center">Supports: JPG, PNG, GIF, JPEG</p>
           </>
         )}
 

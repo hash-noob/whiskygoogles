@@ -1,5 +1,5 @@
 import requests
-from fastapi import APIRouter, HTTPException
+from fastapi import APIRouter, HTTPException, Query
 from pydantic import BaseModel
 from api.config import settings
 from api import deps
@@ -9,15 +9,15 @@ router = APIRouter()
 class TextQuery(BaseModel):
     query: str
 
-@router.post("/search/text")
-async def query_text(query: TextQuery):
+@router.get("/search/text")
+async def query_text(query: str = Query(..., description="The search query text")):
     try:
-        if not query.query:
+        if not query:
             raise HTTPException(status_code=400, detail="The query text cannot be empty")
 
         access_token = settings.get_access_token()
 
-        url, headers, data = settings.get_embedding_request_data(access_token, 'text', query.query)
+        url, headers, data = settings.get_embedding_request_data(access_token, 'text', query)
 
         response = requests.post(url, headers=headers, json=data)
         response.raise_for_status()

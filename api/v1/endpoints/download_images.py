@@ -92,7 +92,10 @@ def save_metadata(whisky_data):
                 "fair_price": float(row['fair_price']) if row['fair_price'] and row['fair_price'].replace('.', '', 1).isdigit() else None,
                 "shelf_price": float(row['shelf_price']) if row['shelf_price'] and row['shelf_price'].replace('.', '', 1).isdigit() else None,
                 "total_score": int(row['total_score']) if row['total_score'] and row['total_score'].isdigit() else None,
-                "ranking": int(row['ranking']) if row['ranking'] and row['ranking'].isdigit() else None
+                "ranking": int(row['ranking']) if row['ranking'] and row['ranking'].isdigit() else None,
+                "wishlist_count": int(row['wishlist_count']) if row['wishlist_count'] and row['wishlist_count'].isdigit() else None,
+                "vote_count": int(row['vote_count']) if row['vote_count'] and row['vote_count'].isdigit() else None,
+                "bar_count": int(row['bar_count']) if row['bar_count'] and row['bar_count'].isdigit() else None
             }
         
         # Save metadata to JSON file

@@ -4,9 +4,13 @@ This document explains how to download the whiskey bottle images required for th
 
 ## Overview
 
-The application requires whiskey bottle images to function properly. These images are stored at URLs specified in the dataset file (`dataset/501 Bottle Dataset.csv`). 
+The application requires whiskey bottle images to function properly for the image recognition feature. These images are stored at URLs specified in the dataset file (`dataset/501 Bottle Dataset.csv`). 
 
 The `download_images.py` script provides an easy way to download these images to the correct location in the application's public folder.
+
+## Note About Text Search
+
+While images are essential for the image recognition feature, the application also supports text-based search. The text search functionality uses the same whiskey metadata but doesn't require the images to be downloaded. However, for the best user experience with complete functionality, we recommend downloading all images.
 
 ## Option 1: Download Images via API Endpoint
 
@@ -52,4 +56,4 @@ If you encounter any issues:
 
 ## Integration with Frontend
 
-The frontend expects images to be available at `/downloaded_images/image_[ID].jpg`. After running the script, the images will be correctly placed for the frontend to use them 
+The frontend expects images to be available at `/downloaded_images/image_[ID].jpg`. After running the script, the images will be correctly placed for the frontend to use them when displaying search results from both image and text searches. 

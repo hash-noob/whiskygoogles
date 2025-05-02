@@ -1,16 +1,19 @@
 # Whisky Goggles
 
-Whisky Goggles is an AI-powered application that helps users identify whiskey bottles through image recognition. Simply upload a photo of a whiskey bottle, and the app will match it against a database of 500+ whiskeys, providing detailed information about the closest matches.
+Whisky Goggles is an AI-powered application that helps users identify whiskey bottles through both image recognition and text search. Upload a photo of a whiskey bottle or search by name, and the app will match it against a database of 500+ whiskeys, providing detailed information about the closest matches.
 
 ![Whisky Goggles Logo](public/images/logo.png)
 
 ## Features
 
-- **Image Recognition**: Upload images of whiskey bottles to find matching products
+- **Dual Search Capabilities**: 
+  - Upload images of whiskey bottles to find matching products
+  - Search by text to find whiskeys by name 
+- **Detailed Whiskey Information**: View comprehensive details about each whiskey in a modal view
 - **Whiskey Database**: Access details on 500+ whiskey bottles with accurate metadata
 - **Top Matches**: View the top matching whiskey bottles with similarity scores
 - **Responsive Design**: Works on desktop and mobile devices
-- **Dark/Light Mode**: Choose your preferred theme
+- **Dark/Light Mode**: Seamless theme switching with consistent styling throughout
 
 ## Technology Stack
 
@@ -49,7 +52,7 @@ Whisky Goggles is an AI-powered application that helps users identify whiskey bo
    npm install
    ```
 
-3. Install backend dependencies:
+3. Install backend dependencies: (use venv for easy installation)
    ```bash
    pip install -r requirements.txt
    ```
@@ -65,10 +68,12 @@ Whisky Goggles is an AI-powered application that helps users identify whiskey bo
 
 1. Create a `.env` file in the project root with the necessary credentials:
    ```
-   GOOGLE_APPLICATION_CREDENTIALS=path/to/credentials.json
+   GOOGLE_CREDENTIALS_BASE64=your_google_cred_base64
+   GOOGLE_CLOUD_PROJECT_ID=your_google_cloud_project_id
+   GOOGLE_CLOUD_PROJECT_LOCATION=your_google_cloud_project_location
    PINECONE_API_KEY=your_pinecone_api_key
-   PINECONE_ENVIRONMENT=your_pinecone_environment
    PINECONE_INDEX_NAME=your_pinecone_index_name
+   PINECONE_TOP_K=top_k_number_of_matches
    ```
 
 ### Running the Application
@@ -97,7 +102,9 @@ whiskygoogles/
 ├── app/                      # Next.js app directory
 │   ├── components/           # React components
 │   │   ├── FileUpload.tsx    # Image upload component
+│   │   ├── SearchBar.tsx     # Text search component
 │   │   ├── ResultsList.tsx   # Search results display
+│   │   ├── WhiskeyModal.tsx  # Detailed whiskey modal
 │   │   └── ...               # Other UI components
 │   ├── page.tsx              # Main application page
 │   └── ...                   # Other app files
@@ -105,6 +112,7 @@ whiskygoogles/
 │   ├── v1/                   # API version 1
 │   │   └── endpoints/        # API endpoint definitions
 │   │       ├── image.py      # Image search endpoint
+│   │       ├── search.py     # Text search endpoint
 │   │       └── download_images.py # Image downloading utility
 │   ├── config.py             # API configuration
 │   └── index.py              # FastAPI application entry point
@@ -116,9 +124,11 @@ whiskygoogles/
 
 ## Using the Application
 
-1. **Upload an Image**: Click on the upload area or drag and drop an image of a whiskey bottle.
+1. **Search for Whiskeys**:
+   - **Image Search**: Click on the upload area or drag and drop an image of a whiskey bottle.
+   - **Text Search**: Type in the search bar to find whiskeys by name or characteristics.
 2. **View Results**: The application will show the top matching whiskeys with similarity scores.
-3. **Explore Details**: Each match displays information like name, type, ABV%, and size.
+3. **Explore Details**: Click "View Details" on any result to see comprehensive information in a modal view.
 
 ## Image Download Utility
 

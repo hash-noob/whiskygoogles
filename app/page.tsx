@@ -7,6 +7,7 @@ import { track } from '@vercel/analytics';
 // Components
 import Header from './components/Header';
 import FileUpload from './components/FileUpload';
+import SearchBar from './components/SearchBar';
 import ResultsList from './components/ResultsList';
 import Footer from './components/Footer';
 import DisclaimerBanner from './components/DisclaimerBanner';
@@ -32,6 +33,7 @@ export default function Home() {
   const [errorMessage, setErrorMessage] = useState<string | null>(null);
   const [isLoadingResults, setIsLoadingResults] = useState<boolean>(false);
   const [darkMode, setDarkMode] = useState<boolean>(true);
+  const [searchQuery, setSearchQuery] = useState<string>('');
 
   // Determine if we should show the side-by-side layout (results exist and not loading)
   const showSideBySide = results.length > 0 && !isLoadingResults;
@@ -136,6 +138,42 @@ export default function Home() {
     }
   };
 
+  const handleTextSearch = async (query: string) => {
+    if (!query.trim()) {
+      setErrorMessage('Please enter a search term');
+      return;
+    }
+
+    setIsSearching(true);
+    setIsSearchComplete(false);
+    setSearchTime(null);
+    setErrorMessage(null);
+    setIsLoadingResults(true);
+    const startTime = Date.now();
+
+    try {
+      const response = await axios.get(`${API_URL}/api/search/text?query=${query}`);
+
+      const endTime = Date.now();
+      setResults(response.data.results);
+      setSearchTime(endTime - startTime);
+      track('text_search', {
+        searchTerm: query
+      });
+      setIsSearchComplete(true);
+    } catch (error) {
+      console.error('Error during text search:', error);
+      if (axios.isAxiosError(error) && error.response) {
+        setErrorMessage(`Oops! ${error.response.data.detail || 'An unexpected error occurred'}`);
+      } else {
+        setErrorMessage('Oops! An unexpected error occurred. Our engineers have been notified.');
+      }
+    } finally {
+      setIsSearching(false);
+      setIsLoadingResults(false);
+    }
+  };
+
   return (
     <main className="flex min-h-screen flex-col items-center justify-between w-full">
       <div className="w-full max-w-[1440px] px-4 py-4 mx-auto">
@@ -144,30 +182,41 @@ export default function Home() {
         <div className={`mt-6 ${showSideBySide ? 'lg:flex lg:gap-6' : 'max-w-4xl mx-auto'} layout-transition`}>
           {/* Upload Section - centered initially, left side when results show */}
           <div className={`${showSideBySide ? 'lg:w-4/12 lg:sticky lg:top-4' : 'w-full max-w-md mx-auto'} layout-transition`}>
-            <div className="glass-morphism p-4 sm:p-6 rounded-2xl">
+            <div className="glass-morphism p-4 sm:p-6 rounded-2xl ">
+              <SearchBar 
+                onSearch={handleTextSearch} 
+                isSearching={isSearching} 
+                isDarkMode={darkMode}
+                searchQuery={searchQuery}
+                setSearchQuery={setSearchQuery}
+              />
+              
+              <div className="mt-4 text-center text-sm text-gray-600 dark:text-gray-400">
+                <p>- or -</p>
+              </div>
+              
               <FileUpload onFileSelected={handleFileUpload} isUploading={isUploading} />
               
               {errorMessage && (
-                <div className="mt-4 p-3 bg-red-500/10 border border-red-500/30 rounded-lg text-red-400 text-center text-sm">
+                <div className="mt-4 p-3 bg-red-100 dark:bg-red-500/10 border border-red-200 dark:border-red-500/30 rounded-lg text-red-600 dark:text-red-400 text-center text-sm">
                   <p>{errorMessage}</p>
                 </div>
               )}
               
               {isSearchComplete && searchTime !== null && totalVectors !== null && (
-                <div className="mt-4 text-center text-amber-400 bg-amber-500/5 p-2 rounded-lg border border-amber-500/20 text-sm">
+                <div className="mt-4 text-center text-amber-600 dark:text-amber-400 bg-amber-100 dark:bg-amber-500/10 border border-amber-200 dark:border-amber-500/30 rounded-lg p-2 text-sm">
                   <p>
                     Searched {totalVectors.toLocaleString()} whiskeys in {(searchTime / 1000).toFixed(2)} seconds
                   </p>
                 </div>
               )}
               
-              {showSideBySide && <DisclaimerBanner />}
             </div>
           </div>
           
           {/* Results Section - below upload initially, right side on larger screens when results show */}
           <div className={`${showSideBySide ? 'lg:w-8/12 lg:mt-0 results-container' : 'w-full max-w-screen-lg'} mt-6 layout-transition mx-auto`}>
-            <ResultsList results={results} isLoading={isLoadingResults} />
+            <ResultsList results={results} isLoading={isLoadingResults} darkMode={darkMode} />
           </div>
         </div>
         

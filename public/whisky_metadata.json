@@ -13,7 +13,10 @@
     "fair_price": 104.52,
     "shelf_price": 139.86,
     "total_score": 92451,
-    "ranking": 1
+    "ranking": 1,
+    "wishlist_count": 8983,
+    "vote_count": 29697,
+    "bar_count": 53771
   },
   "2848": {
     "id": "2848",
@@ -29,7 +32,10 @@
     "fair_price": 66.25,
     "shelf_price": 49.99,
     "total_score": 82217,
-    "ranking": 2
+    "ranking": 2,
+    "wishlist_count": 8744,
+    "vote_count": 25989,
+    "bar_count": 47484
   },
   "4984": {
     "id": "4984",
@@ -45,7 +51,10 @@
     "fair_price": 94.43,
     "shelf_price": 93.57,
     "total_score": 61777,
-    "ranking": 3
+    "ranking": 3,
+    "wishlist_count": 8161,
+    "vote_count": 19475,
+    "bar_count": 34141
   },
   "466": {
     "id": "466",
@@ -61,7 +70,10 @@
     "fair_price": 41.82,
     "shelf_price": 36.96,
     "total_score": 49610,
-    "ranking": 4
+    "ranking": 4,
+    "wishlist_count": 3403,
+    "vote_count": 12293,
+    "bar_count": 33914
   },
   "158": {
     "id": "158",
@@ -77,7 +89,10 @@
     "fair_price": 116.66,
     "shelf_price": 109.89,
     "total_score": 40001,
-    "ranking": 5
+    "ranking": 5,
+    "wishlist_count": 8098,
+    "vote_count": 13989,
+    "bar_count": 17914
   },
   "2803": {
     "id": "2803",
@@ -93,7 +108,10 @@
     "fair_price": 58.63,
     "shelf_price": 64.99,
     "total_score": 39429,
-    "ranking": 6
+    "ranking": 6,
+    "wishlist_count": 3810,
+    "vote_count": 9769,
+    "bar_count": 25850
   },
   "1586": {
     "id": "1586",
@@ -109,7 +127,10 @@
     "fair_price": 178.62,
     "shelf_price": 234.49,
     "total_score": 25142,
-    "ranking": 7
+    "ranking": 7,
+    "wishlist_count": 5835,
+    "vote_count": 8201,
+    "bar_count": 11106
   },
   "2993": {
     "id": "2993",
@@ -125,7 +146,10 @@
     "fair_price": 147.92,
     "shelf_price": 172.99,
     "total_score": 23209,
-    "ranking": 8
+    "ranking": 8,
+    "wishlist_count": 6685,
+    "vote_count": 10765,
+    "bar_count": 5759
   },
   "4662": {
     "id": "4662",
@@ -141,7 +165,10 @@
     "fair_price": 75.24,
     "shelf_price": 79.99,
     "total_score": 20707,
-    "ranking": 9
+    "ranking": 9,
+    "wishlist_count": 1832,
+    "vote_count": 5826,
+    "bar_count": 13049
   },
   "409": {
     "id": "409",
@@ -157,7 +184,10 @@
     "fair_price": 188.33,
     "shelf_price": 399.99,
     "total_score": 20287,
-    "ranking": 10
+    "ranking": 10,
+    "wishlist_count": 5486,
+    "vote_count": 6033,
+    "bar_count": 8768
   },
   "5120": {
     "id": "5120",
@@ -173,7 +203,10 @@
     "fair_price": 166.45,
     "shelf_price": 135.14,
     "total_score": 20267,
-    "ranking": 11
+    "ranking": 11,
+    "wishlist_count": 4889,
+    "vote_count": 5785,
+    "bar_count": 9593
   },
   "13266": {
     "id": "13266",
@@ -189,7 +222,10 @@
     "fair_price": 62.34,
     "shelf_price": 84.99,
     "total_score": 18850,
-    "ranking": 12
+    "ranking": 12,
+    "wishlist_count": 1948,
+    "vote_count": 5366,
+    "bar_count": 11536
   },
   "13089": {
     "id": "13089",
@@ -205,7 +241,10 @@
     "fair_price": 74.17,
     "shelf_price": 82.99,
     "total_score": 17328,
-    "ranking": 13
+    "ranking": 13,
+    "wishlist_count": 2058,
+    "vote_count": 4696,
+    "bar_count": 10574
   },
   "150": {
     "id": "150",
@@ -221,7 +260,10 @@
     "fair_price": 73.06,
     "shelf_price": 79.87,
     "total_score": 16891,
-    "ranking": 14
+    "ranking": 14,
+    "wishlist_count": 2392,
+    "vote_count": 5407,
+    "bar_count": 9092
   },
   "159": {
     "id": "159",
@@ -237,7 +279,10 @@
     "fair_price": 232.52,
     "shelf_price": 324.99,
     "total_score": 14458,
-    "ranking": 15
+    "ranking": 15,
+    "wishlist_count": 3680,
+    "vote_count": 4511,
+    "bar_count": 6267
   },
   "4905": {
     "id": "4905",
@@ -253,7 +298,10 @@
     "fair_price": 147.57,
     "shelf_price": 329.87,
     "total_score": 14337,
-    "ranking": 16
+    "ranking": 16,
+    "wishlist_count": 3855,
+    "vote_count": 4955,
+    "bar_count": 5527
   },
   "1296": {
     "id": "1296",
@@ -269,7 +317,10 @@
     "fair_price": 86.81,
     "shelf_price": 91.29,
     "total_score": 13625,
-    "ranking": 17
+    "ranking": 17,
+    "wishlist_count": 1444,
+    "vote_count": 3547,
+    "bar_count": 8634
   },
   "1805": {
     "id": "1805",
@@ -285,7 +336,10 @@
     "fair_price": 46.77,
     "shelf_price": 51.89,
     "total_score": 13399,
-    "ranking": 18
+    "ranking": 18,
+    "wishlist_count": 776,
+    "vote_count": 3080,
+    "bar_count": 9543
   },
   "1816": {
     "id": "1816",
@@ -301,7 +355,10 @@
     "fair_price": 70.61,
     "shelf_price": 68.79,
     "total_score": 13373,
-    "ranking": 19
+    "ranking": 19,
+    "wishlist_count": 2054,
+    "vote_count": 3516,
+    "bar_count": 7803
   },
   "2336": {
     "id": "2336",
@@ -317,7 +374,10 @@
     "fair_price": 66.85,
     "shelf_price": 72.28,
     "total_score": 12705,
-    "ranking": 20
+    "ranking": 20,
+    "wishlist_count": 1456,
+    "vote_count": 3207,
+    "bar_count": 8042
   },
   "1522": {
     "id": "1522",
@@ -333,7 +393,10 @@
     "fair_price": 56.99,
     "shelf_price": 48.74,
     "total_score": 12391,
-    "ranking": 21
+    "ranking": 21,
+    "wishlist_count": 1368,
+    "vote_count": 3192,
+    "bar_count": 7831
   },
   "263": {
     "id": "263",
@@ -349,7 +412,10 @@
     "fair_price": 72.85,
     "shelf_price": 67.99,
     "total_score": 11816,
-    "ranking": 22
+    "ranking": 22,
+    "wishlist_count": 1919,
+    "vote_count": 3016,
+    "bar_count": 6881
   },
   "3088": {
     "id": "3088",
@@ -365,7 +431,10 @@
     "fair_price": 219.98,
     "shelf_price": 126.11,
     "total_score": 10747,
-    "ranking": 23
+    "ranking": 23,
+    "wishlist_count": 3845,
+    "vote_count": 4387,
+    "bar_count": 2515
   },
   "4589": {
     "id": "4589",
@@ -381,7 +450,10 @@
     "fair_price": 231.09,
     "shelf_price": 131.66,
     "total_score": 10094,
-    "ranking": 24
+    "ranking": 24,
+    "wishlist_count": 4091,
+    "vote_count": 3360,
+    "bar_count": 2643
   },
   "4742": {
     "id": "4742",
@@ -397,7 +469,10 @@
     "fair_price": 40.74,
     "shelf_price": 33.84,
     "total_score": 10055,
-    "ranking": 25
+    "ranking": 25,
+    "wishlist_count": 1084,
+    "vote_count": 2791,
+    "bar_count": 6180
   },
   "15946": {
     "id": "15946",
@@ -413,7 +488,10 @@
     "fair_price": 107.24,
     "shelf_price": 147.89,
     "total_score": 9863,
-    "ranking": 26
+    "ranking": 26,
+    "wishlist_count": 1450,
+    "vote_count": 2947,
+    "bar_count": 5466
   },
   "2839": {
     "id": "2839",
@@ -429,7 +507,10 @@
     "fair_price": 95.28,
     "shelf_price": 59.57,
     "total_score": 9529,
-    "ranking": 27
+    "ranking": 27,
+    "wishlist_count": 1502,
+    "vote_count": 3027,
+    "bar_count": 5000
   },
   "2193": {
     "id": "2193",
@@ -445,7 +526,10 @@
     "fair_price": 32.19,
     "shelf_price": 20.19,
     "total_score": 9513,
-    "ranking": 28
+    "ranking": 28,
+    "wishlist_count": 736,
+    "vote_count": 5885,
+    "bar_count": 2892
   },
   "1643": {
     "id": "1643",
@@ -461,7 +545,10 @@
     "fair_price": 45.11,
     "shelf_price": 33.22,
     "total_score": 9413,
-    "ranking": 29
+    "ranking": 29,
+    "wishlist_count": 950,
+    "vote_count": 2550,
+    "bar_count": 5913
   },
   "1165": {
     "id": "1165",
@@ -477,7 +564,10 @@
     "fair_price": 68.79,
     "shelf_price": 116.7,
     "total_score": 8466,
-    "ranking": 30
+    "ranking": 30,
+    "wishlist_count": 1621,
+    "vote_count": 309,
+    "bar_count": 6536
   },
   "3655": {
     "id": "3655",
@@ -493,7 +583,10 @@
     "fair_price": 69.02,
     "shelf_price": 36.7,
     "total_score": 8236,
-    "ranking": 31
+    "ranking": 31,
+    "wishlist_count": 750,
+    "vote_count": 2019,
+    "bar_count": 5467
   },
   "4952": {
     "id": "4952",
@@ -509,7 +602,10 @@
     "fair_price": 236.83,
     "shelf_price": 282.16,
     "total_score": 8228,
-    "ranking": 32
+    "ranking": 32,
+    "wishlist_count": 1366,
+    "vote_count": 2745,
+    "bar_count": 4117
   },
   "1587": {
     "id": "1587",
@@ -525,7 +621,10 @@
     "fair_price": 73.74,
     "shelf_price": 45.71,
     "total_score": 8210,
-    "ranking": 33
+    "ranking": 33,
+    "wishlist_count": 765,
+    "vote_count": 2163,
+    "bar_count": 5282
   },
   "4792": {
     "id": "4792",
@@ -541,7 +640,10 @@
     "fair_price": 45.78,
     "shelf_price": 27.05,
     "total_score": 8025,
-    "ranking": 34
+    "ranking": 34,
+    "wishlist_count": 799,
+    "vote_count": 1994,
+    "bar_count": 5232
   },
   "1821": {
     "id": "1821",
@@ -557,7 +659,10 @@
     "fair_price": 81.44,
     "shelf_price": 61.99,
     "total_score": 8022,
-    "ranking": 35
+    "ranking": 35,
+    "wishlist_count": 1403,
+    "vote_count": 2031,
+    "bar_count": 4588
   },
   "355": {
     "id": "355",
@@ -573,7 +678,10 @@
     "fair_price": 85.23,
     "shelf_price": 74.99,
     "total_score": 7772,
-    "ranking": 37
+    "ranking": 37,
+    "wishlist_count": 677,
+    "vote_count": 2013,
+    "bar_count": 5082
   },
   "12843": {
     "id": "12843",
@@ -589,7 +697,10 @@
     "fair_price": 269.23,
     "shelf_price": 241.66,
     "total_score": 7757,
-    "ranking": 38
+    "ranking": 38,
+    "wishlist_count": 2573,
+    "vote_count": 2125,
+    "bar_count": 3059
   },
   "2214": {
     "id": "2214",
@@ -605,7 +716,10 @@
     "fair_price": 67.48,
     "shelf_price": 53.19,
     "total_score": 7673,
-    "ranking": 39
+    "ranking": 39,
+    "wishlist_count": 1167,
+    "vote_count": 1833,
+    "bar_count": 4673
   },
   "1211": {
     "id": "1211",
@@ -621,7 +735,10 @@
     "fair_price": 576.68,
     "shelf_price": 816.66,
     "total_score": 7590,
-    "ranking": 40
+    "ranking": 40,
+    "wishlist_count": 2100,
+    "vote_count": 2717,
+    "bar_count": 2773
   },
   "16078": {
     "id": "16078",
@@ -637,7 +754,10 @@
     "fair_price": 246.23,
     "shelf_price": 264.99,
     "total_score": 7586,
-    "ranking": 41
+    "ranking": 41,
+    "wishlist_count": 2297,
+    "vote_count": 2707,
+    "bar_count": 2582
   },
   "1074": {
     "id": "1074",
@@ -653,7 +773,10 @@
     "fair_price": 36.14,
     "shelf_price": 22.57,
     "total_score": 7542,
-    "ranking": 42
+    "ranking": 42,
+    "wishlist_count": 941,
+    "vote_count": 1821,
+    "bar_count": 4780
   },
   "1282": {
     "id": "1282",
@@ -669,7 +792,10 @@
     "fair_price": 89.01,
     "shelf_price": 93.69,
     "total_score": 7534,
-    "ranking": 43
+    "ranking": 43,
+    "wishlist_count": 595,
+    "vote_count": 2011,
+    "bar_count": 4928
   },
   "873": {
     "id": "873",
@@ -685,7 +811,10 @@
     "fair_price": 90.38,
     "shelf_price": 178.73,
     "total_score": 7487,
-    "ranking": 44
+    "ranking": 44,
+    "wishlist_count": 700,
+    "vote_count": 2243,
+    "bar_count": 4544
   },
   "1629": {
     "id": "1629",
@@ -701,7 +830,10 @@
     "fair_price": 72.44,
     "shelf_price": 63.99,
     "total_score": 7458,
-    "ranking": 45
+    "ranking": 45,
+    "wishlist_count": 774,
+    "vote_count": 1470,
+    "bar_count": 5214
   },
   "3574": {
     "id": "3574",
@@ -717,7 +849,10 @@
     "fair_price": 84.64,
     "shelf_price": 63.84,
     "total_score": 7312,
-    "ranking": 46
+    "ranking": 46,
+    "wishlist_count": 1002,
+    "vote_count": 1554,
+    "bar_count": 4756
   },
   "1510": {
     "id": "1510",
@@ -733,7 +868,10 @@
     "fair_price": 133.7,
     "shelf_price": 108.69,
     "total_score": 7250,
-    "ranking": 47
+    "ranking": 47,
+    "wishlist_count": 1728,
+    "vote_count": 2217,
+    "bar_count": 3305
   },
   "3300": {
     "id": "3300",
@@ -749,7 +887,10 @@
     "fair_price": 709.41,
     "shelf_price": 1617.37,
     "total_score": 7110,
-    "ranking": 48
+    "ranking": 48,
+    "wishlist_count": 3453,
+    "vote_count": 2592,
+    "bar_count": 1065
   },
   "33209": {
     "id": "33209",
@@ -765,7 +906,10 @@
     "fair_price": 362.17,
     "shelf_price": 398.31,
     "total_score": 6897,
-    "ranking": 49
+    "ranking": 49,
+    "wishlist_count": 3960,
+    "vote_count": 1781,
+    "bar_count": 1156
   },
   "2879": {
     "id": "2879",
@@ -781,7 +925,10 @@
     "fair_price": 87.85,
     "shelf_price": 77.49,
     "total_score": 6813,
-    "ranking": 50
+    "ranking": 50,
+    "wishlist_count": 1776,
+    "vote_count": 1803,
+    "bar_count": 3234
   },
   "3819": {
     "id": "3819",
@@ -797,7 +944,10 @@
     "fair_price": 68.0,
     "shelf_price": 52.99,
     "total_score": 6683,
-    "ranking": 51
+    "ranking": 51,
+    "wishlist_count": 1035,
+    "vote_count": 1467,
+    "bar_count": 4181
   },
   "21319": {
     "id": "21319",
@@ -813,7 +963,10 @@
     "fair_price": 48.84,
     "shelf_price": 37.69,
     "total_score": 6641,
-    "ranking": 52
+    "ranking": 52,
+    "wishlist_count": 309,
+    "vote_count": 1868,
+    "bar_count": 4464
   },
   "3660": {
     "id": "3660",
@@ -829,7 +982,10 @@
     "fair_price": 54.2,
     "shelf_price": 32.66,
     "total_score": 6608,
-    "ranking": 53
+    "ranking": 53,
+    "wishlist_count": 685,
+    "vote_count": 1498,
+    "bar_count": 4425
   },
   "4739": {
     "id": "4739",
@@ -845,7 +1001,10 @@
     "fair_price": 366.21,
     "shelf_price": 422.99,
     "total_score": 6594,
-    "ranking": 54
+    "ranking": 54,
+    "wishlist_count": 2977,
+    "vote_count": 2146,
+    "bar_count": 1471
   },
   "4245": {
     "id": "4245",
@@ -861,7 +1020,10 @@
     "fair_price": 94.49,
     "shelf_price": 113.47,
     "total_score": 6537,
-    "ranking": 55
+    "ranking": 55,
+    "wishlist_count": 1092,
+    "vote_count": 1668,
+    "bar_count": 3777
   },
   "4448": {
     "id": "4448",
@@ -877,7 +1039,10 @@
     "fair_price": 252.98,
     "shelf_price": 748.99,
     "total_score": 6456,
-    "ranking": 56
+    "ranking": 56,
+    "wishlist_count": 2946,
+    "vote_count": 2069,
+    "bar_count": 1441
   },
   "477": {
     "id": "477",
@@ -893,7 +1058,10 @@
     "fair_price": 843.74,
     "shelf_price": 974.99,
     "total_score": 6424,
-    "ranking": 57
+    "ranking": 57,
+    "wishlist_count": 3283,
+    "vote_count": 2363,
+    "bar_count": 778
   },
   "4762": {
     "id": "4762",
@@ -909,7 +1077,10 @@
     "fair_price": 86.27,
     "shelf_price": 74.99,
     "total_score": 6225,
-    "ranking": 58
+    "ranking": 58,
+    "wishlist_count": 779,
+    "vote_count": 1425,
+    "bar_count": 4021
   },
   "4255": {
     "id": "4255",
@@ -925,7 +1096,10 @@
     "fair_price": 72.02,
     "shelf_price": 50.79,
     "total_score": 6221,
-    "ranking": 59
+    "ranking": 59,
+    "wishlist_count": 531,
+    "vote_count": 1545,
+    "bar_count": 4145
   },
   "620": {
     "id": "620",
@@ -941,7 +1115,10 @@
     "fair_price": 82.63,
     "shelf_price": 69.99,
     "total_score": 5928,
-    "ranking": 60
+    "ranking": 60,
+    "wishlist_count": 365,
+    "vote_count": 1537,
+    "bar_count": 4026
   },
   "4373": {
     "id": "4373",
@@ -957,7 +1134,10 @@
     "fair_price": 77.21,
     "shelf_price": 72.3,
     "total_score": 5865,
-    "ranking": 61
+    "ranking": 61,
+    "wishlist_count": 633,
+    "vote_count": 1518,
+    "bar_count": 3714
   },
   "3671": {
     "id": "3671",
@@ -973,7 +1153,10 @@
     "fair_price": 171.45,
     "shelf_price": 197.89,
     "total_score": 5810,
-    "ranking": 62
+    "ranking": 62,
+    "wishlist_count": 1091,
+    "vote_count": 1567,
+    "bar_count": 3152
   },
   "4708": {
     "id": "4708",
@@ -989,7 +1172,10 @@
     "fair_price": 39.44,
     "shelf_price": 27.85,
     "total_score": 5764,
-    "ranking": 63
+    "ranking": 63,
+    "wishlist_count": 726,
+    "vote_count": 1553,
+    "bar_count": 3485
   },
   "519": {
     "id": "519",
@@ -1005,7 +1191,10 @@
     "fair_price": 958.61,
     "shelf_price": 4899.97,
     "total_score": 5689,
-    "ranking": 64
+    "ranking": 64,
+    "wishlist_count": 2453,
+    "vote_count": 2982,
+    "bar_count": 254
   },
   "15947": {
     "id": "15947",
@@ -1021,7 +1210,10 @@
     "fair_price": 76.79,
     "shelf_price": 62.78,
     "total_score": 5648,
-    "ranking": 65
+    "ranking": 65,
+    "wishlist_count": 862,
+    "vote_count": 1449,
+    "bar_count": 3337
   },
   "15966": {
     "id": "15966",
@@ -1037,7 +1229,10 @@
     "fair_price": 50.86,
     "shelf_price": 37.88,
     "total_score": 5436,
-    "ranking": 66
+    "ranking": 66,
+    "wishlist_count": 666,
+    "vote_count": 1369,
+    "bar_count": 3401
   },
   "13668": {
     "id": "13668",
@@ -1053,7 +1248,10 @@
     "fair_price": 66.69,
     "shelf_price": 49.99,
     "total_score": 5428,
-    "ranking": 67
+    "ranking": 67,
+    "wishlist_count": 786,
+    "vote_count": 1733,
+    "bar_count": 2909
   },
   "1702": {
     "id": "1702",
@@ -1069,7 +1267,10 @@
     "fair_price": 212.92,
     "shelf_price": 192.89,
     "total_score": 5360,
-    "ranking": 68
+    "ranking": 68,
+    "wishlist_count": 1519,
+    "vote_count": 2092,
+    "bar_count": 1749
   },
   "3959": {
     "id": "3959",
@@ -1085,7 +1286,10 @@
     "fair_price": 563.81,
     "shelf_price": 1296.96,
     "total_score": 5255,
-    "ranking": 69
+    "ranking": 69,
+    "wishlist_count": 2829,
+    "vote_count": 1917,
+    "bar_count": 509
   },
   "4002": {
     "id": "4002",
@@ -1101,7 +1305,10 @@
     "fair_price": 346.85,
     "shelf_price": 437.24,
     "total_score": 5190,
-    "ranking": 70
+    "ranking": 70,
+    "wishlist_count": 1972,
+    "vote_count": 1519,
+    "bar_count": 1699
   },
   "987": {
     "id": "987",
@@ -1117,7 +1324,10 @@
     "fair_price": 100.87,
     "shelf_price": 89.99,
     "total_score": 5119,
-    "ranking": 71
+    "ranking": 71,
+    "wishlist_count": 792,
+    "vote_count": 1328,
+    "bar_count": 2999
   },
   "13584": {
     "id": "13584",
@@ -1133,7 +1343,10 @@
     "fair_price": 99.92,
     "shelf_price": 412.99,
     "total_score": 5059,
-    "ranking": 72
+    "ranking": 72,
+    "wishlist_count": 720,
+    "vote_count": 1138,
+    "bar_count": 3201
   },
   "3694": {
     "id": "3694",
@@ -1149,7 +1362,10 @@
     "fair_price": 736.03,
     "shelf_price": 1026.64,
     "total_score": 5024,
-    "ranking": 73
+    "ranking": 73,
+    "wishlist_count": 1084,
+    "vote_count": 1857,
+    "bar_count": 2083
   },
   "1641": {
     "id": "1641",
@@ -1165,7 +1381,10 @@
     "fair_price": 92.34,
     "shelf_price": 68.93,
     "total_score": 4878,
-    "ranking": 74
+    "ranking": 74,
+    "wishlist_count": 515,
+    "vote_count": 1089,
+    "bar_count": 3274
   },
   "17951": {
     "id": "17951",
@@ -1181,7 +1400,10 @@
     "fair_price": 87.86,
     "shelf_price": 66.0,
     "total_score": 4794,
-    "ranking": 75
+    "ranking": 75,
+    "wishlist_count": 404,
+    "vote_count": 1100,
+    "bar_count": 3290
   },
   "144": {
     "id": "144",
@@ -1197,7 +1419,10 @@
     "fair_price": 104.95,
     "shelf_price": 91.89,
     "total_score": 4765,
-    "ranking": 76
+    "ranking": 76,
+    "wishlist_count": 1205,
+    "vote_count": 1847,
+    "bar_count": 1713
   },
   "3773": {
     "id": "3773",
@@ -1213,7 +1438,10 @@
     "fair_price": 49.36,
     "shelf_price": 36.56,
     "total_score": 4736,
-    "ranking": 77
+    "ranking": 77,
+    "wishlist_count": 493,
+    "vote_count": 1162,
+    "bar_count": 3081
   },
   "1269": {
     "id": "1269",
@@ -1229,7 +1457,10 @@
     "fair_price": 42.09,
     "shelf_price": 36.66,
     "total_score": 4699,
-    "ranking": 78
+    "ranking": 78,
+    "wishlist_count": 595,
+    "vote_count": 1137,
+    "bar_count": 2967
   },
   "18530": {
     "id": "18530",
@@ -1245,7 +1476,10 @@
     "fair_price": 227.89,
     "shelf_price": 254.14,
     "total_score": 4675,
-    "ranking": 79
+    "ranking": 79,
+    "wishlist_count": 559,
+    "vote_count": 1411,
+    "bar_count": 2705
   },
   "2755": {
     "id": "2755",
@@ -1261,7 +1495,10 @@
     "fair_price": 37.87,
     "shelf_price": 27.99,
     "total_score": 4663,
-    "ranking": 80
+    "ranking": 80,
+    "wishlist_count": 424,
+    "vote_count": 1108,
+    "bar_count": 3131
   },
   "17318": {
     "id": "17318",
@@ -1277,7 +1514,10 @@
     "fair_price": 179.31,
     "shelf_price": 274.97,
     "total_score": 4620,
-    "ranking": 81
+    "ranking": 81,
+    "wishlist_count": 750,
+    "vote_count": 1344,
+    "bar_count": 2526
   },
   "3651": {
     "id": "3651",
@@ -1293,7 +1533,10 @@
     "fair_price": 124.03,
     "shelf_price": 79.95,
     "total_score": 4605,
-    "ranking": 82
+    "ranking": 82,
+    "wishlist_count": 534,
+    "vote_count": 1413,
+    "bar_count": 2658
   },
   "14150": {
     "id": "14150",
@@ -1309,7 +1552,10 @@
     "fair_price": 96.99,
     "shelf_price": 57.64,
     "total_score": 4503,
-    "ranking": 83
+    "ranking": 83,
+    "wishlist_count": 902,
+    "vote_count": 1154,
+    "bar_count": 2447
   },
   "3731": {
     "id": "3731",
@@ -1325,7 +1571,10 @@
     "fair_price": 65.06,
     "shelf_price": 57.98,
     "total_score": 4433,
-    "ranking": 84
+    "ranking": 84,
+    "wishlist_count": 1128,
+    "vote_count": 799,
+    "bar_count": 2506
   },
   "3674": {
     "id": "3674",
@@ -1341,7 +1590,10 @@
     "fair_price": 44.68,
     "shelf_price": 35.29,
     "total_score": 4365,
-    "ranking": 85
+    "ranking": 85,
+    "wishlist_count": 561,
+    "vote_count": 1359,
+    "bar_count": 2445
   },
   "20691": {
     "id": "20691",
@@ -1357,7 +1609,10 @@
     "fair_price": 146.32,
     "shelf_price": 81.57,
     "total_score": 4296,
-    "ranking": 86
+    "ranking": 86,
+    "wishlist_count": 750,
+    "vote_count": 1106,
+    "bar_count": 2440
   },
   "1217": {
     "id": "1217",
@@ -1373,7 +1628,10 @@
     "fair_price": 261.75,
     "shelf_price": 299.98,
     "total_score": 4292,
-    "ranking": 87
+    "ranking": 87,
+    "wishlist_count": 740,
+    "vote_count": 1467,
+    "bar_count": 2085
   },
   "1966": {
     "id": "1966",
@@ -1389,7 +1647,10 @@
     "fair_price": 238.67,
     "shelf_price": 189.19,
     "total_score": 4235,
-    "ranking": 88
+    "ranking": 88,
+    "wishlist_count": 530,
+    "vote_count": 1612,
+    "bar_count": 2093
   },
   "20783": {
     "id": "20783",
@@ -1405,7 +1666,10 @@
     "fair_price": 104.33,
     "shelf_price": 75.26,
     "total_score": 4215,
-    "ranking": 89
+    "ranking": 89,
+    "wishlist_count": 546,
+    "vote_count": 1429,
+    "bar_count": 2240
   },
   "17248": {
     "id": "17248",
@@ -1421,7 +1685,10 @@
     "fair_price": 33.47,
     "shelf_price": 25.99,
     "total_score": 4135,
-    "ranking": 90
+    "ranking": 90,
+    "wishlist_count": 411,
+    "vote_count": 915,
+    "bar_count": 2809
   },
   "21356": {
     "id": "21356",
@@ -1437,7 +1704,10 @@
     "fair_price": 183.86,
     "shelf_price": 112.5,
     "total_score": 4109,
-    "ranking": 91
+    "ranking": 91,
+    "wishlist_count": 853,
+    "vote_count": 1206,
+    "bar_count": 2050
   },
   "3775": {
     "id": "3775",
@@ -1453,7 +1723,10 @@
     "fair_price": 54.12,
     "shelf_price": 49.99,
     "total_score": 4068,
-    "ranking": 92
+    "ranking": 92,
+    "wishlist_count": 382,
+    "vote_count": 1167,
+    "bar_count": 2519
   },
   "46254": {
     "id": "46254",
@@ -1469,7 +1742,10 @@
     "fair_price": 75.72,
     "shelf_price": 69.82,
     "total_score": 3994,
-    "ranking": 93
+    "ranking": 93,
+    "wishlist_count": 704,
+    "vote_count": 898,
+    "bar_count": 2392
   },
   "2969": {
     "id": "2969",
@@ -1485,7 +1761,10 @@
     "fair_price": 106.38,
     "shelf_price": 78.99,
     "total_score": 3986,
-    "ranking": 94
+    "ranking": 94,
+    "wishlist_count": 533,
+    "vote_count": 1200,
+    "bar_count": 2253
   },
   "4299": {
     "id": "4299",
@@ -1501,7 +1780,10 @@
     "fair_price": 76.97,
     "shelf_price": 59.42,
     "total_score": 3965,
-    "ranking": 95
+    "ranking": 95,
+    "wishlist_count": 290,
+    "vote_count": 932,
+    "bar_count": 2743
   },
   "1046": {
     "id": "1046",
@@ -1517,7 +1799,10 @@
     "fair_price": 3048.26,
     "shelf_price": 12138.3,
     "total_score": 3864,
-    "ranking": 96
+    "ranking": 96,
+    "wishlist_count": 1476,
+    "vote_count": 2324,
+    "bar_count": 64
   },
   "17358": {
     "id": "17358",
@@ -1533,7 +1818,10 @@
     "fair_price": 276.99,
     "shelf_price": 572.89,
     "total_score": 3855,
-    "ranking": 97
+    "ranking": 97,
+    "wishlist_count": 1352,
+    "vote_count": 1960,
+    "bar_count": 543
   },
   "16960": {
     "id": "16960",
@@ -1549,7 +1837,10 @@
     "fair_price": 71.49,
     "shelf_price": 58.94,
     "total_score": 3823,
-    "ranking": 98
+    "ranking": 98,
+    "wishlist_count": 350,
+    "vote_count": 558,
+    "bar_count": 2915
   },
   "2533": {
     "id": "2533",
@@ -1565,7 +1856,10 @@
     "fair_price": 85.23,
     "shelf_price": 67.62,
     "total_score": 3789,
-    "ranking": 99
+    "ranking": 99,
+    "wishlist_count": 304,
+    "vote_count": 942,
+    "bar_count": 2543
   },
   "803": {
     "id": "803",
@@ -1581,7 +1875,10 @@
     "fair_price": 50.33,
     "shelf_price": 45.91,
     "total_score": 3756,
-    "ranking": 100
+    "ranking": 100,
+    "wishlist_count": 371,
+    "vote_count": 922,
+    "bar_count": 2463
   },
   "3755": {
     "id": "3755",
@@ -1597,7 +1894,10 @@
     "fair_price": 125.56,
     "shelf_price": 110.0,
     "total_score": 3749,
-    "ranking": 101
+    "ranking": 101,
+    "wishlist_count": 390,
+    "vote_count": 1058,
+    "bar_count": 2301
   },
   "19547": {
     "id": "19547",
@@ -1613,7 +1913,10 @@
     "fair_price": 188.35,
     "shelf_price": 359.0,
     "total_score": 3658,
-    "ranking": 102
+    "ranking": 102,
+    "wishlist_count": 874,
+    "vote_count": 1173,
+    "bar_count": 1611
   },
   "16681": {
     "id": "16681",
@@ -1629,7 +1932,10 @@
     "fair_price": 294.28,
     "shelf_price": 224.73,
     "total_score": 3654,
-    "ranking": 103
+    "ranking": 103,
+    "wishlist_count": 1729,
+    "vote_count": 848,
+    "bar_count": 1077
   },
   "2706": {
     "id": "2706",
@@ -1645,7 +1951,10 @@
     "fair_price": 101.64,
     "shelf_price": 89.99,
     "total_score": 3597,
-    "ranking": 104
+    "ranking": 104,
+    "wishlist_count": 794,
+    "vote_count": 1614,
+    "bar_count": 1189
   },
   "4776": {
     "id": "4776",
@@ -1661,7 +1970,10 @@
     "fair_price": 1072.05,
     "shelf_price": 2399.9,
     "total_score": 3557,
-    "ranking": 105
+    "ranking": 105,
+    "wishlist_count": 2117,
+    "vote_count": 1073,
+    "bar_count": 367
   },
   "1708": {
     "id": "1708",
@@ -1677,7 +1989,10 @@
     "fair_price": 55.59,
     "shelf_price": 33.58,
     "total_score": 3532,
-    "ranking": 106
+    "ranking": 106,
+    "wishlist_count": 283,
+    "vote_count": 877,
+    "bar_count": 2372
   },
   "2849": {
     "id": "2849",
@@ -1693,7 +2008,10 @@
     "fair_price": 128.09,
     "shelf_price": 189.89,
     "total_score": 3528,
-    "ranking": 107
+    "ranking": 107,
+    "wishlist_count": 654,
+    "vote_count": 1063,
+    "bar_count": 1811
   },
   "2769": {
     "id": "2769",
@@ -1709,7 +2027,10 @@
     "fair_price": 69.06,
     "shelf_price": 57.99,
     "total_score": 3515,
-    "ranking": 108
+    "ranking": 108,
+    "wishlist_count": 622,
+    "vote_count": 836,
+    "bar_count": 2057
   },
   "5194": {
     "id": "5194",
@@ -1725,7 +2046,10 @@
     "fair_price": 70.36,
     "shelf_price": 54.99,
     "total_score": 3470,
-    "ranking": 109
+    "ranking": 109,
+    "wishlist_count": 294,
+    "vote_count": 663,
+    "bar_count": 2513
   },
   "3317": {
     "id": "3317",
@@ -1741,7 +2065,10 @@
     "fair_price": 205.5,
     "shelf_price": 299.99,
     "total_score": 3446,
-    "ranking": 110
+    "ranking": 110,
+    "wishlist_count": 1544,
+    "vote_count": 913,
+    "bar_count": 989
   },
   "15948": {
     "id": "15948",
@@ -1757,7 +2084,10 @@
     "fair_price": 46.7,
     "shelf_price": 34.99,
     "total_score": 3444,
-    "ranking": 111
+    "ranking": 111,
+    "wishlist_count": 465,
+    "vote_count": 819,
+    "bar_count": 2160
   },
   "4948": {
     "id": "4948",
@@ -1773,7 +2103,10 @@
     "fair_price": 530.79,
     "shelf_price": 700.0,
     "total_score": 3440,
-    "ranking": 112
+    "ranking": 112,
+    "wishlist_count": 1047,
+    "vote_count": 1162,
+    "bar_count": 1231
   },
   "2353": {
     "id": "2353",
@@ -1789,7 +2122,10 @@
     "fair_price": 174.28,
     "shelf_price": 119.99,
     "total_score": 3432,
-    "ranking": 113
+    "ranking": 113,
+    "wishlist_count": 916,
+    "vote_count": 1036,
+    "bar_count": 1480
   },
   "3958": {
     "id": "3958",
@@ -1805,7 +2141,10 @@
     "fair_price": 52.11,
     "shelf_price": 44.13,
     "total_score": 3427,
-    "ranking": 114
+    "ranking": 114,
+    "wishlist_count": 249,
+    "vote_count": 783,
+    "bar_count": 2395
   },
   "4450": {
     "id": "4450",
@@ -1821,7 +2160,10 @@
     "fair_price": 58.32,
     "shelf_price": 39.0,
     "total_score": 3427,
-    "ranking": 114
+    "ranking": 114,
+    "wishlist_count": 185,
+    "vote_count": 821,
+    "bar_count": 2421
   },
   "17176": {
     "id": "17176",
@@ -1837,7 +2179,10 @@
     "fair_price": 120.88,
     "shelf_price": 148.49,
     "total_score": 3406,
-    "ranking": 116
+    "ranking": 116,
+    "wishlist_count": 679,
+    "vote_count": 813,
+    "bar_count": 1914
   },
   "7140": {
     "id": "7140",
@@ -1853,7 +2198,10 @@
     "fair_price": 36.72,
     "shelf_price": 28.99,
     "total_score": 3357,
-    "ranking": 117
+    "ranking": 117,
+    "wishlist_count": 140,
+    "vote_count": 729,
+    "bar_count": 2488
   },
   "14409": {
     "id": "14409",
@@ -1869,7 +2217,10 @@
     "fair_price": 127.96,
     "shelf_price": 146.31,
     "total_score": 3342,
-    "ranking": 118
+    "ranking": 118,
+    "wishlist_count": 438,
+    "vote_count": 862,
+    "bar_count": 2042
   },
   "1462": {
     "id": "1462",
@@ -1885,7 +2236,10 @@
     "fair_price": 39.24,
     "shelf_price": 31.99,
     "total_score": 3324,
-    "ranking": 119
+    "ranking": 119,
+    "wishlist_count": 275,
+    "vote_count": 863,
+    "bar_count": 2186
   },
   "4576": {
     "id": "4576",
@@ -1901,7 +2255,10 @@
     "fair_price": 287.59,
     "shelf_price": 275.99,
     "total_score": 3292,
-    "ranking": 120
+    "ranking": 120,
+    "wishlist_count": 663,
+    "vote_count": 1053,
+    "bar_count": 1576
   },
   "429": {
     "id": "429",
@@ -1917,7 +2274,10 @@
     "fair_price": 81.93,
     "shelf_price": 59.49,
     "total_score": 3261,
-    "ranking": 121
+    "ranking": 121,
+    "wishlist_count": 342,
+    "vote_count": 848,
+    "bar_count": 2071
   },
   "1663": {
     "id": "1663",
@@ -1933,7 +2293,10 @@
     "fair_price": 80.59,
     "shelf_price": 71.77,
     "total_score": 3233,
-    "ranking": 122
+    "ranking": 122,
+    "wishlist_count": 511,
+    "vote_count": 878,
+    "bar_count": 1844
   },
   "21689": {
     "id": "21689",
@@ -1949,7 +2312,10 @@
     "fair_price": 43.69,
     "shelf_price": 36.67,
     "total_score": 3204,
-    "ranking": 123
+    "ranking": 123,
+    "wishlist_count": 94,
+    "vote_count": 734,
+    "bar_count": 2376
   },
   "16484": {
     "id": "16484",
@@ -1965,7 +2331,10 @@
     "fair_price": 158.66,
     "shelf_price": 149.99,
     "total_score": 3176,
-    "ranking": 124
+    "ranking": 124,
+    "wishlist_count": 580,
+    "vote_count": 829,
+    "bar_count": 1767
   },
   "4598": {
     "id": "4598",
@@ -1981,7 +2350,10 @@
     "fair_price": 165.4,
     "shelf_price": 299.99,
     "total_score": 3168,
-    "ranking": 125
+    "ranking": 125,
+    "wishlist_count": 782,
+    "vote_count": 1145,
+    "bar_count": 1241
   },
   "15985": {
     "id": "15985",
@@ -1997,7 +2369,10 @@
     "fair_price": 97.54,
     "shelf_price": 100.4,
     "total_score": 3114,
-    "ranking": 126
+    "ranking": 126,
+    "wishlist_count": 441,
+    "vote_count": 1150,
+    "bar_count": 1523
   },
   "17021": {
     "id": "17021",
@@ -2013,7 +2388,10 @@
     "fair_price": 188.56,
     "shelf_price": 209.89,
     "total_score": 3102,
-    "ranking": 127
+    "ranking": 127,
+    "wishlist_count": 882,
+    "vote_count": 1188,
+    "bar_count": 1032
   },
   "4486": {
     "id": "4486",
@@ -2029,7 +2407,10 @@
     "fair_price": 80.71,
     "shelf_price": 55.04,
     "total_score": 3084,
-    "ranking": 128
+    "ranking": 128,
+    "wishlist_count": 753,
+    "vote_count": 743,
+    "bar_count": 1588
   },
   "1636": {
     "id": "1636",
@@ -2045,7 +2426,10 @@
     "fair_price": 104.53,
     "shelf_price": 63.83,
     "total_score": 3006,
-    "ranking": 129
+    "ranking": 129,
+    "wishlist_count": 442,
+    "vote_count": 538,
+    "bar_count": 2026
   },
   "220": {
     "id": "220",
@@ -2061,7 +2445,10 @@
     "fair_price": 93.77,
     "shelf_price": 71.49,
     "total_score": 2967,
-    "ranking": 130
+    "ranking": 130,
+    "wishlist_count": 273,
+    "vote_count": 762,
+    "bar_count": 1932
   },
   "3941": {
     "id": "3941",
@@ -2077,7 +2464,10 @@
     "fair_price": 68.58,
     "shelf_price": 54.66,
     "total_score": 2905,
-    "ranking": 131
+    "ranking": 131,
+    "wishlist_count": 294,
+    "vote_count": 679,
+    "bar_count": 1932
   },
   "4593": {
     "id": "4593",
@@ -2093,7 +2483,10 @@
     "fair_price": 217.88,
     "shelf_price": 159.12,
     "total_score": 2884,
-    "ranking": 132
+    "ranking": 132,
+    "wishlist_count": 296,
+    "vote_count": 929,
+    "bar_count": 1659
   },
   "1924": {
     "id": "1924",
@@ -2109,7 +2502,10 @@
     "fair_price": 35.33,
     "shelf_price": 29.99,
     "total_score": 2881,
-    "ranking": 133
+    "ranking": 133,
+    "wishlist_count": 276,
+    "vote_count": 950,
+    "bar_count": 1655
   },
   "2594": {
     "id": "2594",
@@ -2125,7 +2521,10 @@
     "fair_price": 681.17,
     "shelf_price": 1998.89,
     "total_score": 2833,
-    "ranking": 134
+    "ranking": 134,
+    "wishlist_count": 1487,
+    "vote_count": 990,
+    "bar_count": 356
   },
   "14147": {
     "id": "14147",
@@ -2141,7 +2540,10 @@
     "fair_price": 53.88,
     "shelf_price": 84.99,
     "total_score": 2814,
-    "ranking": 135
+    "ranking": 135,
+    "wishlist_count": 164,
+    "vote_count": 693,
+    "bar_count": 1957
   },
   "19806": {
     "id": "19806",
@@ -2157,7 +2559,10 @@
     "fair_price": 85.75,
     "shelf_price": 54.99,
     "total_score": 2774,
-    "ranking": 136
+    "ranking": 136,
+    "wishlist_count": 421,
+    "vote_count": 554,
+    "bar_count": 1799
   },
   "2476": {
     "id": "2476",
@@ -2173,7 +2578,10 @@
     "fair_price": 36.25,
     "shelf_price": 27.49,
     "total_score": 2773,
-    "ranking": 137
+    "ranking": 137,
+    "wishlist_count": 279,
+    "vote_count": 721,
+    "bar_count": 1773
   },
   "19971": {
     "id": "19971",
@@ -2189,7 +2597,10 @@
     "fair_price": 93.12,
     "shelf_price": 58.9,
     "total_score": 2754,
-    "ranking": 138
+    "ranking": 138,
+    "wishlist_count": 270,
+    "vote_count": 616,
+    "bar_count": 1868
   },
   "1800": {
     "id": "1800",
@@ -2205,7 +2616,10 @@
     "fair_price": 166.94,
     "shelf_price": 277.11,
     "total_score": 2710,
-    "ranking": 139
+    "ranking": 139,
+    "wishlist_count": 586,
+    "vote_count": 820,
+    "bar_count": 1304
   },
   "19503": {
     "id": "19503",
@@ -2221,7 +2635,10 @@
     "fair_price": 77.74,
     "shelf_price": 59.99,
     "total_score": 2709,
-    "ranking": 140
+    "ranking": 140,
+    "wishlist_count": 285,
+    "vote_count": 633,
+    "bar_count": 1791
   },
   "38465": {
     "id": "38465",
@@ -2237,7 +2654,10 @@
     "fair_price": 108.96,
     "shelf_price": 146.15,
     "total_score": 2695,
-    "ranking": 141
+    "ranking": 141,
+    "wishlist_count": 274,
+    "vote_count": 523,
+    "bar_count": 1898
   },
   "495": {
     "id": "495",
@@ -2253,7 +2673,10 @@
     "fair_price": 65.34,
     "shelf_price": 55.7,
     "total_score": 2669,
-    "ranking": 142
+    "ranking": 142,
+    "wishlist_count": 301,
+    "vote_count": 606,
+    "bar_count": 1762
   },
   "19526": {
     "id": "19526",
@@ -2269,7 +2692,10 @@
     "fair_price": 117.43,
     "shelf_price": 64.99,
     "total_score": 2667,
-    "ranking": 143
+    "ranking": 143,
+    "wishlist_count": 93,
+    "vote_count": 675,
+    "bar_count": 1899
   },
   "16613": {
     "id": "16613",
@@ -2285,7 +2711,10 @@
     "fair_price": 94.18,
     "shelf_price": 90.06,
     "total_score": 2659,
-    "ranking": 144
+    "ranking": 144,
+    "wishlist_count": 263,
+    "vote_count": 755,
+    "bar_count": 1641
   },
   "3860": {
     "id": "3860",
@@ -2301,7 +2730,10 @@
     "fair_price": 35.04,
     "shelf_price": 27.29,
     "total_score": 2658,
-    "ranking": 145
+    "ranking": 145,
+    "wishlist_count": 196,
+    "vote_count": 1005,
+    "bar_count": 1457
   },
   "966": {
     "id": "966",
@@ -2317,7 +2749,10 @@
     "fair_price": 81.63,
     "shelf_price": 57.6,
     "total_score": 2655,
-    "ranking": 146
+    "ranking": 146,
+    "wishlist_count": 342,
+    "vote_count": 585,
+    "bar_count": 1728
   },
   "3249": {
     "id": "3249",
@@ -2333,7 +2768,10 @@
     "fair_price": 81.77,
     "shelf_price": 74.89,
     "total_score": 2634,
-    "ranking": 147
+    "ranking": 147,
+    "wishlist_count": 311,
+    "vote_count": 683,
+    "bar_count": 1640
   },
   "1133": {
     "id": "1133",
@@ -2349,7 +2787,10 @@
     "fair_price": 88.5,
     "shelf_price": 64.29,
     "total_score": 2633,
-    "ranking": 148
+    "ranking": 148,
+    "wishlist_count": 384,
+    "vote_count": 848,
+    "bar_count": 1401
   },
   "18070": {
     "id": "18070",
@@ -2365,7 +2806,10 @@
     "fair_price": 222.55,
     "shelf_price": 280.85,
     "total_score": 2623,
-    "ranking": 149
+    "ranking": 149,
+    "wishlist_count": 438,
+    "vote_count": 889,
+    "bar_count": 1296
   },
   "18184": {
     "id": "18184",
@@ -2381,7 +2825,10 @@
     "fair_price": 47.5,
     "shelf_price": 32.64,
     "total_score": 2598,
-    "ranking": 150
+    "ranking": 150,
+    "wishlist_count": 104,
+    "vote_count": 650,
+    "bar_count": 1844
   },
   "17898": {
     "id": "17898",
@@ -2397,7 +2844,10 @@
     "fair_price": 71.65,
     "shelf_price": 79.45,
     "total_score": 2587,
-    "ranking": 151
+    "ranking": 151,
+    "wishlist_count": 229,
+    "vote_count": 714,
+    "bar_count": 1644
   },
   "2291": {
     "id": "2291",
@@ -2413,7 +2863,10 @@
     "fair_price": 61.02,
     "shelf_price": 41.8,
     "total_score": 2584,
-    "ranking": 152
+    "ranking": 152,
+    "wishlist_count": 229,
+    "vote_count": 648,
+    "bar_count": 1707
   },
   "21106": {
     "id": "21106",
@@ -2429,7 +2882,10 @@
     "fair_price": 197.99,
     "shelf_price": 175.83,
     "total_score": 2532,
-    "ranking": 153
+    "ranking": 153,
+    "wishlist_count": 499,
+    "vote_count": 607,
+    "bar_count": 1426
   },
   "2831": {
     "id": "2831",
@@ -2445,7 +2901,10 @@
     "fair_price": 62.23,
     "shelf_price": 54.99,
     "total_score": 2512,
-    "ranking": 154
+    "ranking": 154,
+    "wishlist_count": 474,
+    "vote_count": 631,
+    "bar_count": 1407
   },
   "633": {
     "id": "633",
@@ -2461,7 +2920,10 @@
     "fair_price": 204.81,
     "shelf_price": 215.39,
     "total_score": 2490,
-    "ranking": 155
+    "ranking": 155,
+    "wishlist_count": 608,
+    "vote_count": 771,
+    "bar_count": 1111
   },
   "2549": {
     "id": "2549",
@@ -2477,7 +2939,10 @@
     "fair_price": 45.5,
     "shelf_price": 39.99,
     "total_score": 2477,
-    "ranking": 156
+    "ranking": 156,
+    "wishlist_count": 115,
+    "vote_count": 516,
+    "bar_count": 1846
   },
   "3997": {
     "id": "3997",
@@ -2493,7 +2958,10 @@
     "fair_price": 57.26,
     "shelf_price": 52.89,
     "total_score": 2471,
-    "ranking": 157
+    "ranking": 157,
+    "wishlist_count": 263,
+    "vote_count": 588,
+    "bar_count": 1620
   },
   "18508": {
     "id": "18508",
@@ -2509,7 +2977,10 @@
     "fair_price": 339.41,
     "shelf_price": 270.58,
     "total_score": 2463,
-    "ranking": 158
+    "ranking": 158,
+    "wishlist_count": 324,
+    "vote_count": 998,
+    "bar_count": 1141
   },
   "41273": {
     "id": "41273",
@@ -2525,7 +2996,10 @@
     "fair_price": 172.98,
     "shelf_price": 207.47,
     "total_score": 2462,
-    "ranking": 159
+    "ranking": 159,
+    "wishlist_count": 624,
+    "vote_count": 646,
+    "bar_count": 1192
   },
   "17450": {
     "id": "17450",
@@ -2541,7 +3015,10 @@
     "fair_price": 36.69,
     "shelf_price": 31.89,
     "total_score": 2460,
-    "ranking": 160
+    "ranking": 160,
+    "wishlist_count": 232,
+    "vote_count": 524,
+    "bar_count": 1704
   },
   "21242": {
     "id": "21242",
@@ -2557,7 +3034,10 @@
     "fair_price": 622.6,
     "shelf_price": 1062.5,
     "total_score": 2356,
-    "ranking": 161
+    "ranking": 161,
+    "wishlist_count": 718,
+    "vote_count": 699,
+    "bar_count": 939
   },
   "893": {
     "id": "893",
@@ -2573,7 +3053,10 @@
     "fair_price": 34.71,
     "shelf_price": 22.99,
     "total_score": 2343,
-    "ranking": 162
+    "ranking": 162,
+    "wishlist_count": 346,
+    "vote_count": 889,
+    "bar_count": 1108
   },
   "16682": {
     "id": "16682",
@@ -2589,7 +3072,10 @@
     "fair_price": 294.86,
     "shelf_price": 349.59,
     "total_score": 2317,
-    "ranking": 164
+    "ranking": 164,
+    "wishlist_count": 1032,
+    "vote_count": 492,
+    "bar_count": 793
   },
   "17397": {
     "id": "17397",
@@ -2605,7 +3091,10 @@
     "fair_price": 191.83,
     "shelf_price": 234.55,
     "total_score": 2302,
-    "ranking": 165
+    "ranking": 165,
+    "wishlist_count": 1467,
+    "vote_count": 602,
+    "bar_count": 233
   },
   "17632": {
     "id": "17632",
@@ -2621,7 +3110,10 @@
     "fair_price": 127.1,
     "shelf_price": 90.02,
     "total_score": 2292,
-    "ranking": 166
+    "ranking": 166,
+    "wishlist_count": 214,
+    "vote_count": 602,
+    "bar_count": 1476
   },
   "17435": {
     "id": "17435",
@@ -2637,7 +3129,10 @@
     "fair_price": 114.59,
     "shelf_price": 104.27,
     "total_score": 2265,
-    "ranking": 167
+    "ranking": 167,
+    "wishlist_count": 720,
+    "vote_count": 683,
+    "bar_count": 862
   },
   "435": {
     "id": "435",
@@ -2653,7 +3148,10 @@
     "fair_price": 43.8,
     "shelf_price": 30.99,
     "total_score": 2234,
-    "ranking": 168
+    "ranking": 168,
+    "wishlist_count": 162,
+    "vote_count": 795,
+    "bar_count": 1277
   },
   "17247": {
     "id": "17247",
@@ -2669,7 +3167,10 @@
     "fair_price": 27.3,
     "shelf_price": 23.19,
     "total_score": 2231,
-    "ranking": 169
+    "ranking": 169,
+    "wishlist_count": 226,
+    "vote_count": 466,
+    "bar_count": 1539
   },
   "15984": {
     "id": "15984",
@@ -2685,7 +3186,10 @@
     "fair_price": 270.36,
     "shelf_price": 512.47,
     "total_score": 2230,
-    "ranking": 170
+    "ranking": 170,
+    "wishlist_count": 1020,
+    "vote_count": 904,
+    "bar_count": 306
   },
   "670": {
     "id": "670",
@@ -2701,7 +3205,10 @@
     "fair_price": 44.66,
     "shelf_price": 40.03,
     "total_score": 2219,
-    "ranking": 171
+    "ranking": 171,
+    "wishlist_count": 433,
+    "vote_count": 246,
+    "bar_count": 1540
   },
   "1579": {
     "id": "1579",
@@ -2717,7 +3224,10 @@
     "fair_price": 96.37,
     "shelf_price": 91.49,
     "total_score": 2206,
-    "ranking": 172
+    "ranking": 172,
+    "wishlist_count": 323,
+    "vote_count": 630,
+    "bar_count": 1253
   },
   "15989": {
     "id": "15989",
@@ -2733,7 +3243,10 @@
     "fair_price": 134.68,
     "shelf_price": 69.86,
     "total_score": 2186,
-    "ranking": 173
+    "ranking": 173,
+    "wishlist_count": 314,
+    "vote_count": 631,
+    "bar_count": 1241
   },
   "17068": {
     "id": "17068",
@@ -2749,7 +3262,10 @@
     "fair_price": 73.69,
     "shelf_price": 71.0,
     "total_score": 2173,
-    "ranking": 174
+    "ranking": 174,
+    "wishlist_count": 269,
+    "vote_count": 479,
+    "bar_count": 1425
   },
   "5131": {
     "id": "5131",
@@ -2765,7 +3281,10 @@
     "fair_price": 75.34,
     "shelf_price": 45.88,
     "total_score": 2163,
-    "ranking": 175
+    "ranking": 175,
+    "wishlist_count": 159,
+    "vote_count": 627,
+    "bar_count": 1377
   },
   "19626": {
     "id": "19626",
@@ -2781,7 +3300,10 @@
     "fair_price": 69.08,
     "shelf_price": 54.05,
     "total_score": 2125,
-    "ranking": 176
+    "ranking": 176,
+    "wishlist_count": 247,
+    "vote_count": 468,
+    "bar_count": 1410
   },
   "1419": {
     "id": "1419",
@@ -2797,7 +3319,10 @@
     "fair_price": 60.52,
     "shelf_price": 61.79,
     "total_score": 2118,
-    "ranking": 177
+    "ranking": 177,
+    "wishlist_count": 154,
+    "vote_count": 514,
+    "bar_count": 1450
   },
   "16161": {
     "id": "16161",
@@ -2813,7 +3338,10 @@
     "fair_price": 251.0,
     "shelf_price": 249.99,
     "total_score": 2085,
-    "ranking": 178
+    "ranking": 178,
+    "wishlist_count": 406,
+    "vote_count": 782,
+    "bar_count": 897
   },
   "17210": {
     "id": "17210",
@@ -2829,7 +3357,10 @@
     "fair_price": 89.16,
     "shelf_price": 94.99,
     "total_score": 2082,
-    "ranking": 179
+    "ranking": 179,
+    "wishlist_count": 200,
+    "vote_count": 447,
+    "bar_count": 1435
   },
   "18235": {
     "id": "18235",
@@ -2845,7 +3376,10 @@
     "fair_price": 167.89,
     "shelf_price": 154.49,
     "total_score": 2072,
-    "ranking": 180
+    "ranking": 180,
+    "wishlist_count": 226,
+    "vote_count": 612,
+    "bar_count": 1234
   },
   "19720": {
     "id": "19720",
@@ -2861,7 +3395,10 @@
     "fair_price": 45.61,
     "shelf_price": 35.99,
     "total_score": 2054,
-    "ranking": 181
+    "ranking": 181,
+    "wishlist_count": 204,
+    "vote_count": 506,
+    "bar_count": 1344
   },
   "17213": {
     "id": "17213",
@@ -2877,7 +3414,10 @@
     "fair_price": 140.59,
     "shelf_price": 109.99,
     "total_score": 2048,
-    "ranking": 182
+    "ranking": 182,
+    "wishlist_count": 248,
+    "vote_count": 557,
+    "bar_count": 1243
   },
   "15965": {
     "id": "15965",
@@ -2893,7 +3433,10 @@
     "fair_price": 56.43,
     "shelf_price": 38.91,
     "total_score": 2045,
-    "ranking": 183
+    "ranking": 183,
+    "wishlist_count": 198,
+    "vote_count": 511,
+    "bar_count": 1336
   },
   "4588": {
     "id": "4588",
@@ -2909,7 +3452,10 @@
     "fair_price": 71.85,
     "shelf_price": 54.67,
     "total_score": 2031,
-    "ranking": 184
+    "ranking": 184,
+    "wishlist_count": 170,
+    "vote_count": 479,
+    "bar_count": 1382
   },
   "1736": {
     "id": "1736",
@@ -2925,7 +3471,10 @@
     "fair_price": 67.32,
     "shelf_price": 54.03,
     "total_score": 2030,
-    "ranking": 185
+    "ranking": 185,
+    "wishlist_count": 223,
+    "vote_count": 262,
+    "bar_count": 1545
   },
   "2159": {
     "id": "2159",
@@ -2941,7 +3490,10 @@
     "fair_price": 37.51,
     "shelf_price": 24.99,
     "total_score": 2017,
-    "ranking": 186
+    "ranking": 186,
+    "wishlist_count": 221,
+    "vote_count": 487,
+    "bar_count": 1309
   },
   "18396": {
     "id": "18396",
@@ -2957,7 +3509,10 @@
     "fair_price": 75.46,
     "shelf_price": 67.99,
     "total_score": 2014,
-    "ranking": 187
+    "ranking": 187,
+    "wishlist_count": 247,
+    "vote_count": 502,
+    "bar_count": 1265
   },
   "17138": {
     "id": "17138",
@@ -2973,7 +3528,10 @@
     "fair_price": 241.09,
     "shelf_price": 149.99,
     "total_score": 2004,
-    "ranking": 188
+    "ranking": 188,
+    "wishlist_count": 406,
+    "vote_count": 741,
+    "bar_count": 857
   },
   "18712": {
     "id": "18712",
@@ -2989,7 +3547,10 @@
     "fair_price": 107.5,
     "shelf_price": 79.99,
     "total_score": 1994,
-    "ranking": 189
+    "ranking": 189,
+    "wishlist_count": 131,
+    "vote_count": 489,
+    "bar_count": 1374
   },
   "184": {
     "id": "184",
@@ -3005,7 +3566,10 @@
     "fair_price": 92.34,
     "shelf_price": 73.42,
     "total_score": 1988,
-    "ranking": 190
+    "ranking": 190,
+    "wishlist_count": 219,
+    "vote_count": 468,
+    "bar_count": 1301
   },
   "859": {
     "id": "859",
@@ -3021,7 +3585,10 @@
     "fair_price": 51.34,
     "shelf_price": 37.26,
     "total_score": 1986,
-    "ranking": 191
+    "ranking": 191,
+    "wishlist_count": 226,
+    "vote_count": 504,
+    "bar_count": 1256
   },
   "286": {
     "id": "286",
@@ -3037,7 +3604,10 @@
     "fair_price": 85.93,
     "shelf_price": 79.98,
     "total_score": 1984,
-    "ranking": 192
+    "ranking": 192,
+    "wishlist_count": 276,
+    "vote_count": 566,
+    "bar_count": 1142
   },
   "21466": {
     "id": "21466",
@@ -3053,7 +3623,10 @@
     "fair_price": 80.06,
     "shelf_price": 72.48,
     "total_score": 1979,
-    "ranking": 193
+    "ranking": 193,
+    "wishlist_count": 257,
+    "vote_count": 437,
+    "bar_count": 1285
   },
   "19559": {
     "id": "19559",
@@ -3069,7 +3642,10 @@
     "fair_price": 103.14,
     "shelf_price": 75.89,
     "total_score": 1977,
-    "ranking": 194
+    "ranking": 194,
+    "wishlist_count": 305,
+    "vote_count": 424,
+    "bar_count": 1248
   },
   "17089": {
     "id": "17089",
@@ -3085,7 +3661,10 @@
     "fair_price": 187.36,
     "shelf_price": 350.89,
     "total_score": 1973,
-    "ranking": 195
+    "ranking": 195,
+    "wishlist_count": 779,
+    "vote_count": 603,
+    "bar_count": 591
   },
   "3123": {
     "id": "3123",
@@ -3101,7 +3680,10 @@
     "fair_price": 33.53,
     "shelf_price": 37.24,
     "total_score": 1970,
-    "ranking": 196
+    "ranking": 196,
+    "wishlist_count": 190,
+    "vote_count": 578,
+    "bar_count": 1202
   },
   "3205": {
     "id": "3205",
@@ -3117,7 +3699,10 @@
     "fair_price": 111.06,
     "shelf_price": 94.89,
     "total_score": 1965,
-    "ranking": 197
+    "ranking": 197,
+    "wishlist_count": 210,
+    "vote_count": 548,
+    "bar_count": 1207
   },
   "3265": {
     "id": "3265",
@@ -3133,7 +3718,10 @@
     "fair_price": 51.64,
     "shelf_price": 30.11,
     "total_score": 1943,
-    "ranking": 198
+    "ranking": 198,
+    "wishlist_count": 119,
+    "vote_count": 499,
+    "bar_count": 1325
   },
   "3152": {
     "id": "3152",
@@ -3149,7 +3737,10 @@
     "fair_price": 66.26,
     "shelf_price": 79.98,
     "total_score": 1939,
-    "ranking": 199
+    "ranking": 199,
+    "wishlist_count": 209,
+    "vote_count": 588,
+    "bar_count": 1142
   },
   "18233": {
     "id": "18233",
@@ -3165,7 +3756,10 @@
     "fair_price": 113.91,
     "shelf_price": 89.97,
     "total_score": 1938,
-    "ranking": 200
+    "ranking": 200,
+    "wishlist_count": 127,
+    "vote_count": 436,
+    "bar_count": 1375
   },
   "2331": {
     "id": "2331",
@@ -3181,7 +3775,10 @@
     "fair_price": 63.59,
     "shelf_price": 24.99,
     "total_score": 1919,
-    "ranking": 201
+    "ranking": 201,
+    "wishlist_count": 126,
+    "vote_count": 524,
+    "bar_count": 1269
   },
   "17293": {
     "id": "17293",
@@ -3197,7 +3794,10 @@
     "fair_price": 164.51,
     "shelf_price": 109.99,
     "total_score": 1914,
-    "ranking": 202
+    "ranking": 202,
+    "wishlist_count": 239,
+    "vote_count": 615,
+    "bar_count": 1060
   },
   "2086": {
     "id": "2086",
@@ -3213,7 +3813,10 @@
     "fair_price": 49.1,
     "shelf_price": 37.86,
     "total_score": 1904,
-    "ranking": 203
+    "ranking": 203,
+    "wishlist_count": 116,
+    "vote_count": 463,
+    "bar_count": 1325
   },
   "4575": {
     "id": "4575",
@@ -3229,7 +3832,10 @@
     "fair_price": 336.92,
     "shelf_price": 3189.98,
     "total_score": 1896,
-    "ranking": 204
+    "ranking": 204,
+    "wishlist_count": 1395,
+    "vote_count": 464,
+    "bar_count": 37
   },
   "17153": {
     "id": "17153",
@@ -3245,7 +3851,10 @@
     "fair_price": 107.16,
     "shelf_price": 65.99,
     "total_score": 1895,
-    "ranking": 205
+    "ranking": 205,
+    "wishlist_count": 348,
+    "vote_count": 527,
+    "bar_count": 1020
   },
   "19790": {
     "id": "19790",
@@ -3261,7 +3870,10 @@
     "fair_price": 108.79,
     "shelf_price": 79.99,
     "total_score": 1894,
-    "ranking": 206
+    "ranking": 206,
+    "wishlist_count": 294,
+    "vote_count": 168,
+    "bar_count": 1432
   },
   "2147": {
     "id": "2147",
@@ -3277,7 +3889,10 @@
     "fair_price": 82.92,
     "shelf_price": 71.49,
     "total_score": 1885,
-    "ranking": 207
+    "ranking": 207,
+    "wishlist_count": 148,
+    "vote_count": 460,
+    "bar_count": 1277
   },
   "20831": {
     "id": "20831",
@@ -3293,7 +3908,10 @@
     "fair_price": 156.5,
     "shelf_price": 137.67,
     "total_score": 1877,
-    "ranking": 208
+    "ranking": 208,
+    "wishlist_count": 56,
+    "vote_count": 484,
+    "bar_count": 1337
   },
   "17688": {
     "id": "17688",
@@ -3309,7 +3927,10 @@
     "fair_price": 124.24,
     "shelf_price": 124.97,
     "total_score": 1877,
-    "ranking": 208
+    "ranking": 208,
+    "wishlist_count": 226,
+    "vote_count": 502,
+    "bar_count": 1149
   },
   "17894": {
     "id": "17894",
@@ -3325,7 +3946,10 @@
     "fair_price": 68.72,
     "shelf_price": 54.99,
     "total_score": 1874,
-    "ranking": 210
+    "ranking": 210,
+    "wishlist_count": 185,
+    "vote_count": 487,
+    "bar_count": 1202
   },
   "15967": {
     "id": "15967",
@@ -3341,7 +3965,10 @@
     "fair_price": 77.69,
     "shelf_price": 53.58,
     "total_score": 1871,
-    "ranking": 211
+    "ranking": 211,
+    "wishlist_count": 309,
+    "vote_count": 486,
+    "bar_count": 1076
   },
   "17446": {
     "id": "17446",
@@ -3357,7 +3984,10 @@
     "fair_price": 90.03,
     "shelf_price": 71.39,
     "total_score": 1859,
-    "ranking": 212
+    "ranking": 212,
+    "wishlist_count": 121,
+    "vote_count": 402,
+    "bar_count": 1336
   },
   "841": {
     "id": "841",
@@ -3373,7 +4003,10 @@
     "fair_price": 99.58,
     "shelf_price": 80.29,
     "total_score": 1858,
-    "ranking": 213
+    "ranking": 213,
+    "wishlist_count": 189,
+    "vote_count": 433,
+    "bar_count": 1236
   },
   "17211": {
     "id": "17211",
@@ -3389,7 +4022,10 @@
     "fair_price": 61.86,
     "shelf_price": 55.33,
     "total_score": 1852,
-    "ranking": 214
+    "ranking": 214,
+    "wishlist_count": 215,
+    "vote_count": 320,
+    "bar_count": 1317
   },
   "21010": {
     "id": "21010",
@@ -3405,7 +4041,10 @@
     "fair_price": 143.81,
     "shelf_price": 121.21,
     "total_score": 1845,
-    "ranking": 215
+    "ranking": 215,
+    "wishlist_count": 54,
+    "vote_count": 450,
+    "bar_count": 1341
   },
   "20005": {
     "id": "20005",
@@ -3421,7 +4060,10 @@
     "fair_price": 105.83,
     "shelf_price": 114.39,
     "total_score": 1840,
-    "ranking": 216
+    "ranking": 216,
+    "wishlist_count": 45,
+    "vote_count": 499,
+    "bar_count": 1296
   },
   "2581": {
     "id": "2581",
@@ -3437,7 +4079,10 @@
     "fair_price": 67.17,
     "shelf_price": 62.99,
     "total_score": 1840,
-    "ranking": 216
+    "ranking": 216,
+    "wishlist_count": 129,
+    "vote_count": 450,
+    "bar_count": 1261
   },
   "4783": {
     "id": "4783",
@@ -3453,7 +4098,10 @@
     "fair_price": 91.49,
     "shelf_price": 73.69,
     "total_score": 1839,
-    "ranking": 218
+    "ranking": 218,
+    "wishlist_count": 174,
+    "vote_count": 530,
+    "bar_count": 1135
   },
   "17054": {
     "id": "17054",
@@ -3469,7 +4117,10 @@
     "fair_price": 109.08,
     "shelf_price": 128.37,
     "total_score": 1828,
-    "ranking": 219
+    "ranking": 219,
+    "wishlist_count": 308,
+    "vote_count": 460,
+    "bar_count": 1060
   },
   "4813": {
     "id": "4813",
@@ -3485,7 +4136,10 @@
     "fair_price": 79.52,
     "shelf_price": 81.29,
     "total_score": 1817,
-    "ranking": 220
+    "ranking": 220,
+    "wishlist_count": 308,
+    "vote_count": 468,
+    "bar_count": 1041
   },
   "19151": {
     "id": "19151",
@@ -3501,7 +4155,10 @@
     "fair_price": 345.56,
     "shelf_price": 412.45,
     "total_score": 1815,
-    "ranking": 221
+    "ranking": 221,
+    "wishlist_count": 87,
+    "vote_count": 584,
+    "bar_count": 1144
   },
   "19975": {
     "id": "19975",
@@ -3517,7 +4174,10 @@
     "fair_price": 115.23,
     "shelf_price": 69.99,
     "total_score": 1808,
-    "ranking": 222
+    "ranking": 222,
+    "wishlist_count": 50,
+    "vote_count": 388,
+    "bar_count": 1370
   },
   "17355": {
     "id": "17355",
@@ -3533,7 +4193,10 @@
     "fair_price": 85.25,
     "shelf_price": 74.49,
     "total_score": 1799,
-    "ranking": 223
+    "ranking": 223,
+    "wishlist_count": 347,
+    "vote_count": 434,
+    "bar_count": 1018
   },
   "17802": {
     "id": "17802",
@@ -3549,7 +4212,10 @@
     "fair_price": 228.07,
     "shelf_price": 389.27,
     "total_score": 1795,
-    "ranking": 224
+    "ranking": 224,
+    "wishlist_count": 166,
+    "vote_count": 580,
+    "bar_count": 1049
   },
   "48400": {
     "id": "48400",
@@ -3565,7 +4231,10 @@
     "fair_price": 163.28,
     "shelf_price": 219.99,
     "total_score": 1781,
-    "ranking": 225
+    "ranking": 225,
+    "wishlist_count": 425,
+    "vote_count": 514,
+    "bar_count": 842
   },
   "3286": {
     "id": "3286",
@@ -3581,7 +4250,10 @@
     "fair_price": 44.45,
     "shelf_price": 40.8,
     "total_score": 1780,
-    "ranking": 226
+    "ranking": 226,
+    "wishlist_count": 137,
+    "vote_count": 391,
+    "bar_count": 1252
   },
   "18354": {
     "id": "18354",
@@ -3597,7 +4269,10 @@
     "fair_price": 175.74,
     "shelf_price": 192.34,
     "total_score": 1779,
-    "ranking": 227
+    "ranking": 227,
+    "wishlist_count": 123,
+    "vote_count": 470,
+    "bar_count": 1186
   },
   "17630": {
     "id": "17630",
@@ -3613,7 +4288,10 @@
     "fair_price": 157.56,
     "shelf_price": 149.0,
     "total_score": 1776,
-    "ranking": 228
+    "ranking": 228,
+    "wishlist_count": 135,
+    "vote_count": 596,
+    "bar_count": 1045
   },
   "1948": {
     "id": "1948",
@@ -3629,7 +4307,10 @@
     "fair_price": 135.44,
     "shelf_price": 219.99,
     "total_score": 1775,
-    "ranking": 229
+    "ranking": 229,
+    "wishlist_count": 484,
+    "vote_count": 188,
+    "bar_count": 1103
   },
   "3838": {
     "id": "3838",
@@ -3645,7 +4326,10 @@
     "fair_price": 139.15,
     "shelf_price": 109.99,
     "total_score": 1758,
-    "ranking": 230
+    "ranking": 230,
+    "wishlist_count": 206,
+    "vote_count": 527,
+    "bar_count": 1025
   },
   "19879": {
     "id": "19879",
@@ -3661,7 +4345,10 @@
     "fair_price": 255.95,
     "shelf_price": 249.99,
     "total_score": 1751,
-    "ranking": 231
+    "ranking": 231,
+    "wishlist_count": 114,
+    "vote_count": 541,
+    "bar_count": 1096
   },
   "19819": {
     "id": "19819",
@@ -3677,7 +4364,10 @@
     "fair_price": 79.14,
     "shelf_price": 69.39,
     "total_score": 1740,
-    "ranking": 232
+    "ranking": 232,
+    "wishlist_count": 62,
+    "vote_count": 446,
+    "bar_count": 1232
   },
   "4033": {
     "id": "4033",
@@ -3693,7 +4383,10 @@
     "fair_price": 70.52,
     "shelf_price": 55.66,
     "total_score": 1738,
-    "ranking": 233
+    "ranking": 233,
+    "wishlist_count": 253,
+    "vote_count": 434,
+    "bar_count": 1051
   },
   "3365": {
     "id": "3365",
@@ -3709,7 +4402,10 @@
     "fair_price": 80.75,
     "shelf_price": 59.31,
     "total_score": 1737,
-    "ranking": 234
+    "ranking": 234,
+    "wishlist_count": 150,
+    "vote_count": 384,
+    "bar_count": 1203
   },
   "13955": {
     "id": "13955",
@@ -3725,7 +4421,10 @@
     "fair_price": 100.85,
     "shelf_price": 65.99,
     "total_score": 1722,
-    "ranking": 235
+    "ranking": 235,
+    "wishlist_count": 133,
+    "vote_count": 474,
+    "bar_count": 1115
   },
   "19502": {
     "id": "19502",
@@ -3741,7 +4440,10 @@
     "fair_price": 89.03,
     "shelf_price": 80.79,
     "total_score": 1719,
-    "ranking": 236
+    "ranking": 236,
+    "wishlist_count": 331,
+    "vote_count": 333,
+    "bar_count": 1055
   },
   "2019": {
     "id": "2019",
@@ -3757,7 +4459,10 @@
     "fair_price": 67.06,
     "shelf_price": 50.49,
     "total_score": 1714,
-    "ranking": 237
+    "ranking": 237,
+    "wishlist_count": 192,
+    "vote_count": 432,
+    "bar_count": 1090
   },
   "592": {
     "id": "592",
@@ -3773,7 +4478,10 @@
     "fair_price": 119.13,
     "shelf_price": 114.42,
     "total_score": 1713,
-    "ranking": 238
+    "ranking": 238,
+    "wishlist_count": 189,
+    "vote_count": 501,
+    "bar_count": 1023
   },
   "3454": {
     "id": "3454",
@@ -3789,7 +4497,10 @@
     "fair_price": 40.84,
     "shelf_price": 33.54,
     "total_score": 1710,
-    "ranking": 239
+    "ranking": 239,
+    "wishlist_count": 92,
+    "vote_count": 427,
+    "bar_count": 1191
   },
   "2034": {
     "id": "2034",
@@ -3805,7 +4516,10 @@
     "fair_price": 25.37,
     "shelf_price": 18.09,
     "total_score": 1707,
-    "ranking": 240
+    "ranking": 240,
+    "wishlist_count": 110,
+    "vote_count": 452,
+    "bar_count": 1145
   },
   "17221": {
     "id": "17221",
@@ -3821,7 +4535,10 @@
     "fair_price": 105.9,
     "shelf_price": 117.59,
     "total_score": 1706,
-    "ranking": 241
+    "ranking": 241,
+    "wishlist_count": 270,
+    "vote_count": 393,
+    "bar_count": 1043
   },
   "18778": {
     "id": "18778",
@@ -3837,7 +4554,10 @@
     "fair_price": 153.09,
     "shelf_price": 209.47,
     "total_score": 1704,
-    "ranking": 242
+    "ranking": 242,
+    "wishlist_count": 261,
+    "vote_count": 498,
+    "bar_count": 945
   },
   "4427": {
     "id": "4427",
@@ -3853,7 +4573,10 @@
     "fair_price": 79.18,
     "shelf_price": 45.06,
     "total_score": 1675,
-    "ranking": 243
+    "ranking": 243,
+    "wishlist_count": 236,
+    "vote_count": 369,
+    "bar_count": 1070
   },
   "18768": {
     "id": "18768",
@@ -3869,7 +4592,10 @@
     "fair_price": 109.33,
     "shelf_price": 59.99,
     "total_score": 1667,
-    "ranking": 244
+    "ranking": 244,
+    "wishlist_count": 76,
+    "vote_count": 412,
+    "bar_count": 1179
   },
   "17776": {
     "id": "17776",
@@ -3885,7 +4611,10 @@
     "fair_price": 47.06,
     "shelf_price": 34.99,
     "total_score": 1666,
-    "ranking": 245
+    "ranking": 245,
+    "wishlist_count": 208,
+    "vote_count": 428,
+    "bar_count": 1030
   },
   "19848": {
     "id": "19848",
@@ -3901,7 +4630,10 @@
     "fair_price": 273.22,
     "shelf_price": 248.4,
     "total_score": 1663,
-    "ranking": 246
+    "ranking": 246,
+    "wishlist_count": 139,
+    "vote_count": 485,
+    "bar_count": 1039
   },
   "3181": {
     "id": "3181",
@@ -3917,7 +4649,10 @@
     "fair_price": 231.33,
     "shelf_price": 174.56,
     "total_score": 1661,
-    "ranking": 247
+    "ranking": 247,
+    "wishlist_count": 234,
+    "vote_count": 550,
+    "bar_count": 877
   },
   "3560": {
     "id": "3560",
@@ -3933,7 +4668,10 @@
     "fair_price": 123.8,
     "shelf_price": 94.99,
     "total_score": 1659,
-    "ranking": 248
+    "ranking": 248,
+    "wishlist_count": 188,
+    "vote_count": 542,
+    "bar_count": 929
   },
   "4581": {
     "id": "4581",
@@ -3949,7 +4687,10 @@
     "fair_price": 65.11,
     "shelf_price": 49.99,
     "total_score": 1650,
-    "ranking": 249
+    "ranking": 249,
+    "wishlist_count": 128,
+    "vote_count": 371,
+    "bar_count": 1151
   },
   "16674": {
     "id": "16674",
@@ -3965,7 +4706,10 @@
     "fair_price": 346.14,
     "shelf_price": 796.95,
     "total_score": 1642,
-    "ranking": 250
+    "ranking": 250,
+    "wishlist_count": 1067,
+    "vote_count": 448,
+    "bar_count": 127
   },
   "20574": {
     "id": "20574",
@@ -3981,7 +4725,10 @@
     "fair_price": 227.42,
     "shelf_price": 170.0,
     "total_score": 1640,
-    "ranking": 251
+    "ranking": 251,
+    "wishlist_count": 82,
+    "vote_count": 473,
+    "bar_count": 1085
   },
   "19465": {
     "id": "19465",
@@ -3997,7 +4744,10 @@
     "fair_price": 96.48,
     "shelf_price": 93.64,
     "total_score": 1629,
-    "ranking": 252
+    "ranking": 252,
+    "wishlist_count": 122,
+    "vote_count": 416,
+    "bar_count": 1091
   },
   "19529": {
     "id": "19529",
@@ -4013,7 +4763,10 @@
     "fair_price": 270.44,
     "shelf_price": 293.49,
     "total_score": 1618,
-    "ranking": 253
+    "ranking": 253,
+    "wishlist_count": 65,
+    "vote_count": 508,
+    "bar_count": 1045
   },
   "18185": {
     "id": "18185",
@@ -4029,7 +4782,10 @@
     "fair_price": 46.87,
     "shelf_price": 59.99,
     "total_score": 1617,
-    "ranking": 254
+    "ranking": 254,
+    "wishlist_count": 81,
+    "vote_count": 403,
+    "bar_count": 1133
   },
   "17181": {
     "id": "17181",
@@ -4045,7 +4801,10 @@
     "fair_price": 166.78,
     "shelf_price": 229.99,
     "total_score": 1615,
-    "ranking": 255
+    "ranking": 255,
+    "wishlist_count": 141,
+    "vote_count": 530,
+    "bar_count": 944
   },
   "18517": {
     "id": "18517",
@@ -4061,7 +4820,10 @@
     "fair_price": 249.86,
     "shelf_price": 191.35,
     "total_score": 1613,
-    "ranking": 256
+    "ranking": 256,
+    "wishlist_count": 100,
+    "vote_count": 473,
+    "bar_count": 1040
   },
   "21024": {
     "id": "21024",
@@ -4077,7 +4839,10 @@
     "fair_price": 168.23,
     "shelf_price": 259.78,
     "total_score": 1604,
-    "ranking": 257
+    "ranking": 257,
+    "wishlist_count": 72,
+    "vote_count": 407,
+    "bar_count": 1125
   },
   "3793": {
     "id": "3793",
@@ -4093,7 +4858,10 @@
     "fair_price": 57.5,
     "shelf_price": 40.8,
     "total_score": 1597,
-    "ranking": 258
+    "ranking": 258,
+    "wishlist_count": 157,
+    "vote_count": 358,
+    "bar_count": 1082
   },
   "17246": {
     "id": "17246",
@@ -4109,7 +4877,10 @@
     "fair_price": 24.94,
     "shelf_price": 17.89,
     "total_score": 1571,
-    "ranking": 259
+    "ranking": 259,
+    "wishlist_count": 130,
+    "vote_count": 338,
+    "bar_count": 1103
   },
   "18355": {
     "id": "18355",
@@ -4125,7 +4896,10 @@
     "fair_price": 65.5,
     "shelf_price": 51.69,
     "total_score": 1563,
-    "ranking": 260
+    "ranking": 260,
+    "wishlist_count": 90,
+    "vote_count": 360,
+    "bar_count": 1113
   },
   "16693": {
     "id": "16693",
@@ -4141,7 +4915,10 @@
     "fair_price": 112.22,
     "shelf_price": 92.0,
     "total_score": 1558,
-    "ranking": 261
+    "ranking": 261,
+    "wishlist_count": 183,
+    "vote_count": 406,
+    "bar_count": 969
   },
   "18767": {
     "id": "18767",
@@ -4157,7 +4934,10 @@
     "fair_price": 99.03,
     "shelf_price": 59.99,
     "total_score": 1556,
-    "ranking": 262
+    "ranking": 262,
+    "wishlist_count": 66,
+    "vote_count": 385,
+    "bar_count": 1105
   },
   "2428": {
     "id": "2428",
@@ -4173,7 +4953,10 @@
     "fair_price": 82.62,
     "shelf_price": 56.99,
     "total_score": 1537,
-    "ranking": 263
+    "ranking": 263,
+    "wishlist_count": 134,
+    "vote_count": 411,
+    "bar_count": 992
   },
   "14239": {
     "id": "14239",
@@ -4189,7 +4972,10 @@
     "fair_price": 75.43,
     "shelf_price": 53.46,
     "total_score": 1528,
-    "ranking": 264
+    "ranking": 264,
+    "wishlist_count": 76,
+    "vote_count": 382,
+    "bar_count": 1070
   },
   "17151": {
     "id": "17151",
@@ -4205,7 +4991,10 @@
     "fair_price": 73.03,
     "shelf_price": 63.49,
     "total_score": 1525,
-    "ranking": 265
+    "ranking": 265,
+    "wishlist_count": 107,
+    "vote_count": 356,
+    "bar_count": 1062
   },
   "19540": {
     "id": "19540",
@@ -4221,7 +5010,10 @@
     "fair_price": 63.05,
     "shelf_price": 48.49,
     "total_score": 1518,
-    "ranking": 266
+    "ranking": 266,
+    "wishlist_count": 165,
+    "vote_count": 296,
+    "bar_count": 1057
   },
   "13347": {
     "id": "13347",
@@ -4237,7 +5029,10 @@
     "fair_price": 73.96,
     "shelf_price": 64.19,
     "total_score": 1518,
-    "ranking": 266
+    "ranking": 266,
+    "wishlist_count": 208,
+    "vote_count": 316,
+    "bar_count": 994
   },
   "16367": {
     "id": "16367",
@@ -4253,7 +5048,10 @@
     "fair_price": 52.41,
     "shelf_price": 31.39,
     "total_score": 1514,
-    "ranking": 268
+    "ranking": 268,
+    "wishlist_count": 81,
+    "vote_count": 326,
+    "bar_count": 1107
   },
   "17309": {
     "id": "17309",
@@ -4269,7 +5067,10 @@
     "fair_price": 109.18,
     "shelf_price": 79.99,
     "total_score": 1504,
-    "ranking": 269
+    "ranking": 269,
+    "wishlist_count": 115,
+    "vote_count": 386,
+    "bar_count": 1003
   },
   "16893": {
     "id": "16893",
@@ -4285,7 +5086,10 @@
     "fair_price": 87.89,
     "shelf_price": 65.99,
     "total_score": 1497,
-    "ranking": 270
+    "ranking": 270,
+    "wishlist_count": 290,
+    "vote_count": 458,
+    "bar_count": 749
   },
   "19779": {
     "id": "19779",
@@ -4301,7 +5105,10 @@
     "fair_price": 60.7,
     "shelf_price": 40.04,
     "total_score": 1497,
-    "ranking": 270
+    "ranking": 270,
+    "wishlist_count": 103,
+    "vote_count": 330,
+    "bar_count": 1064
   },
   "17164": {
     "id": "17164",
@@ -4317,7 +5124,10 @@
     "fair_price": 132.77,
     "shelf_price": 126.83,
     "total_score": 1489,
-    "ranking": 272
+    "ranking": 272,
+    "wishlist_count": 185,
+    "vote_count": 434,
+    "bar_count": 870
   },
   "50056": {
     "id": "50056",
@@ -4333,7 +5143,10 @@
     "fair_price": 486.09,
     "shelf_price": 977.78,
     "total_score": 1475,
-    "ranking": 273
+    "ranking": 273,
+    "wishlist_count": 596,
+    "vote_count": 445,
+    "bar_count": 434
   },
   "3000": {
     "id": "3000",
@@ -4349,7 +5162,10 @@
     "fair_price": 56.18,
     "shelf_price": 50.39,
     "total_score": 1465,
-    "ranking": 274
+    "ranking": 274,
+    "wishlist_count": 158,
+    "vote_count": 392,
+    "bar_count": 915
   },
   "34570": {
     "id": "34570",
@@ -4365,7 +5181,10 @@
     "fair_price": 67.46,
     "shelf_price": 52.82,
     "total_score": 1459,
-    "ranking": 275
+    "ranking": 275,
+    "wishlist_count": 272,
+    "vote_count": 266,
+    "bar_count": 921
   },
   "2329": {
     "id": "2329",
@@ -4381,7 +5200,10 @@
     "fair_price": 20.66,
     "shelf_price": 19.44,
     "total_score": 1448,
-    "ranking": 276
+    "ranking": 276,
+    "wishlist_count": 79,
+    "vote_count": 289,
+    "bar_count": 1080
   },
   "3086": {
     "id": "3086",
@@ -4397,7 +5219,10 @@
     "fair_price": 209.73,
     "shelf_price": 292.32,
     "total_score": 1443,
-    "ranking": 277
+    "ranking": 277,
+    "wishlist_count": 391,
+    "vote_count": 386,
+    "bar_count": 666
   },
   "1580": {
     "id": "1580",
@@ -4413,7 +5238,10 @@
     "fair_price": 210.62,
     "shelf_price": 1829.59,
     "total_score": 1442,
-    "ranking": 278
+    "ranking": 278,
+    "wishlist_count": 1054,
+    "vote_count": 332,
+    "bar_count": 56
   },
   "297": {
     "id": "297",
@@ -4429,7 +5257,10 @@
     "fair_price": 55.34,
     "shelf_price": 52.82,
     "total_score": 1441,
-    "ranking": 279
+    "ranking": 279,
+    "wishlist_count": 132,
+    "vote_count": 261,
+    "bar_count": 1048
   },
   "3867": {
     "id": "3867",
@@ -4445,7 +5276,10 @@
     "fair_price": 18.72,
     "shelf_price": 44.19,
     "total_score": 1439,
-    "ranking": 280
+    "ranking": 280,
+    "wishlist_count": 106,
+    "vote_count": 372,
+    "bar_count": 961
   },
   "1547": {
     "id": "1547",
@@ -4461,7 +5295,10 @@
     "fair_price": 271.87,
     "shelf_price": 230.72,
     "total_score": 1429,
-    "ranking": 281
+    "ranking": 281,
+    "wishlist_count": 136,
+    "vote_count": 401,
+    "bar_count": 892
   },
   "18104": {
     "id": "18104",
@@ -4477,7 +5314,10 @@
     "fair_price": 177.5,
     "shelf_price": 379.66,
     "total_score": 1419,
-    "ranking": 282
+    "ranking": 282,
+    "wishlist_count": 170,
+    "vote_count": 468,
+    "bar_count": 781
   },
   "17177": {
     "id": "17177",
@@ -4493,7 +5333,10 @@
     "fair_price": 84.41,
     "shelf_price": 63.33,
     "total_score": 1409,
-    "ranking": 283
+    "ranking": 283,
+    "wishlist_count": 144,
+    "vote_count": 358,
+    "bar_count": 907
   },
   "2256": {
     "id": "2256",
@@ -4509,7 +5352,10 @@
     "fair_price": 21.5,
     "shelf_price": 21.47,
     "total_score": 1409,
-    "ranking": 283
+    "ranking": 283,
+    "wishlist_count": 57,
+    "vote_count": 319,
+    "bar_count": 1033
   },
   "521": {
     "id": "521",
@@ -4525,7 +5371,10 @@
     "fair_price": 45.53,
     "shelf_price": 47.19,
     "total_score": 1390,
-    "ranking": 285
+    "ranking": 285,
+    "wishlist_count": 127,
+    "vote_count": 373,
+    "bar_count": 890
   },
   "20607": {
     "id": "20607",
@@ -4541,7 +5390,10 @@
     "fair_price": 125.18,
     "shelf_price": 104.79,
     "total_score": 1385,
-    "ranking": 286
+    "ranking": 286,
+    "wishlist_count": 355,
+    "vote_count": 376,
+    "bar_count": 654
   },
   "19499": {
     "id": "19499",
@@ -4557,7 +5409,10 @@
     "fair_price": 110.34,
     "shelf_price": 100.59,
     "total_score": 1384,
-    "ranking": 287
+    "ranking": 287,
+    "wishlist_count": 38,
+    "vote_count": 376,
+    "bar_count": 970
   },
   "4476": {
     "id": "4476",
@@ -4573,7 +5428,10 @@
     "fair_price": 93.42,
     "shelf_price": 138.83,
     "total_score": 1384,
-    "ranking": 287
+    "ranking": 287,
+    "wishlist_count": 442,
+    "vote_count": 434,
+    "bar_count": 508
   },
   "12902": {
     "id": "12902",
@@ -4589,7 +5447,10 @@
     "fair_price": 138.54,
     "shelf_price": 133.32,
     "total_score": 1379,
-    "ranking": 289
+    "ranking": 289,
+    "wishlist_count": 304,
+    "vote_count": 411,
+    "bar_count": 664
   },
   "18939": {
     "id": "18939",
@@ -4605,7 +5466,10 @@
     "fair_price": 122.33,
     "shelf_price": 204.87,
     "total_score": 1379,
-    "ranking": 289
+    "ranking": 289,
+    "wishlist_count": 57,
+    "vote_count": 354,
+    "bar_count": 968
   },
   "19851": {
     "id": "19851",
@@ -4621,7 +5485,10 @@
     "fair_price": 67.83,
     "shelf_price": 76.33,
     "total_score": 1359,
-    "ranking": 291
+    "ranking": 291,
+    "wishlist_count": 70,
+    "vote_count": 364,
+    "bar_count": 925
   },
   "18084": {
     "id": "18084",
@@ -4637,7 +5504,10 @@
     "fair_price": 212.62,
     "shelf_price": 319.49,
     "total_score": 1354,
-    "ranking": 292
+    "ranking": 292,
+    "wishlist_count": 97,
+    "vote_count": 354,
+    "bar_count": 903
   },
   "18718": {
     "id": "18718",
@@ -4653,7 +5523,10 @@
     "fair_price": 77.54,
     "shelf_price": 52.82,
     "total_score": 1352,
-    "ranking": 293
+    "ranking": 293,
+    "wishlist_count": 82,
+    "vote_count": 318,
+    "bar_count": 952
   },
   "281": {
     "id": "281",
@@ -4669,7 +5542,10 @@
     "fair_price": 64.63,
     "shelf_price": 56.27,
     "total_score": 1344,
-    "ranking": 294
+    "ranking": 294,
+    "wishlist_count": 275,
+    "vote_count": 34,
+    "bar_count": 1035
   },
   "2311": {
     "id": "2311",
@@ -4685,7 +5561,10 @@
     "fair_price": 44.2,
     "shelf_price": 41.96,
     "total_score": 1343,
-    "ranking": 295
+    "ranking": 295,
+    "wishlist_count": 136,
+    "vote_count": 325,
+    "bar_count": 882
   },
   "33325": {
     "id": "33325",
@@ -4701,7 +5580,10 @@
     "fair_price": 104.97,
     "shelf_price": 82.79,
     "total_score": 1325,
-    "ranking": 296
+    "ranking": 296,
+    "wishlist_count": 115,
+    "vote_count": 263,
+    "bar_count": 947
   },
   "3617": {
     "id": "3617",
@@ -4717,7 +5599,10 @@
     "fair_price": 59.33,
     "shelf_price": 37.99,
     "total_score": 1315,
-    "ranking": 297
+    "ranking": 297,
+    "wishlist_count": 179,
+    "vote_count": 338,
+    "bar_count": 798
   },
   "12112": {
     "id": "12112",
@@ -4733,7 +5618,10 @@
     "fair_price": 89.15,
     "shelf_price": 53.81,
     "total_score": 1315,
-    "ranking": 297
+    "ranking": 297,
+    "wishlist_count": 155,
+    "vote_count": 344,
+    "bar_count": 816
   },
   "19816": {
     "id": "19816",
@@ -4749,7 +5637,10 @@
     "fair_price": 354.85,
     "shelf_price": 650.0,
     "total_score": 1306,
-    "ranking": 299
+    "ranking": 299,
+    "wishlist_count": 808,
+    "vote_count": 280,
+    "bar_count": 218
   },
   "19546": {
     "id": "19546",
@@ -4765,7 +5656,10 @@
     "fair_price": 217.7,
     "shelf_price": 158.0,
     "total_score": 1295,
-    "ranking": 300
+    "ranking": 300,
+    "wishlist_count": 440,
+    "vote_count": 270,
+    "bar_count": 585
   },
   "3281": {
     "id": "3281",
@@ -4781,7 +5675,10 @@
     "fair_price": 12.66,
     "shelf_price": 11.65,
     "total_score": 1279,
-    "ranking": 301
+    "ranking": 301,
+    "wishlist_count": 81,
+    "vote_count": 333,
+    "bar_count": 865
   },
   "17299": {
     "id": "17299",
@@ -4797,7 +5694,10 @@
     "fair_price": 63.6,
     "shelf_price": 51.56,
     "total_score": 1271,
-    "ranking": 302
+    "ranking": 302,
+    "wishlist_count": 201,
+    "vote_count": 285,
+    "bar_count": 785
   },
   "44955": {
     "id": "44955",
@@ -4813,7 +5713,10 @@
     "fair_price": 66.26,
     "shelf_price": 53.99,
     "total_score": 1269,
-    "ranking": 303
+    "ranking": 303,
+    "wishlist_count": 255,
+    "vote_count": 225,
+    "bar_count": 789
   },
   "21291": {
     "id": "21291",
@@ -4829,7 +5732,10 @@
     "fair_price": 208.75,
     "shelf_price": 417.64,
     "total_score": 1263,
-    "ranking": 304
+    "ranking": 304,
+    "wishlist_count": 516,
+    "vote_count": 324,
+    "bar_count": 423
   },
   "16486": {
     "id": "16486",
@@ -4845,7 +5751,10 @@
     "fair_price": 67.62,
     "shelf_price": 61.66,
     "total_score": 1260,
-    "ranking": 305
+    "ranking": 305,
+    "wishlist_count": 118,
+    "vote_count": 265,
+    "bar_count": 877
   },
   "15987": {
     "id": "15987",
@@ -4861,7 +5770,10 @@
     "fair_price": 83.16,
     "shelf_price": 78.7,
     "total_score": 1252,
-    "ranking": 306
+    "ranking": 306,
+    "wishlist_count": 196,
+    "vote_count": 457,
+    "bar_count": 599
   },
   "1584": {
     "id": "1584",
@@ -4877,7 +5789,10 @@
     "fair_price": 80.01,
     "shelf_price": 64.65,
     "total_score": 1251,
-    "ranking": 307
+    "ranking": 307,
+    "wishlist_count": 98,
+    "vote_count": 327,
+    "bar_count": 826
   },
   "17040": {
     "id": "17040",
@@ -4893,7 +5808,10 @@
     "fair_price": 97.49,
     "shelf_price": 89.13,
     "total_score": 1241,
-    "ranking": 308
+    "ranking": 308,
+    "wishlist_count": 152,
+    "vote_count": 333,
+    "bar_count": 756
   },
   "17328": {
     "id": "17328",
@@ -4909,7 +5827,10 @@
     "fair_price": 558.36,
     "shelf_price": 2044.82,
     "total_score": 1241,
-    "ranking": 308
+    "ranking": 308,
+    "wishlist_count": 646,
+    "vote_count": 566,
+    "bar_count": 29
   },
   "28079": {
     "id": "28079",
@@ -4925,7 +5846,10 @@
     "fair_price": 104.95,
     "shelf_price": 299.85,
     "total_score": 1240,
-    "ranking": 310
+    "ranking": 310,
+    "wishlist_count": 274,
+    "vote_count": 295,
+    "bar_count": 671
   },
   "17925": {
     "id": "17925",
@@ -4941,7 +5865,10 @@
     "fair_price": 65.03,
     "shelf_price": 60.99,
     "total_score": 1239,
-    "ranking": 311
+    "ranking": 311,
+    "wishlist_count": 129,
+    "vote_count": 302,
+    "bar_count": 808
   },
   "13667": {
     "id": "13667",
@@ -4957,7 +5884,10 @@
     "fair_price": 89.05,
     "shelf_price": 87.66,
     "total_score": 1234,
-    "ranking": 312
+    "ranking": 312,
+    "wishlist_count": 132,
+    "vote_count": 349,
+    "bar_count": 753
   },
   "17924": {
     "id": "17924",
@@ -4973,7 +5903,10 @@
     "fair_price": 646.78,
     "shelf_price": 1615.71,
     "total_score": 1230,
-    "ranking": 313
+    "ranking": 313,
+    "wishlist_count": 510,
+    "vote_count": 501,
+    "bar_count": 219
   },
   "27454": {
     "id": "27454",
@@ -4989,7 +5922,10 @@
     "fair_price": 190.52,
     "shelf_price": 159.99,
     "total_score": 1227,
-    "ranking": 314
+    "ranking": 314,
+    "wishlist_count": 126,
+    "vote_count": 154,
+    "bar_count": 947
   },
   "19807": {
     "id": "19807",
@@ -5005,7 +5941,10 @@
     "fair_price": 170.8,
     "shelf_price": 271.65,
     "total_score": 1225,
-    "ranking": 315
+    "ranking": 315,
+    "wishlist_count": 85,
+    "vote_count": 377,
+    "bar_count": 763
   },
   "17542": {
     "id": "17542",
@@ -5021,7 +5960,10 @@
     "fair_price": 131.05,
     "shelf_price": 106.13,
     "total_score": 1222,
-    "ranking": 316
+    "ranking": 316,
+    "wishlist_count": 159,
+    "vote_count": 350,
+    "bar_count": 713
   },
   "16602": {
     "id": "16602",
@@ -5037,7 +5979,10 @@
     "fair_price": 140.0,
     "shelf_price": 138.33,
     "total_score": 1218,
-    "ranking": 317
+    "ranking": 317,
+    "wishlist_count": 142,
+    "vote_count": 472,
+    "bar_count": 604
   },
   "17319": {
     "id": "17319",
@@ -5053,7 +5998,10 @@
     "fair_price": 23.24,
     "shelf_price": 21.24,
     "total_score": 1213,
-    "ranking": 318
+    "ranking": 318,
+    "wishlist_count": 131,
+    "vote_count": 238,
+    "bar_count": 844
   },
   "147": {
     "id": "147",
@@ -5069,7 +6017,10 @@
     "fair_price": 28.02,
     "shelf_price": 26.8,
     "total_score": 1213,
-    "ranking": 318
+    "ranking": 318,
+    "wishlist_count": 121,
+    "vote_count": 310,
+    "bar_count": 782
   },
   "2316": {
     "id": "2316",
@@ -5085,7 +6036,10 @@
     "fair_price": 67.83,
     "shelf_price": 69.72,
     "total_score": 1207,
-    "ranking": 320
+    "ranking": 320,
+    "wishlist_count": 180,
+    "vote_count": 297,
+    "bar_count": 730
   },
   "18075": {
     "id": "18075",
@@ -5101,7 +6055,10 @@
     "fair_price": 54.3,
     "shelf_price": 67.24,
     "total_score": 1200,
-    "ranking": 321
+    "ranking": 321,
+    "wishlist_count": 152,
+    "vote_count": 317,
+    "bar_count": 731
   },
   "17921": {
     "id": "17921",
@@ -5117,7 +6074,10 @@
     "fair_price": 350.74,
     "shelf_price": 1072.98,
     "total_score": 1197,
-    "ranking": 322
+    "ranking": 322,
+    "wishlist_count": 518,
+    "vote_count": 397,
+    "bar_count": 282
   },
   "16680": {
     "id": "16680",
@@ -5133,7 +6093,10 @@
     "fair_price": 156.12,
     "shelf_price": 165.74,
     "total_score": 1191,
-    "ranking": 323
+    "ranking": 323,
+    "wishlist_count": 167,
+    "vote_count": 386,
+    "bar_count": 638
   },
   "542": {
     "id": "542",
@@ -5149,7 +6112,10 @@
     "fair_price": 75.21,
     "shelf_price": 69.16,
     "total_score": 1183,
-    "ranking": 325
+    "ranking": 325,
+    "wishlist_count": 154,
+    "vote_count": 274,
+    "bar_count": 755
   },
   "16791": {
     "id": "16791",
@@ -5165,7 +6131,10 @@
     "fair_price": 475.05,
     "shelf_price": 1645.42,
     "total_score": 1180,
-    "ranking": 326
+    "ranking": 326,
+    "wishlist_count": 528,
+    "vote_count": 553,
+    "bar_count": 99
   },
   "21257": {
     "id": "21257",
@@ -5181,7 +6150,10 @@
     "fair_price": 240.29,
     "shelf_price": 481.32,
     "total_score": 1172,
-    "ranking": 327
+    "ranking": 327,
+    "wishlist_count": 151,
+    "vote_count": 319,
+    "bar_count": 702
   },
   "3040": {
     "id": "3040",
@@ -5197,7 +6169,10 @@
     "fair_price": 53.67,
     "shelf_price": 38.56,
     "total_score": 1169,
-    "ranking": 328
+    "ranking": 328,
+    "wishlist_count": 145,
+    "vote_count": 75,
+    "bar_count": 949
   },
   "48189": {
     "id": "48189",
@@ -5213,7 +6188,10 @@
     "fair_price": 92.46,
     "shelf_price": 67.33,
     "total_score": 1169,
-    "ranking": 328
+    "ranking": 328,
+    "wishlist_count": 130,
+    "vote_count": 260,
+    "bar_count": 779
   },
   "4838": {
     "id": "4838",
@@ -5229,7 +6207,10 @@
     "fair_price": 63.18,
     "shelf_price": 61.9,
     "total_score": 1168,
-    "ranking": 330
+    "ranking": 330,
+    "wishlist_count": 111,
+    "vote_count": 275,
+    "bar_count": 782
   },
   "20014": {
     "id": "20014",
@@ -5245,7 +6226,10 @@
     "fair_price": 161.8,
     "shelf_price": 156.07,
     "total_score": 1154,
-    "ranking": 331
+    "ranking": 331,
+    "wishlist_count": 55,
+    "vote_count": 324,
+    "bar_count": 775
   },
   "2697": {
     "id": "2697",
@@ -5261,7 +6245,10 @@
     "fair_price": 48.01,
     "shelf_price": 44.83,
     "total_score": 1151,
-    "ranking": 332
+    "ranking": 332,
+    "wishlist_count": 88,
+    "vote_count": 290,
+    "bar_count": 773
   },
   "4414": {
     "id": "4414",
@@ -5277,7 +6264,10 @@
     "fair_price": 108.44,
     "shelf_price": 94.09,
     "total_score": 1135,
-    "ranking": 333
+    "ranking": 333,
+    "wishlist_count": 204,
+    "vote_count": 332,
+    "bar_count": 599
   },
   "17214": {
     "id": "17214",
@@ -5293,7 +6283,10 @@
     "fair_price": 76.79,
     "shelf_price": 74.56,
     "total_score": 1132,
-    "ranking": 334
+    "ranking": 334,
+    "wishlist_count": 161,
+    "vote_count": 271,
+    "bar_count": 700
   },
   "1142": {
     "id": "1142",
@@ -5309,7 +6302,10 @@
     "fair_price": 60.59,
     "shelf_price": 71.99,
     "total_score": 1131,
-    "ranking": 335
+    "ranking": 335,
+    "wishlist_count": 276,
+    "vote_count": 339,
+    "bar_count": 516
   },
   "21036": {
     "id": "21036",
@@ -5325,7 +6321,10 @@
     "fair_price": 166.47,
     "shelf_price": 142.49,
     "total_score": 1130,
-    "ranking": 336
+    "ranking": 336,
+    "wishlist_count": 152,
+    "vote_count": 251,
+    "bar_count": 727
   },
   "4083": {
     "id": "4083",
@@ -5341,7 +6340,10 @@
     "fair_price": 72.25,
     "shelf_price": 64.47,
     "total_score": 1129,
-    "ranking": 337
+    "ranking": 337,
+    "wishlist_count": 206,
+    "vote_count": 308,
+    "bar_count": 615
   },
   "25363": {
     "id": "25363",
@@ -5357,7 +6359,10 @@
     "fair_price": 92.12,
     "shelf_price": 67.59,
     "total_score": 1128,
-    "ranking": 338
+    "ranking": 338,
+    "wishlist_count": 46,
+    "vote_count": 122,
+    "bar_count": 960
   },
   "3142": {
     "id": "3142",
@@ -5373,7 +6378,10 @@
     "fair_price": 26.75,
     "shelf_price": 26.41,
     "total_score": 1125,
-    "ranking": 339
+    "ranking": 339,
+    "wishlist_count": 130,
+    "vote_count": 267,
+    "bar_count": 728
   },
   "18228": {
     "id": "18228",
@@ -5389,7 +6397,10 @@
     "fair_price": 70.21,
     "shelf_price": 69.99,
     "total_score": 1120,
-    "ranking": 340
+    "ranking": 340,
+    "wishlist_count": 54,
+    "vote_count": 280,
+    "bar_count": 786
   },
   "17223": {
     "id": "17223",
@@ -5405,7 +6416,10 @@
     "fair_price": 95.02,
     "shelf_price": 169.13,
     "total_score": 1119,
-    "ranking": 341
+    "ranking": 341,
+    "wishlist_count": 352,
+    "vote_count": 298,
+    "bar_count": 469
   },
   "1388": {
     "id": "1388",
@@ -5421,7 +6435,10 @@
     "fair_price": 35.46,
     "shelf_price": 32.95,
     "total_score": 1116,
-    "ranking": 342
+    "ranking": 342,
+    "wishlist_count": 63,
+    "vote_count": 239,
+    "bar_count": 814
   },
   "634": {
     "id": "634",
@@ -5437,7 +6454,10 @@
     "fair_price": 116.01,
     "shelf_price": 115.32,
     "total_score": 1115,
-    "ranking": 343
+    "ranking": 343,
+    "wishlist_count": 97,
+    "vote_count": 323,
+    "bar_count": 695
   },
   "40819": {
     "id": "40819",
@@ -5453,7 +6473,10 @@
     "fair_price": 70.06,
     "shelf_price": 69.78,
     "total_score": 1115,
-    "ranking": 343
+    "ranking": 343,
+    "wishlist_count": 149,
+    "vote_count": 219,
+    "bar_count": 747
   },
   "269": {
     "id": "269",
@@ -5469,7 +6492,10 @@
     "fair_price": 270.86,
     "shelf_price": 624.66,
     "total_score": 1114,
-    "ranking": 345
+    "ranking": 345,
+    "wishlist_count": 816,
+    "vote_count": 199,
+    "bar_count": 99
   },
   "34488": {
     "id": "34488",
@@ -5485,7 +6511,10 @@
     "fair_price": 220.57,
     "shelf_price": 210.82,
     "total_score": 1108,
-    "ranking": 346
+    "ranking": 346,
+    "wishlist_count": 125,
+    "vote_count": 216,
+    "bar_count": 767
   },
   "48300": {
     "id": "48300",
@@ -5501,7 +6530,10 @@
     "fair_price": 94.76,
     "shelf_price": 76.99,
     "total_score": 1107,
-    "ranking": 347
+    "ranking": 347,
+    "wishlist_count": 116,
+    "vote_count": 186,
+    "bar_count": 805
   },
   "23515": {
     "id": "23515",
@@ -5517,7 +6549,10 @@
     "fair_price": 62.71,
     "shelf_price": 48.29,
     "total_score": 1105,
-    "ranking": 348
+    "ranking": 348,
+    "wishlist_count": 139,
+    "vote_count": 198,
+    "bar_count": 768
   },
   "16679": {
     "id": "16679",
@@ -5533,7 +6568,10 @@
     "fair_price": 44.67,
     "shelf_price": 39.99,
     "total_score": 1099,
-    "ranking": 349
+    "ranking": 349,
+    "wishlist_count": 231,
+    "vote_count": 350,
+    "bar_count": 518
   },
   "2685": {
     "id": "2685",
@@ -5549,7 +6587,10 @@
     "fair_price": 52.69,
     "shelf_price": 51.16,
     "total_score": 1098,
-    "ranking": 350
+    "ranking": 350,
+    "wishlist_count": 84,
+    "vote_count": 285,
+    "bar_count": 729
   },
   "13361": {
     "id": "13361",
@@ -5565,7 +6606,10 @@
     "fair_price": 50.59,
     "shelf_price": 42.13,
     "total_score": 1098,
-    "ranking": 350
+    "ranking": 350,
+    "wishlist_count": 84,
+    "vote_count": 309,
+    "bar_count": 705
   },
   "5155": {
     "id": "5155",
@@ -5581,7 +6625,10 @@
     "fair_price": 34.88,
     "shelf_price": 27.59,
     "total_score": 1095,
-    "ranking": 352
+    "ranking": 352,
+    "wishlist_count": 92,
+    "vote_count": 267,
+    "bar_count": 736
   },
   "5196": {
     "id": "5196",
@@ -5597,7 +6644,10 @@
     "fair_price": 86.76,
     "shelf_price": 85.66,
     "total_score": 1095,
-    "ranking": 352
+    "ranking": 352,
+    "wishlist_count": 218,
+    "vote_count": 303,
+    "bar_count": 574
   },
   "42342": {
     "id": "42342",
@@ -5613,7 +6663,10 @@
     "fair_price": 107.43,
     "shelf_price": 132.73,
     "total_score": 1105,
-    "ranking": 353
+    "ranking": 353,
+    "wishlist_count": 163,
+    "vote_count": 36,
+    "bar_count": 906
   },
   "1807": {
     "id": "1807",
@@ -5629,7 +6682,10 @@
     "fair_price": 45.24,
     "shelf_price": 37.99,
     "total_score": 1094,
-    "ranking": 354
+    "ranking": 354,
+    "wishlist_count": 81,
+    "vote_count": 272,
+    "bar_count": 741
   },
   "18004": {
     "id": "18004",
@@ -5645,7 +6701,10 @@
     "fair_price": 207.06,
     "shelf_price": 168.99,
     "total_score": 1094,
-    "ranking": 354
+    "ranking": 354,
+    "wishlist_count": 92,
+    "vote_count": 386,
+    "bar_count": 616
   },
   "1066": {
     "id": "1066",
@@ -5661,7 +6720,10 @@
     "fair_price": 130.03,
     "shelf_price": 175.65,
     "total_score": 1090,
-    "ranking": 356
+    "ranking": 356,
+    "wishlist_count": 78,
+    "vote_count": 347,
+    "bar_count": 665
   },
   "3518": {
     "id": "3518",
@@ -5677,7 +6739,10 @@
     "fair_price": 78.84,
     "shelf_price": 70.82,
     "total_score": 1090,
-    "ranking": 356
+    "ranking": 356,
+    "wishlist_count": 132,
+    "vote_count": 251,
+    "bar_count": 707
   },
   "786": {
     "id": "786",
@@ -5693,7 +6758,10 @@
     "fair_price": 39.08,
     "shelf_price": 49.82,
     "total_score": 1080,
-    "ranking": 358
+    "ranking": 358,
+    "wishlist_count": 88,
+    "vote_count": 239,
+    "bar_count": 753
   },
   "678": {
     "id": "678",
@@ -5709,7 +6777,10 @@
     "fair_price": 152.67,
     "shelf_price": 159.15,
     "total_score": 1077,
-    "ranking": 359
+    "ranking": 359,
+    "wishlist_count": 131,
+    "vote_count": 285,
+    "bar_count": 661
   },
   "16796": {
     "id": "16796",
@@ -5725,7 +6796,10 @@
     "fair_price": 176.59,
     "shelf_price": 147.06,
     "total_score": 1077,
-    "ranking": 359
+    "ranking": 359,
+    "wishlist_count": 84,
+    "vote_count": 381,
+    "bar_count": 612
   },
   "4510": {
     "id": "4510",
@@ -5741,7 +6815,10 @@
     "fair_price": 56.61,
     "shelf_price": 36.37,
     "total_score": 1075,
-    "ranking": 361
+    "ranking": 361,
+    "wishlist_count": 58,
+    "vote_count": 284,
+    "bar_count": 733
   },
   "46500": {
     "id": "46500",
@@ -5757,7 +6834,10 @@
     "fair_price": 90.39,
     "shelf_price": 71.98,
     "total_score": 1074,
-    "ranking": 362
+    "ranking": 362,
+    "wishlist_count": 106,
+    "vote_count": 251,
+    "bar_count": 717
   },
   "16485": {
     "id": "16485",
@@ -5773,7 +6853,10 @@
     "fair_price": 237.28,
     "shelf_price": 499.16,
     "total_score": 1073,
-    "ranking": 363
+    "ranking": 363,
+    "wishlist_count": 245,
+    "vote_count": 405,
+    "bar_count": 423
   },
   "2287": {
     "id": "2287",
@@ -5789,7 +6872,10 @@
     "fair_price": 75.03,
     "shelf_price": 73.26,
     "total_score": 1072,
-    "ranking": 364
+    "ranking": 364,
+    "wishlist_count": 180,
+    "vote_count": 289,
+    "bar_count": 603
   },
   "11035": {
     "id": "11035",
@@ -5805,7 +6891,10 @@
     "fair_price": 22.79,
     "shelf_price": 22.18,
     "total_score": 1070,
-    "ranking": 365
+    "ranking": 365,
+    "wishlist_count": 87,
+    "vote_count": 304,
+    "bar_count": 679
   },
   "19556": {
     "id": "19556",
@@ -5821,7 +6910,10 @@
     "fair_price": 145.32,
     "shelf_price": 147.18,
     "total_score": 1070,
-    "ranking": 365
+    "ranking": 365,
+    "wishlist_count": 61,
+    "vote_count": 314,
+    "bar_count": 695
   },
   "1130": {
     "id": "1130",
@@ -5837,7 +6929,10 @@
     "fair_price": 96.44,
     "shelf_price": 95.97,
     "total_score": 1065,
-    "ranking": 367
+    "ranking": 367,
+    "wishlist_count": 115,
+    "vote_count": 295,
+    "bar_count": 655
   },
   "18883": {
     "id": "18883",
@@ -5853,7 +6948,10 @@
     "fair_price": 95.43,
     "shelf_price": 91.49,
     "total_score": 1060,
-    "ranking": 368
+    "ranking": 368,
+    "wishlist_count": 99,
+    "vote_count": 275,
+    "bar_count": 686
   },
   "2363": {
     "id": "2363",
@@ -5869,7 +6967,10 @@
     "fair_price": 59.47,
     "shelf_price": 58.14,
     "total_score": 1059,
-    "ranking": 369
+    "ranking": 369,
+    "wishlist_count": 82,
+    "vote_count": 279,
+    "bar_count": 698
   },
   "18708": {
     "id": "18708",
@@ -5885,7 +6986,10 @@
     "fair_price": 155.83,
     "shelf_price": 173.32,
     "total_score": 1052,
-    "ranking": 370
+    "ranking": 370,
+    "wishlist_count": 107,
+    "vote_count": 374,
+    "bar_count": 571
   },
   "17063": {
     "id": "17063",
@@ -5901,7 +7005,10 @@
     "fair_price": 118.49,
     "shelf_price": 173.99,
     "total_score": 1050,
-    "ranking": 371
+    "ranking": 371,
+    "wishlist_count": 211,
+    "vote_count": 395,
+    "bar_count": 444
   },
   "4857": {
     "id": "4857",
@@ -5917,7 +7024,10 @@
     "fair_price": 38.72,
     "shelf_price": 40.32,
     "total_score": 1047,
-    "ranking": 372
+    "ranking": 372,
+    "wishlist_count": 120,
+    "vote_count": 275,
+    "bar_count": 652
   },
   "2028": {
     "id": "2028",
@@ -5933,7 +7043,10 @@
     "fair_price": 133.4,
     "shelf_price": 329.82,
     "total_score": 1046,
-    "ranking": 373
+    "ranking": 373,
+    "wishlist_count": 286,
+    "vote_count": 350,
+    "bar_count": 410
   },
   "993": {
     "id": "993",
@@ -5949,7 +7062,10 @@
     "fair_price": 74.45,
     "shelf_price": 74.85,
     "total_score": 1046,
-    "ranking": 373
+    "ranking": 373,
+    "wishlist_count": 107,
+    "vote_count": 284,
+    "bar_count": 655
   },
   "18110": {
     "id": "18110",
@@ -5965,7 +7081,10 @@
     "fair_price": 35.19,
     "shelf_price": 39.02,
     "total_score": 1046,
-    "ranking": 373
+    "ranking": 373,
+    "wishlist_count": 174,
+    "vote_count": 257,
+    "bar_count": 615
   },
   "19594": {
     "id": "19594",
@@ -5981,7 +7100,10 @@
     "fair_price": 47.72,
     "shelf_price": 46.19,
     "total_score": 1045,
-    "ranking": 376
+    "ranking": 376,
+    "wishlist_count": 85,
+    "vote_count": 280,
+    "bar_count": 680
   },
   "2753": {
     "id": "2753",
@@ -5997,7 +7119,10 @@
     "fair_price": 106.16,
     "shelf_price": 111.08,
     "total_score": 1037,
-    "ranking": 377
+    "ranking": 377,
+    "wishlist_count": 124,
+    "vote_count": 235,
+    "bar_count": 678
   },
   "2973": {
     "id": "2973",
@@ -6013,7 +7138,10 @@
     "fair_price": 41.77,
     "shelf_price": 37.16,
     "total_score": 1035,
-    "ranking": 378
+    "ranking": 378,
+    "wishlist_count": 81,
+    "vote_count": 240,
+    "bar_count": 714
   },
   "2592": {
     "id": "2592",
@@ -6029,7 +7157,10 @@
     "fair_price": 107.76,
     "shelf_price": 110.39,
     "total_score": 1034,
-    "ranking": 379
+    "ranking": 379,
+    "wishlist_count": 329,
+    "vote_count": 313,
+    "bar_count": 392
   },
   "41054": {
     "id": "41054",
@@ -6045,7 +7176,10 @@
     "fair_price": 118.93,
     "shelf_price": 178.73,
     "total_score": 1031,
-    "ranking": 380
+    "ranking": 380,
+    "wishlist_count": 215,
+    "vote_count": 253,
+    "bar_count": 563
   },
   "858": {
     "id": "858",
@@ -6061,7 +7195,10 @@
     "fair_price": 41.54,
     "shelf_price": 41.82,
     "total_score": 1030,
-    "ranking": 381
+    "ranking": 381,
+    "wishlist_count": 50,
+    "vote_count": 257,
+    "bar_count": 723
   },
   "17158": {
     "id": "17158",
@@ -6077,7 +7214,10 @@
     "fair_price": 55.93,
     "shelf_price": 44.16,
     "total_score": 1030,
-    "ranking": 381
+    "ranking": 381,
+    "wishlist_count": 94,
+    "vote_count": 285,
+    "bar_count": 651
   },
   "651": {
     "id": "651",
@@ -6093,7 +7233,10 @@
     "fair_price": 134.22,
     "shelf_price": 113.29,
     "total_score": 1028,
-    "ranking": 383
+    "ranking": 383,
+    "wishlist_count": 63,
+    "vote_count": 312,
+    "bar_count": 653
   },
   "5029": {
     "id": "5029",
@@ -6109,7 +7252,10 @@
     "fair_price": 40.52,
     "shelf_price": 34.39,
     "total_score": 1027,
-    "ranking": 384
+    "ranking": 384,
+    "wishlist_count": 82,
+    "vote_count": 302,
+    "bar_count": 643
   },
   "20575": {
     "id": "20575",
@@ -6125,7 +7271,10 @@
     "fair_price": 221.85,
     "shelf_price": 354.82,
     "total_score": 1027,
-    "ranking": 384
+    "ranking": 384,
+    "wishlist_count": 132,
+    "vote_count": 371,
+    "bar_count": 524
   },
   "2833": {
     "id": "2833",
@@ -6141,7 +7290,10 @@
     "fair_price": 41.74,
     "shelf_price": 24.05,
     "total_score": 1024,
-    "ranking": 386
+    "ranking": 386,
+    "wishlist_count": 63,
+    "vote_count": 292,
+    "bar_count": 669
   },
   "4709": {
     "id": "4709",
@@ -6157,7 +7309,10 @@
     "fair_price": 58.44,
     "shelf_price": 57.15,
     "total_score": 1021,
-    "ranking": 387
+    "ranking": 387,
+    "wishlist_count": 104,
+    "vote_count": 250,
+    "bar_count": 667
   },
   "32083": {
     "id": "32083",
@@ -6173,7 +7328,10 @@
     "fair_price": 211.55,
     "shelf_price": 196.32,
     "total_score": 1018,
-    "ranking": 388
+    "ranking": 388,
+    "wishlist_count": 114,
+    "vote_count": 197,
+    "bar_count": 707
   },
   "18138": {
     "id": "18138",
@@ -6189,7 +7347,10 @@
     "fair_price": 116.24,
     "shelf_price": 194.99,
     "total_score": 1009,
-    "ranking": 389
+    "ranking": 389,
+    "wishlist_count": 60,
+    "vote_count": 247,
+    "bar_count": 702
   },
   "17611": {
     "id": "17611",
@@ -6205,7 +7366,10 @@
     "fair_price": 294.52,
     "shelf_price": 258.16,
     "total_score": 1000,
-    "ranking": 390
+    "ranking": 390,
+    "wishlist_count": 379,
+    "vote_count": 260,
+    "bar_count": 361
   },
   "27160": {
     "id": "27160",
@@ -6221,7 +7385,10 @@
     "fair_price": 84.69,
     "shelf_price": 79.16,
     "total_score": 1000,
-    "ranking": 390
+    "ranking": 390,
+    "wishlist_count": 41,
+    "vote_count": 89,
+    "bar_count": 870
   },
   "53003": {
     "id": "53003",
@@ -6237,7 +7404,10 @@
     "fair_price": 242.72,
     "shelf_price": 816.33,
     "total_score": 1026,
-    "ranking": 390
+    "ranking": 390,
+    "wishlist_count": 128,
+    "vote_count": 343,
+    "bar_count": 555
   },
   "19883": {
     "id": "19883",
@@ -6253,7 +7423,10 @@
     "fair_price": 28.09,
     "shelf_price": 19.99,
     "total_score": 996,
-    "ranking": 392
+    "ranking": 392,
+    "wishlist_count": 89,
+    "vote_count": 246,
+    "bar_count": 661
   },
   "17905": {
     "id": "17905",
@@ -6269,7 +7442,10 @@
     "fair_price": 101.29,
     "shelf_price": 95.99,
     "total_score": 995,
-    "ranking": 393
+    "ranking": 393,
+    "wishlist_count": 109,
+    "vote_count": 255,
+    "bar_count": 631
   },
   "18440": {
     "id": "18440",
@@ -6285,7 +7461,10 @@
     "fair_price": 98.96,
     "shelf_price": 98.85,
     "total_score": 995,
-    "ranking": 393
+    "ranking": 393,
+    "wishlist_count": 55,
+    "vote_count": 267,
+    "bar_count": 673
   },
   "2192": {
     "id": "2192",
@@ -6301,7 +7480,10 @@
     "fair_price": 532.86,
     "shelf_price": 1907.83,
     "total_score": 994,
-    "ranking": 395
+    "ranking": 395,
+    "wishlist_count": 556,
+    "vote_count": 270,
+    "bar_count": 168
   },
   "726": {
     "id": "726",
@@ -6317,7 +7499,10 @@
     "fair_price": 92.88,
     "shelf_price": 78.49,
     "total_score": 993,
-    "ranking": 396
+    "ranking": 396,
+    "wishlist_count": 86,
+    "vote_count": 267,
+    "bar_count": 640
   },
   "4789": {
     "id": "4789",
@@ -6333,7 +7518,10 @@
     "fair_price": 68.6,
     "shelf_price": 66.99,
     "total_score": 988,
-    "ranking": 397
+    "ranking": 397,
+    "wishlist_count": 97,
+    "vote_count": 254,
+    "bar_count": 637
   },
   "18521": {
     "id": "18521",
@@ -6349,7 +7537,10 @@
     "fair_price": 95.06,
     "shelf_price": 77.16,
     "total_score": 986,
-    "ranking": 398
+    "ranking": 398,
+    "wishlist_count": 113,
+    "vote_count": 247,
+    "bar_count": 626
   },
   "16248": {
     "id": "16248",
@@ -6365,7 +7556,10 @@
     "fair_price": 29.38,
     "shelf_price": 33.55,
     "total_score": 985,
-    "ranking": 399
+    "ranking": 399,
+    "wishlist_count": 30,
+    "vote_count": 200,
+    "bar_count": 755
   },
   "27294": {
     "id": "27294",
@@ -6381,7 +7575,10 @@
     "fair_price": 121.89,
     "shelf_price": 116.19,
     "total_score": 984,
-    "ranking": 400
+    "ranking": 400,
+    "wishlist_count": 49,
+    "vote_count": 127,
+    "bar_count": 808
   },
   "20206": {
     "id": "20206",
@@ -6397,7 +7594,10 @@
     "fair_price": 38.99,
     "shelf_price": 31.99,
     "total_score": 984,
-    "ranking": 400
+    "ranking": 400,
+    "wishlist_count": 33,
+    "vote_count": 277,
+    "bar_count": 674
   },
   "3616": {
     "id": "3616",
@@ -6413,7 +7613,10 @@
     "fair_price": 38.96,
     "shelf_price": 34.11,
     "total_score": 984,
-    "ranking": 400
+    "ranking": 400,
+    "wishlist_count": 45,
+    "vote_count": 216,
+    "bar_count": 723
   },
   "39325": {
     "id": "39325",
@@ -6429,7 +7632,10 @@
     "fair_price": 131.16,
     "shelf_price": 189.99,
     "total_score": 980,
-    "ranking": 403
+    "ranking": 403,
+    "wishlist_count": 92,
+    "vote_count": 52,
+    "bar_count": 836
   },
   "17378": {
     "id": "17378",
@@ -6445,7 +7651,10 @@
     "fair_price": 83.14,
     "shelf_price": 122.66,
     "total_score": 980,
-    "ranking": 403
+    "ranking": 403,
+    "wishlist_count": 82,
+    "vote_count": 232,
+    "bar_count": 666
   },
   "4496": {
     "id": "4496",
@@ -6461,7 +7670,10 @@
     "fair_price": 97.71,
     "shelf_price": 91.66,
     "total_score": 974,
-    "ranking": 405
+    "ranking": 405,
+    "wishlist_count": 96,
+    "vote_count": 248,
+    "bar_count": 630
   },
   "19147": {
     "id": "19147",
@@ -6477,7 +7689,10 @@
     "fair_price": 113.08,
     "shelf_price": 242.32,
     "total_score": 973,
-    "ranking": 406
+    "ranking": 406,
+    "wishlist_count": 165,
+    "vote_count": 261,
+    "bar_count": 547
   },
   "48295": {
     "id": "48295",
@@ -6493,7 +7708,10 @@
     "fair_price": 135.62,
     "shelf_price": 114.99,
     "total_score": 973,
-    "ranking": 406
+    "ranking": 406,
+    "wishlist_count": 86,
+    "vote_count": 193,
+    "bar_count": 694
   },
   "39943": {
     "id": "39943",
@@ -6509,7 +7727,10 @@
     "fair_price": 106.43,
     "shelf_price": 128.73,
     "total_score": 969,
-    "ranking": 408
+    "ranking": 408,
+    "wishlist_count": 102,
+    "vote_count": 228,
+    "bar_count": 639
   },
   "16050": {
     "id": "16050",
@@ -6525,7 +7746,10 @@
     "fair_price": 186.15,
     "shelf_price": 185.83,
     "total_score": 969,
-    "ranking": 408
+    "ranking": 408,
+    "wishlist_count": 125,
+    "vote_count": 296,
+    "bar_count": 548
   },
   "567": {
     "id": "567",
@@ -6541,7 +7765,10 @@
     "fair_price": 51.17,
     "shelf_price": 43.92,
     "total_score": 967,
-    "ranking": 410
+    "ranking": 410,
+    "wishlist_count": 59,
+    "vote_count": 213,
+    "bar_count": 695
   },
   "49176": {
     "id": "49176",
@@ -6557,7 +7784,10 @@
     "fair_price": 122.17,
     "shelf_price": 179.99,
     "total_score": 967,
-    "ranking": 410
+    "ranking": 410,
+    "wishlist_count": 173,
+    "vote_count": 182,
+    "bar_count": 612
   },
   "14303": {
     "id": "14303",
@@ -6573,7 +7803,10 @@
     "fair_price": 98.07,
     "shelf_price": 89.99,
     "total_score": 964,
-    "ranking": 412
+    "ranking": 412,
+    "wishlist_count": 281,
+    "vote_count": 337,
+    "bar_count": 346
   },
   "13891": {
     "id": "13891",
@@ -6589,7 +7822,10 @@
     "fair_price": 152.28,
     "shelf_price": 304.49,
     "total_score": 962,
-    "ranking": 413
+    "ranking": 413,
+    "wishlist_count": 178,
+    "vote_count": 355,
+    "bar_count": 429
   },
   "17399": {
     "id": "17399",
@@ -6605,7 +7841,10 @@
     "fair_price": 86.86,
     "shelf_price": 117.86,
     "total_score": 958,
-    "ranking": 414
+    "ranking": 414,
+    "wishlist_count": 110,
+    "vote_count": 246,
+    "bar_count": 602
   },
   "1286": {
     "id": "1286",
@@ -6621,7 +7860,10 @@
     "fair_price": 121.62,
     "shelf_price": 186.56,
     "total_score": 957,
-    "ranking": 415
+    "ranking": 415,
+    "wishlist_count": 123,
+    "vote_count": 331,
+    "bar_count": 503
   },
   "3208": {
     "id": "3208",
@@ -6637,7 +7879,10 @@
     "fair_price": 85.27,
     "shelf_price": 72.28,
     "total_score": 957,
-    "ranking": 415
+    "ranking": 415,
+    "wishlist_count": 119,
+    "vote_count": 237,
+    "bar_count": 601
   },
   "17862": {
     "id": "17862",
@@ -6653,7 +7898,10 @@
     "fair_price": 33.13,
     "shelf_price": 46.25,
     "total_score": 956,
-    "ranking": 417
+    "ranking": 417,
+    "wishlist_count": 95,
+    "vote_count": 204,
+    "bar_count": 657
   },
   "17064": {
     "id": "17064",
@@ -6669,7 +7917,10 @@
     "fair_price": 56.2,
     "shelf_price": 98.11,
     "total_score": 954,
-    "ranking": 418
+    "ranking": 418,
+    "wishlist_count": 107,
+    "vote_count": 295,
+    "bar_count": 552
   },
   "1786": {
     "id": "1786",
@@ -6685,7 +7936,10 @@
     "fair_price": 79.14,
     "shelf_price": 58.82,
     "total_score": 954,
-    "ranking": 418
+    "ranking": 418,
+    "wishlist_count": 39,
+    "vote_count": 221,
+    "bar_count": 694
   },
   "11663": {
     "id": "11663",
@@ -6701,7 +7955,10 @@
     "fair_price": 194.98,
     "shelf_price": 181.7,
     "total_score": 952,
-    "ranking": 420
+    "ranking": 420,
+    "wishlist_count": 110,
+    "vote_count": 299,
+    "bar_count": 543
   },
   "20692": {
     "id": "20692",
@@ -6717,7 +7974,10 @@
     "fair_price": 225.15,
     "shelf_price": 458.16,
     "total_score": 952,
-    "ranking": 420
+    "ranking": 420,
+    "wishlist_count": 263,
+    "vote_count": 332,
+    "bar_count": 357
   },
   "17101": {
     "id": "17101",
@@ -6733,7 +7993,10 @@
     "fair_price": 126.1,
     "shelf_price": 205.83,
     "total_score": 950,
-    "ranking": 422
+    "ranking": 422,
+    "wishlist_count": 93,
+    "vote_count": 256,
+    "bar_count": 601
   },
   "16879": {
     "id": "16879",
@@ -6749,7 +8012,10 @@
     "fair_price": 62.7,
     "shelf_price": 57.24,
     "total_score": 947,
-    "ranking": 423
+    "ranking": 423,
+    "wishlist_count": 139,
+    "vote_count": 227,
+    "bar_count": 581
   },
   "43333": {
     "id": "43333",
@@ -6765,7 +8031,10 @@
     "fair_price": 224.96,
     "shelf_price": 209.99,
     "total_score": 947,
-    "ranking": 423
+    "ranking": 423,
+    "wishlist_count": 118,
+    "vote_count": 194,
+    "bar_count": 635
   },
   "12408": {
     "id": "12408",
@@ -6781,7 +8050,10 @@
     "fair_price": 190.43,
     "shelf_price": 175.96,
     "total_score": 944,
-    "ranking": 425
+    "ranking": 425,
+    "wishlist_count": 96,
+    "vote_count": 292,
+    "bar_count": 556
   },
   "13979": {
     "id": "13979",
@@ -6797,7 +8069,10 @@
     "fair_price": 252.23,
     "shelf_price": 611.49,
     "total_score": 935,
-    "ranking": 426
+    "ranking": 426,
+    "wishlist_count": 585,
+    "vote_count": 212,
+    "bar_count": 138
   },
   "3097": {
     "id": "3097",
@@ -6813,7 +8088,10 @@
     "fair_price": 476.63,
     "shelf_price": 1304.99,
     "total_score": 930,
-    "ranking": 427
+    "ranking": 427,
+    "wishlist_count": 665,
+    "vote_count": 220,
+    "bar_count": 45
   },
   "4622": {
     "id": "4622",
@@ -6829,7 +8107,10 @@
     "fair_price": 101.34,
     "shelf_price": 94.42,
     "total_score": 930,
-    "ranking": 427
+    "ranking": 427,
+    "wishlist_count": 127,
+    "vote_count": 257,
+    "bar_count": 546
   },
   "16502": {
     "id": "16502",
@@ -6845,7 +8126,10 @@
     "fair_price": 44.94,
     "shelf_price": 40.1,
     "total_score": 930,
-    "ranking": 427
+    "ranking": 427,
+    "wishlist_count": 95,
+    "vote_count": 257,
+    "bar_count": 578
   },
   "413": {
     "id": "413",
@@ -6861,7 +8145,10 @@
     "fair_price": 18.38,
     "shelf_price": 16.66,
     "total_score": 929,
-    "ranking": 430
+    "ranking": 430,
+    "wishlist_count": 99,
+    "vote_count": 478,
+    "bar_count": 352
   },
   "3956": {
     "id": "3956",
@@ -6877,7 +8164,10 @@
     "fair_price": 51.57,
     "shelf_price": 60.13,
     "total_score": 927,
-    "ranking": 431
+    "ranking": 431,
+    "wishlist_count": 99,
+    "vote_count": 218,
+    "bar_count": 610
   },
   "20813": {
     "id": "20813",
@@ -6893,7 +8183,10 @@
     "fair_price": 64.42,
     "shelf_price": 50.66,
     "total_score": 923,
-    "ranking": 432
+    "ranking": 432,
+    "wishlist_count": 47,
+    "vote_count": 257,
+    "bar_count": 619
   },
   "1693": {
     "id": "1693",
@@ -6909,7 +8202,10 @@
     "fair_price": 16.98,
     "shelf_price": 18.58,
     "total_score": 917,
-    "ranking": 433
+    "ranking": 433,
+    "wishlist_count": 101,
+    "vote_count": 204,
+    "bar_count": 612
   },
   "1753": {
     "id": "1753",
@@ -6925,7 +8221,10 @@
     "fair_price": 49.34,
     "shelf_price": 50.39,
     "total_score": 917,
-    "ranking": 433
+    "ranking": 433,
+    "wishlist_count": 179,
+    "vote_count": 267,
+    "bar_count": 471
   },
   "18439": {
     "id": "18439",
@@ -6941,7 +8240,10 @@
     "fair_price": 123.39,
     "shelf_price": 201.83,
     "total_score": 910,
-    "ranking": 435
+    "ranking": 435,
+    "wishlist_count": 94,
+    "vote_count": 178,
+    "bar_count": 638
   },
   "17547": {
     "id": "17547",
@@ -6957,7 +8259,10 @@
     "fair_price": 64.12,
     "shelf_price": 106.49,
     "total_score": 894,
-    "ranking": 436
+    "ranking": 436,
+    "wishlist_count": 69,
+    "vote_count": 246,
+    "bar_count": 579
   },
   "46347": {
     "id": "46347",
@@ -6973,7 +8278,10 @@
     "fair_price": 252.21,
     "shelf_price": 549.99,
     "total_score": 893,
-    "ranking": 437
+    "ranking": 437,
+    "wishlist_count": 381,
+    "vote_count": 222,
+    "bar_count": 290
   },
   "19658": {
     "id": "19658",
@@ -6989,7 +8297,10 @@
     "fair_price": 137.21,
     "shelf_price": 142.83,
     "total_score": 891,
-    "ranking": 438
+    "ranking": 438,
+    "wishlist_count": 92,
+    "vote_count": 288,
+    "bar_count": 511
   },
   "1730": {
     "id": "1730",
@@ -7005,7 +8316,10 @@
     "fair_price": 290.14,
     "shelf_price": 583.0,
     "total_score": 888,
-    "ranking": 439
+    "ranking": 439,
+    "wishlist_count": 651,
+    "vote_count": 158,
+    "bar_count": 79
   },
   "2419": {
     "id": "2419",
@@ -7021,7 +8335,10 @@
     "fair_price": 32.37,
     "shelf_price": 28.66,
     "total_score": 888,
-    "ranking": 439
+    "ranking": 439,
+    "wishlist_count": 55,
+    "vote_count": 191,
+    "bar_count": 642
   },
   "6462": {
     "id": "6462",
@@ -7037,7 +8354,10 @@
     "fair_price": 40.56,
     "shelf_price": 39.13,
     "total_score": 884,
-    "ranking": 441
+    "ranking": 441,
+    "wishlist_count": 116,
+    "vote_count": 310,
+    "bar_count": 458
   },
   "15345": {
     "id": "15345",
@@ -7053,7 +8373,10 @@
     "fair_price": 386.68,
     "shelf_price": 407.08,
     "total_score": 878,
-    "ranking": 442
+    "ranking": 442,
+    "wishlist_count": 426,
+    "vote_count": 357,
+    "bar_count": 95
   },
   "2670": {
     "id": "2670",
@@ -7069,7 +8392,10 @@
     "fair_price": 146.87,
     "shelf_price": 339.85,
     "total_score": 877,
-    "ranking": 443
+    "ranking": 443,
+    "wishlist_count": 360,
+    "vote_count": 234,
+    "bar_count": 283
   },
   "4859": {
     "id": "4859",
@@ -7085,7 +8411,10 @@
     "fair_price": 66.55,
     "shelf_price": 53.49,
     "total_score": 873,
-    "ranking": 444
+    "ranking": 444,
+    "wishlist_count": 110,
+    "vote_count": 205,
+    "bar_count": 558
   },
   "145": {
     "id": "145",
@@ -7101,7 +8430,10 @@
     "fair_price": 67.63,
     "shelf_price": 77.28,
     "total_score": 872,
-    "ranking": 445
+    "ranking": 445,
+    "wishlist_count": 258,
+    "vote_count": 315,
+    "bar_count": 299
   },
   "4864": {
     "id": "4864",
@@ -7117,7 +8449,10 @@
     "fair_price": 59.28,
     "shelf_price": 50.28,
     "total_score": 868,
-    "ranking": 446
+    "ranking": 446,
+    "wishlist_count": 151,
+    "vote_count": 221,
+    "bar_count": 496
   },
   "19569": {
     "id": "19569",
@@ -7133,7 +8468,10 @@
     "fair_price": 86.22,
     "shelf_price": 79.58,
     "total_score": 867,
-    "ranking": 447
+    "ranking": 447,
+    "wishlist_count": 116,
+    "vote_count": 174,
+    "bar_count": 577
   },
   "17420": {
     "id": "17420",
@@ -7149,7 +8487,10 @@
     "fair_price": 831.74,
     "shelf_price": 2846.99,
     "total_score": 864,
-    "ranking": 448
+    "ranking": 448,
+    "wishlist_count": 574,
+    "vote_count": 276,
+    "bar_count": 14
   },
   "363": {
     "id": "363",
@@ -7165,7 +8506,10 @@
     "fair_price": 28.12,
     "shelf_price": 25.74,
     "total_score": 862,
-    "ranking": 449
+    "ranking": 449,
+    "wishlist_count": 71,
+    "vote_count": 225,
+    "bar_count": 566
   },
   "1297": {
     "id": "1297",
@@ -7181,7 +8525,10 @@
     "fair_price": 48.3,
     "shelf_price": 48.16,
     "total_score": 854,
-    "ranking": 450
+    "ranking": 450,
+    "wishlist_count": 90,
+    "vote_count": 186,
+    "bar_count": 578
   },
   "17126": {
     "id": "17126",
@@ -7197,7 +8544,10 @@
     "fair_price": 22.16,
     "shelf_price": 23.67,
     "total_score": 854,
-    "ranking": 450
+    "ranking": 450,
+    "wishlist_count": 67,
+    "vote_count": 196,
+    "bar_count": 591
   },
   "17354": {
     "id": "17354",
@@ -7213,7 +8563,10 @@
     "fair_price": 126.61,
     "shelf_price": 120.79,
     "total_score": 851,
-    "ranking": 452
+    "ranking": 452,
+    "wishlist_count": 73,
+    "vote_count": 293,
+    "bar_count": 485
   },
   "2128": {
     "id": "2128",
@@ -7229,7 +8582,10 @@
     "fair_price": 100.48,
     "shelf_price": 99.62,
     "total_score": 848,
-    "ranking": 453
+    "ranking": 453,
+    "wishlist_count": 111,
+    "vote_count": 218,
+    "bar_count": 519
   },
   "45695": {
     "id": "45695",
@@ -7245,7 +8601,10 @@
     "fair_price": 283.51,
     "shelf_price": 324.99,
     "total_score": 845,
-    "ranking": 454
+    "ranking": 454,
+    "wishlist_count": 145,
+    "vote_count": 209,
+    "bar_count": 491
   },
   "18872": {
     "id": "18872",
@@ -7261,7 +8620,10 @@
     "fair_price": 403.53,
     "shelf_price": 1046.42,
     "total_score": 844,
-    "ranking": 455
+    "ranking": 455,
+    "wishlist_count": 273,
+    "vote_count": 289,
+    "bar_count": 282
   },
   "2433": {
     "id": "2433",
@@ -7277,7 +8639,10 @@
     "fair_price": 52.81,
     "shelf_price": 53.69,
     "total_score": 842,
-    "ranking": 456
+    "ranking": 456,
+    "wishlist_count": 150,
+    "vote_count": 241,
+    "bar_count": 451
   },
   "18356": {
     "id": "18356",
@@ -7293,7 +8658,10 @@
     "fair_price": 249.2,
     "shelf_price": 263.45,
     "total_score": 840,
-    "ranking": 457
+    "ranking": 457,
+    "wishlist_count": 157,
+    "vote_count": 184,
+    "bar_count": 499
   },
   "16995": {
     "id": "16995",
@@ -7309,7 +8677,10 @@
     "fair_price": 167.84,
     "shelf_price": 192.61,
     "total_score": 838,
-    "ranking": 458
+    "ranking": 458,
+    "wishlist_count": 291,
+    "vote_count": 299,
+    "bar_count": 248
   },
   "16458": {
     "id": "16458",
@@ -7325,7 +8696,10 @@
     "fair_price": 44.06,
     "shelf_price": 47.26,
     "total_score": 831,
-    "ranking": 459
+    "ranking": 459,
+    "wishlist_count": 49,
+    "vote_count": 195,
+    "bar_count": 587
   },
   "34209": {
     "id": "34209",
@@ -7341,7 +8715,10 @@
     "fair_price": 89.4,
     "shelf_price": 62.46,
     "total_score": 830,
-    "ranking": 460
+    "ranking": 460,
+    "wishlist_count": 73,
+    "vote_count": 137,
+    "bar_count": 620
   },
   "20519": {
     "id": "20519",
@@ -7357,7 +8734,10 @@
     "fair_price": 133.85,
     "shelf_price": 325.49,
     "total_score": 826,
-    "ranking": 461
+    "ranking": 461,
+    "wishlist_count": 52,
+    "vote_count": 313,
+    "bar_count": 461
   },
   "17389": {
     "id": "17389",
@@ -7373,7 +8753,10 @@
     "fair_price": 84.93,
     "shelf_price": 87.15,
     "total_score": 825,
-    "ranking": 462
+    "ranking": 462,
+    "wishlist_count": 133,
+    "vote_count": 202,
+    "bar_count": 490
   },
   "4631": {
     "id": "4631",
@@ -7389,7 +8772,10 @@
     "fair_price": 42.32,
     "shelf_price": 49.99,
     "total_score": 822,
-    "ranking": 463
+    "ranking": 463,
+    "wishlist_count": 145,
+    "vote_count": 255,
+    "bar_count": 422
   },
   "5151": {
     "id": "5151",
@@ -7405,7 +8791,10 @@
     "fair_price": 70.95,
     "shelf_price": 55.97,
     "total_score": 821,
-    "ranking": 464
+    "ranking": 464,
+    "wishlist_count": 150,
+    "vote_count": 177,
+    "bar_count": 494
   },
   "19555": {
     "id": "19555",
@@ -7421,7 +8810,10 @@
     "fair_price": 81.07,
     "shelf_price": 78.59,
     "total_score": 821,
-    "ranking": 464
+    "ranking": 464,
+    "wishlist_count": 114,
+    "vote_count": 160,
+    "bar_count": 547
   },
   "17264": {
     "id": "17264",
@@ -7437,7 +8829,10 @@
     "fair_price": 82.22,
     "shelf_price": 80.56,
     "total_score": 818,
-    "ranking": 466
+    "ranking": 466,
+    "wishlist_count": 85,
+    "vote_count": 179,
+    "bar_count": 554
   },
   "3562": {
     "id": "3562",
@@ -7453,7 +8848,10 @@
     "fair_price": 518.88,
     "shelf_price": 1757.32,
     "total_score": 812,
-    "ranking": 467
+    "ranking": 467,
+    "wishlist_count": 375,
+    "vote_count": 230,
+    "bar_count": 207
   },
   "44603": {
     "id": "44603",
@@ -7469,7 +8867,10 @@
     "fair_price": 330.08,
     "shelf_price": 551.99,
     "total_score": 812,
-    "ranking": 467
+    "ranking": 467,
+    "wishlist_count": 279,
+    "vote_count": 186,
+    "bar_count": 347
   },
   "19812": {
     "id": "19812",
@@ -7485,7 +8886,10 @@
     "fair_price": 461.1,
     "shelf_price": 1251.59,
     "total_score": 811,
-    "ranking": 469
+    "ranking": 469,
+    "wishlist_count": 279,
+    "vote_count": 234,
+    "bar_count": 298
   },
   "3884": {
     "id": "3884",
@@ -7501,7 +8905,10 @@
     "fair_price": 47.86,
     "shelf_price": 44.27,
     "total_score": 811,
-    "ranking": 469
+    "ranking": 469,
+    "wishlist_count": 58,
+    "vote_count": 165,
+    "bar_count": 588
   },
   "22361": {
     "id": "22361",
@@ -7517,7 +8924,10 @@
     "fair_price": 94.63,
     "shelf_price": 92.81,
     "total_score": 808,
-    "ranking": 471
+    "ranking": 471,
+    "wishlist_count": 26,
+    "vote_count": 62,
+    "bar_count": 720
   },
   "17261": {
     "id": "17261",
@@ -7533,7 +8943,10 @@
     "fair_price": 254.64,
     "shelf_price": 374.05,
     "total_score": 806,
-    "ranking": 472
+    "ranking": 472,
+    "wishlist_count": 206,
+    "vote_count": 288,
+    "bar_count": 312
   },
   "20518": {
     "id": "20518",
@@ -7549,7 +8962,10 @@
     "fair_price": 83.35,
     "shelf_price": 71.59,
     "total_score": 804,
-    "ranking": 473
+    "ranking": 473,
+    "wishlist_count": 72,
+    "vote_count": 187,
+    "bar_count": 545
   },
   "21216": {
     "id": "21216",
@@ -7565,7 +8981,10 @@
     "fair_price": 109.66,
     "shelf_price": 77.49,
     "total_score": 791,
-    "ranking": 474
+    "ranking": 474,
+    "wishlist_count": 38,
+    "vote_count": 184,
+    "bar_count": 569
   },
   "28334": {
     "id": "28334",
@@ -7581,7 +9000,10 @@
     "fair_price": 117.24,
     "shelf_price": 93.28,
     "total_score": 790,
-    "ranking": 475
+    "ranking": 475,
+    "wishlist_count": 114,
+    "vote_count": 111,
+    "bar_count": 565
   },
   "17356": {
     "id": "17356",
@@ -7597,7 +9019,10 @@
     "fair_price": 144.78,
     "shelf_price": 189.16,
     "total_score": 789,
-    "ranking": 476
+    "ranking": 476,
+    "wishlist_count": 73,
+    "vote_count": 277,
+    "bar_count": 439
   },
   "20824": {
     "id": "20824",
@@ -7613,7 +9038,10 @@
     "fair_price": 137.18,
     "shelf_price": 199.98,
     "total_score": 788,
-    "ranking": 477
+    "ranking": 477,
+    "wishlist_count": 73,
+    "vote_count": 202,
+    "bar_count": 513
   },
   "5208": {
     "id": "5208",
@@ -7629,7 +9057,10 @@
     "fair_price": 14.3,
     "shelf_price": 15.24,
     "total_score": 783,
-    "ranking": 478
+    "ranking": 478,
+    "wishlist_count": 75,
+    "vote_count": 190,
+    "bar_count": 518
   },
   "1533": {
     "id": "1533",
@@ -7645,7 +9076,10 @@
     "fair_price": 17.8,
     "shelf_price": 16.82,
     "total_score": 783,
-    "ranking": 478
+    "ranking": 478,
+    "wishlist_count": 111,
+    "vote_count": 195,
+    "bar_count": 477
   },
   "14242": {
     "id": "14242",
@@ -7661,7 +9095,10 @@
     "fair_price": 27.71,
     "shelf_price": 27.99,
     "total_score": 782,
-    "ranking": 480
+    "ranking": 480,
+    "wishlist_count": 55,
+    "vote_count": 193,
+    "bar_count": 534
   },
   "18042": {
     "id": "18042",
@@ -7677,7 +9114,10 @@
     "fair_price": 139.68,
     "shelf_price": 367.16,
     "total_score": 781,
-    "ranking": 481
+    "ranking": 481,
+    "wishlist_count": 67,
+    "vote_count": 237,
+    "bar_count": 477
   },
   "4723": {
     "id": "4723",
@@ -7693,7 +9133,10 @@
     "fair_price": 49.99,
     "shelf_price": 40.89,
     "total_score": 780,
-    "ranking": 482
+    "ranking": 482,
+    "wishlist_count": 72,
+    "vote_count": 176,
+    "bar_count": 532
   },
   "18002": {
     "id": "18002",
@@ -7709,7 +9152,10 @@
     "fair_price": 55.34,
     "shelf_price": 135.11,
     "total_score": 778,
-    "ranking": 483
+    "ranking": 483,
+    "wishlist_count": 44,
+    "vote_count": 157,
+    "bar_count": 577
   },
   "149": {
     "id": "149",
@@ -7725,7 +9171,10 @@
     "fair_price": 49.68,
     "shelf_price": 31.03,
     "total_score": 777,
-    "ranking": 484
+    "ranking": 484,
+    "wishlist_count": 54,
+    "vote_count": 226,
+    "bar_count": 497
   },
   "2371": {
     "id": "2371",
@@ -7741,7 +9190,10 @@
     "fair_price": 21.21,
     "shelf_price": 26.66,
     "total_score": 774,
-    "ranking": 485
+    "ranking": 485,
+    "wishlist_count": 118,
+    "vote_count": 243,
+    "bar_count": 413
   },
   "3213": {
     "id": "3213",
@@ -7757,7 +9209,10 @@
     "fair_price": 49.93,
     "shelf_price": 45.49,
     "total_score": 774,
-    "ranking": 485
+    "ranking": 485,
+    "wishlist_count": 79,
+    "vote_count": 191,
+    "bar_count": 504
   },
   "46278": {
     "id": "46278",
@@ -7773,7 +9228,10 @@
     "fair_price": 479.79,
     "shelf_price": 1049.5,
     "total_score": 774,
-    "ranking": 485
+    "ranking": 485,
+    "wishlist_count": 364,
+    "vote_count": 190,
+    "bar_count": 220
   },
   "3672": {
     "id": "3672",
@@ -7789,7 +9247,10 @@
     "fair_price": 226.76,
     "shelf_price": 250.83,
     "total_score": 770,
-    "ranking": 488
+    "ranking": 488,
+    "wishlist_count": 217,
+    "vote_count": 244,
+    "bar_count": 309
   },
   "32717": {
     "id": "32717",
@@ -7805,7 +9266,10 @@
     "fair_price": 35.76,
     "shelf_price": 26.49,
     "total_score": 769,
-    "ranking": 489
+    "ranking": 489,
+    "wishlist_count": 75,
+    "vote_count": 134,
+    "bar_count": 560
   },
   "42831": {
     "id": "42831",
@@ -7821,7 +9285,10 @@
     "fair_price": 212.8,
     "shelf_price": 268.74,
     "total_score": 775,
-    "ranking": 489
+    "ranking": 489,
+    "wishlist_count": 131,
+    "vote_count": 153,
+    "bar_count": 491
   },
   "19466": {
     "id": "19466",
@@ -7837,7 +9304,10 @@
     "fair_price": 144.83,
     "shelf_price": 132.49,
     "total_score": 763,
-    "ranking": 490
+    "ranking": 490,
+    "wishlist_count": 84,
+    "vote_count": 213,
+    "bar_count": 466
   },
   "17156": {
     "id": "17156",
@@ -7853,7 +9323,10 @@
     "fair_price": 73.06,
     "shelf_price": 66.49,
     "total_score": 762,
-    "ranking": 491
+    "ranking": 491,
+    "wishlist_count": 68,
+    "vote_count": 180,
+    "bar_count": 514
   },
   "17900": {
     "id": "17900",
@@ -7869,7 +9342,10 @@
     "fair_price": 42.55,
     "shelf_price": 40.59,
     "total_score": 760,
-    "ranking": 492
+    "ranking": 492,
+    "wishlist_count": 24,
+    "vote_count": 178,
+    "bar_count": 558
   },
   "19223": {
     "id": "19223",
@@ -7885,7 +9361,10 @@
     "fair_price": 438.87,
     "shelf_price": 1045.98,
     "total_score": 760,
-    "ranking": 492
+    "ranking": 492,
+    "wishlist_count": 122,
+    "vote_count": 302,
+    "bar_count": 336
   },
   "1355": {
     "id": "1355",
@@ -7901,7 +9380,10 @@
     "fair_price": 76.44,
     "shelf_price": 75.66,
     "total_score": 760,
-    "ranking": 492
+    "ranking": 492,
+    "wishlist_count": 145,
+    "vote_count": 185,
+    "bar_count": 430
   },
   "17500": {
     "id": "17500",
@@ -7917,7 +9399,10 @@
     "fair_price": 45.48,
     "shelf_price": 43.59,
     "total_score": 755,
-    "ranking": 495
+    "ranking": 495,
+    "wishlist_count": 27,
+    "vote_count": 180,
+    "bar_count": 548
   },
   "19811": {
     "id": "19811",
@@ -7933,7 +9418,10 @@
     "fair_price": 139.16,
     "shelf_price": 286.64,
     "total_score": 752,
-    "ranking": 496
+    "ranking": 496,
+    "wishlist_count": 150,
+    "vote_count": 266,
+    "bar_count": 336
   },
   "20648": {
     "id": "20648",
@@ -7949,7 +9437,10 @@
     "fair_price": 90.02,
     "shelf_price": 80.48,
     "total_score": 752,
-    "ranking": 496
+    "ranking": 496,
+    "wishlist_count": 43,
+    "vote_count": 155,
+    "bar_count": 554
   },
   "13581": {
     "id": "13581",
@@ -7965,7 +9456,10 @@
     "fair_price": 276.44,
     "shelf_price": 518.25,
     "total_score": 752,
-    "ranking": 496
+    "ranking": 496,
+    "wishlist_count": 438,
+    "vote_count": 195,
+    "bar_count": 119
   },
   "12152": {
     "id": "12152",
@@ -7981,7 +9475,10 @@
     "fair_price": 110.2,
     "shelf_price": 62.58,
     "total_score": 761,
-    "ranking": 497
+    "ranking": 497,
+    "wishlist_count": 107,
+    "vote_count": 177,
+    "bar_count": 477
   },
   "17644": {
     "id": "17644",
@@ -7997,7 +9494,10 @@
     "fair_price": 60.37,
     "shelf_price": 67.79,
     "total_score": 748,
-    "ranking": 499
+    "ranking": 499,
+    "wishlist_count": 88,
+    "vote_count": 204,
+    "bar_count": 456
   },
   "20789": {
     "id": "20789",
@@ -8013,6 +9513,9 @@
     "fair_price": 106.78,
     "shelf_price": 79.99,
     "total_score": 745,
-    "ranking": 500
+    "ranking": 500,
+    "wishlist_count": 33,
+    "vote_count": 199,
+    "bar_count": 513
   }
 }
