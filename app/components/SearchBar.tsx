@@ -1,5 +1,4 @@
 import { FC, FormEvent, useState, useRef, useEffect } from 'react';
-import { FaCamera, FaSearch, FaTimes } from 'react-icons/fa';
 
 interface SearchBarProps {
   onSearch: (query: string) => void;
@@ -109,7 +108,9 @@ const SearchBar: FC<SearchBarProps> = ({
             } text-amber-500`}
             disabled={isSearching}
           >
-            <FaCamera />
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+              <path fillRule="evenodd" d="M4 5a2 2 0 00-2 2v8a2 2 0 002 2h12a2 2 0 002-2V7a2 2 0 00-2-2h-1.586a1 1 0 01-.707-.293l-1.121-1.121A2 2 0 0011.172 3H8.828a2 2 0 00-1.414.586L6.293 4.707A1 1 0 015.586 5H4zm6 9a3 3 0 100-6 3 3 0 000 6z" clipRule="evenodd" />
+            </svg>
           </button>
         </div>
 
@@ -139,7 +140,9 @@ const SearchBar: FC<SearchBarProps> = ({
                 } text-red-500 shadow-md`}
                 disabled={isSearching}
               >
-                <FaTimes />
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
+                  <path fillRule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clipRule="evenodd" />
+                </svg>
               </button>
             </div>
           </div>
@@ -157,7 +160,9 @@ const SearchBar: FC<SearchBarProps> = ({
         >
           {isSearching ? 'Searching...' : (
             <>
-              <FaSearch />
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                <path fillRule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clipRule="evenodd" />
+              </svg>
               <span>{selectedImage ? 'Search with Image' : 'Search'}</span>
             </>
           )}
