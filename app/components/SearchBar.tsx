@@ -1,5 +1,4 @@
 import { FC, FormEvent, useState, useRef, useEffect } from 'react';
-import { FaCamera, FaSearch, FaTimes } from 'react-icons/fa';
 
 interface SearchBarProps {
   onSearch: (query: string) => void;
@@ -44,6 +43,7 @@ const SearchBar: FC<SearchBarProps> = ({
   const [selectedImage, setSelectedImage] = useState<File | null>(null);
   const [previewUrl, setPreviewUrl] = useState<string | null>(null);
   const [isTyping, setIsTyping] = useState<boolean>(false);
+  const [showTooltip, setShowTooltip] = useState<boolean>(false);
   const fileInputRef = useRef<HTMLInputElement>(null);
   const typingTimeoutRef = useRef<NodeJS.Timeout>();
 
@@ -121,18 +121,39 @@ const SearchBar: FC<SearchBarProps> = ({
             onChange={handleInputChange}
             disabled={isSearching}
           />
-          {!isTyping && (
-            <button
-              type="button"
-              onClick={handleCaptureClick}
-              className={`absolute right-3 top-1/2 -translate-y-1/2 p-2 rounded-full ${
-                isDarkMode ? 'bg-gray-700 hover:bg-gray-600' : 'bg-gray-200 hover:bg-gray-300'
-              } text-amber-500`}
-              disabled={isSearching}
+          <div className="absolute right-3 top-1/2 -translate-y-1/2 flex items-center gap-2">
+            <div 
+              className="relative"
+              onMouseEnter={() => setShowTooltip(true)}
+              onMouseLeave={() => setShowTooltip(false)}
+              onClick={() => setShowTooltip(!showTooltip)}
             >
-              <FaCamera />
-            </button>
-          )}
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-amber-500 cursor-pointer" viewBox="0 0 20 20" fill="currentColor">
+                <path fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clipRule="evenodd" />
+              </svg>
+              {showTooltip && (
+                <div className={`absolute right-0 top-full mt-2 p-3 rounded-lg shadow-lg  text-sm w-60 max-w-[90vw] ${isDarkMode ? 'bg-gray-800 text-white' : 'bg-white text-gray-900'}`}>
+                  <p className="leading-relaxed break-words">
+                    Example: "An Oval shaped bottle with a horse figure on top of the bottle"
+                  </p>
+                </div>
+              )}
+            </div>
+            <div style={{ display: searchQuery.length > 0 ? 'none' : 'block' }}>
+              <button
+                type="button"
+                onClick={handleCaptureClick}
+                className={`p-2 rounded-full ${
+                  isDarkMode ? 'bg-gray-700 hover:bg-gray-600' : 'bg-gray-200 hover:bg-gray-300'
+                } text-amber-500`}
+                disabled={isSearching}
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                  <path fillRule="evenodd" d="M4 5a2 2 0 00-2 2v8a2 2 0 002 2h12a2 2 0 002-2V7a2 2 0 00-2-2h-1.586a1 1 0 01-.707-.293l-1.121-1.121A2 2 0 0011.172 3H8.828a2 2 0 00-1.414.586L6.293 4.707A1 1 0 015.586 5H4zm6 9a3 3 0 100-6 3 3 0 000 6z" clipRule="evenodd" />
+                </svg>
+              </button>
+            </div>
+          </div>
         </div>
 
         <input
@@ -161,7 +182,9 @@ const SearchBar: FC<SearchBarProps> = ({
                 } text-red-500 shadow-md`}
                 disabled={isSearching}
               >
-                <FaTimes />
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
+                  <path fillRule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clipRule="evenodd" />
+                </svg>
               </button>
             </div>
           </div>
@@ -175,10 +198,13 @@ const SearchBar: FC<SearchBarProps> = ({
               : 'bg-amber-500 hover:bg-amber-600'
           }`}
           disabled={isSearching || (!searchQuery.trim() && !selectedImage)}
+          onClick={handleSubmit}
         >
           {isSearching ? 'Searching...' : (
             <>
-              <FaSearch />
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                <path fillRule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clipRule="evenodd" />
+              </svg>
               <span>{selectedImage ? 'Search with Image' : 'Search'}</span>
             </>
           )}

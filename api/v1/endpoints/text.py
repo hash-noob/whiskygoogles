@@ -1,4 +1,5 @@
 import requests
+import numpy as np
 from fastapi import APIRouter, HTTPException, Query
 from pydantic import BaseModel
 from api.config import settings
@@ -8,6 +9,38 @@ router = APIRouter()
 
 class TextQuery(BaseModel):
     query: str
+
+def normalize_scores(scores, min_score=0.2, target_min=0.6, target_max=0.98):
+    """
+    Normalize vector similarity scores to a more intuitive confidence range.
+    This preserves the ranking but scales the values to a more user-friendly range.
+    """
+    if not scores or len(scores) == 0:
+        return []
+    
+    # Get min and max scores
+    actual_min = min(scores)
+    actual_max = max(scores)
+    
+    # If all scores are the same, return a list with target_max
+    if actual_min == actual_max:
+        return [target_max] * len(scores)
+    
+    # Apply a minimum score threshold
+    scores = [max(s, min_score) for s in scores]
+    actual_min = min(scores)
+    
+    # Linear rescaling to target range
+    normalized = []
+    for score in scores:
+        if score < min_score:
+            normalized.append(0)  # Below threshold gets zero
+        else:
+            # Rescale to target range
+            normalized_score = target_min + (score - actual_min) * (target_max - target_min) / (actual_max - actual_min)
+            normalized.append(min(normalized_score, target_max))  # Cap at target_max
+    
+    return normalized
 
 @router.get("/search/text")
 async def query_text(query: str = Query(..., description="The search query text")):
@@ -33,8 +66,14 @@ async def query_text(query: str = Query(..., description="The search query text"
         )
 
         matches = query_response['matches']
+        
+        # Extract raw scores for normalization
+        raw_scores = [match['score'] for match in matches]
+        normalized_scores = normalize_scores(raw_scores)
+        
         results = [{
-            "score": match['score'],
+            "score": normalized_scores[i],  # Use normalized score
+            "raw_score": match['score'],    # Preserve raw score for reference
             "metadata": {
                 "id": match['id'],
                 "file_type": match['metadata'].get('file_type'),
@@ -43,7 +82,9 @@ async def query_text(query: str = Query(..., description="The search query text"
                 "end_offset_sec": match['metadata'].get('end_offset_sec'),
                 "interval_sec": match['metadata'].get('interval_sec'),
             }
-        } for match in matches]
+        } for i, match in enumerate(matches)]
+
+        print(results)
 
         return {"results": results}
     except Exception as e:

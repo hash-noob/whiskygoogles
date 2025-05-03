@@ -217,6 +217,7 @@ export default function Home() {
             <div className="glass-morphism p-4 sm:p-6 rounded-2xl ">
               <SearchBar 
                 onSearch={handleTextSearch} 
+                onImageSearch={handleFileUpload}
                 isSearching={isSearching} 
                 isDarkMode={darkMode}
                 searchQuery={searchQuery}

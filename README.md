@@ -1,8 +1,24 @@
-# WhiskeyGoggles
-
-![WhiskeyGoggles Logo](public/images/logo.png)
+# <img src="public/images/logo.png" alt="WhiskeyGoggles Logo" width="25" height="25"> WhiskeyGoggles 
 
 WhiskeyGoggles is an AI-powered whiskey identification and search application that helps users identify whiskey bottles through image recognition and text search. The app matches uploaded images or text queries against a comprehensive database of whiskeys, providing detailed information about the closest matches.
+
+## Table of Contents
+
+- [Key Features](#key-features)
+- [Technical Highlights](#technical-highlights)
+  - [Advanced AI Integration](#advanced-ai-integration)
+  - [Modern Tech Stack](#modern-tech-stack)
+  - [Performance Optimizations](#performance-optimizations)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Running the Application](#running-the-application)
+- [Project Structure](#project-structure)
+- [Technical Architecture](#technical-architecture)
+  - [Image Recognition Pipeline](#image-recognition-pipeline)
+  - [Text Search Pipeline](#text-search-pipeline)
+- [Contributing](#contributing)
+- [Acknowledgments](#acknowledgments)
 
 ## Key Features
 
@@ -54,7 +70,7 @@ WhiskeyGoggles is an AI-powered whiskey identification and search application th
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/whiskey-goggles.git
+   git clone https://github.com/hash-noob/whiskygoogles.git
    cd whiskey-goggles
    ```
 
@@ -64,7 +80,7 @@ WhiskeyGoggles is an AI-powered whiskey identification and search application th
    npm install
    ```
 
-3. Install backend dependencies:
+3. Install backend dependencies (venv recommended for easier installation):
 
    ```bash
    pip install -r requirements.txt
@@ -151,10 +167,6 @@ whiskygoogles/
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Acknowledgments
 
