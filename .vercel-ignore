@@ -1,0 +1,15 @@
+# Backend files and folders
+api/
+requirements.txt
+*.py
+*.pyc
+__pycache__/
+venv/
+.env
+*.env
+.env.*
+.python-version
+Pipfile
+Pipfile.lock
+pyproject.toml
+poetry.lock 
