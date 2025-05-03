@@ -43,7 +43,9 @@ const SearchBar: FC<SearchBarProps> = ({
 }) => {
   const [selectedImage, setSelectedImage] = useState<File | null>(null);
   const [previewUrl, setPreviewUrl] = useState<string | null>(null);
+  const [isTyping, setIsTyping] = useState<boolean>(false);
   const fileInputRef = useRef<HTMLInputElement>(null);
+  const typingTimeoutRef = useRef<NodeJS.Timeout>();
 
   const handleSubmit = (e: FormEvent) => {
     e.preventDefault();
@@ -79,11 +81,29 @@ const SearchBar: FC<SearchBarProps> = ({
     }
   };
 
-  // Clean up object URLs to avoid memory leaks
+  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    setSearchQuery(e.target.value);
+    setIsTyping(true);
+    
+    // Clear existing timeout
+    if (typingTimeoutRef.current) {
+      clearTimeout(typingTimeoutRef.current);
+    }
+    
+    // Set new timeout
+    typingTimeoutRef.current = setTimeout(() => {
+      setIsTyping(false);
+    }, 500); // 500ms delay
+  };
+
+  // Clean up object URLs and timeouts to avoid memory leaks
   useEffect(() => {
     return () => {
       if (previewUrl) {
         URL.revokeObjectURL(previewUrl);
+      }
+      if (typingTimeoutRef.current) {
+        clearTimeout(typingTimeoutRef.current);
       }
     };
   }, [previewUrl]);
@@ -96,21 +116,23 @@ const SearchBar: FC<SearchBarProps> = ({
           <input
             type="text"
             className={`w-full p-3 rounded-lg ${isDarkMode ? 'bg-gray-800 border-gray-700 text-white placeholder:text-gray-400' : 'bg-white border-gray-300 text-gray-900 placeholder:text-gray-500'} border focus:outline-none focus:ring-2 focus:ring-amber-500`}
-            placeholder="Enter whiskey name..."
+            placeholder="Describe your whiskey..."
             value={searchQuery}
-            onChange={(e) => setSearchQuery(e.target.value)}
+            onChange={handleInputChange}
             disabled={isSearching}
           />
-          <button
-            type="button"
-            onClick={handleCaptureClick}
-            className={`absolute right-3 top-1/2 -translate-y-1/2 p-2 rounded-full ${
-              isDarkMode ? 'bg-gray-700 hover:bg-gray-600' : 'bg-gray-200 hover:bg-gray-300'
-            } text-amber-500`}
-            disabled={isSearching}
-          >
-            <FaCamera />
-          </button>
+          {!isTyping && (
+            <button
+              type="button"
+              onClick={handleCaptureClick}
+              className={`absolute right-3 top-1/2 -translate-y-1/2 p-2 rounded-full ${
+                isDarkMode ? 'bg-gray-700 hover:bg-gray-600' : 'bg-gray-200 hover:bg-gray-300'
+              } text-amber-500`}
+              disabled={isSearching}
+            >
+              <FaCamera />
+            </button>
+          )}
         </div>
 
         <input
