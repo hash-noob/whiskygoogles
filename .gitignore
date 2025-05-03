@@ -73,8 +73,8 @@ logs/
 
 # Local development
 # public/downloaded_images/
-/scripts
-scripts/
+/scripts/*
+scripts/*
 *.zip
 *.rar
 *.7z
