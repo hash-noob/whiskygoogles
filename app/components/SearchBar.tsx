@@ -132,9 +132,9 @@ const SearchBar: FC<SearchBarProps> = ({
                 <path fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clipRule="evenodd" />
               </svg>
               {showTooltip && (
-                <div className={`absolute right-0 top-full mt-2 p-3 rounded-lg shadow-lg  text-sm w-60 max-w-[90vw] ${isDarkMode ? 'bg-gray-800 text-white' : 'bg-white text-gray-900'}`}>
+                <div className={`absolute right-0 top-full mt-2 p-3 rounded-lg shadow-lg text-sm w-60 max-w-[90vw] ${isDarkMode ? 'bg-gray-800 text-white' : 'bg-white text-gray-900'}`}>
                   <p className="leading-relaxed break-words">
-                    Example: "An Oval shaped bottle with a horse figure on top of the bottle"
+                    Example: &ldquo;An Oval shaped bottle with a horse figure on top of the bottle&rdquo;
                   </p>
                 </div>
               )}
