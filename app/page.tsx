@@ -10,7 +10,6 @@ import FileUpload from './components/FileUpload';
 import SearchBar from './components/SearchBar';
 import ResultsList from './components/ResultsList';
 import Footer from './components/Footer';
-import DisclaimerBanner from './components/DisclaimerBanner';
 // Handles Python backend API URL based on the environment
 const API_URL = "https://whiskygoogles.onrender.com";
 

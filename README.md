@@ -80,7 +80,7 @@ WhiskeyGoggles is an AI-powered whiskey identification and search application th
    npm install
    ```
 
-3. Install backend dependencies:
+3. Install backend dependencies (venv recommended for easier installation):
 
    ```bash
    pip install -r requirements.txt

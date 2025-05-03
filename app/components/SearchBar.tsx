@@ -42,7 +42,10 @@ const SearchBar: FC<SearchBarProps> = ({
 }) => {
   const [selectedImage, setSelectedImage] = useState<File | null>(null);
   const [previewUrl, setPreviewUrl] = useState<string | null>(null);
+  const [isTyping, setIsTyping] = useState<boolean>(false);
+  const [showTooltip, setShowTooltip] = useState<boolean>(false);
   const fileInputRef = useRef<HTMLInputElement>(null);
+  const typingTimeoutRef = useRef<NodeJS.Timeout>();
 
   const handleSubmit = (e: FormEvent) => {
     e.preventDefault();
@@ -78,11 +81,29 @@ const SearchBar: FC<SearchBarProps> = ({
     }
   };
 
-  // Clean up object URLs to avoid memory leaks
+  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    setSearchQuery(e.target.value);
+    setIsTyping(true);
+    
+    // Clear existing timeout
+    if (typingTimeoutRef.current) {
+      clearTimeout(typingTimeoutRef.current);
+    }
+    
+    // Set new timeout
+    typingTimeoutRef.current = setTimeout(() => {
+      setIsTyping(false);
+    }, 500); // 500ms delay
+  };
+
+  // Clean up object URLs and timeouts to avoid memory leaks
   useEffect(() => {
     return () => {
       if (previewUrl) {
         URL.revokeObjectURL(previewUrl);
+      }
+      if (typingTimeoutRef.current) {
+        clearTimeout(typingTimeoutRef.current);
       }
     };
   }, [previewUrl]);
@@ -95,23 +116,44 @@ const SearchBar: FC<SearchBarProps> = ({
           <input
             type="text"
             className={`w-full p-3 rounded-lg ${isDarkMode ? 'bg-gray-800 border-gray-700 text-white placeholder:text-gray-400' : 'bg-white border-gray-300 text-gray-900 placeholder:text-gray-500'} border focus:outline-none focus:ring-2 focus:ring-amber-500`}
-            placeholder="Enter whiskey name..."
+            placeholder="Describe your whiskey..."
             value={searchQuery}
-            onChange={(e) => setSearchQuery(e.target.value)}
+            onChange={handleInputChange}
             disabled={isSearching}
           />
-          <button
-            type="button"
-            onClick={handleCaptureClick}
-            className={`absolute right-3 top-1/2 -translate-y-1/2 p-2 rounded-full ${
-              isDarkMode ? 'bg-gray-700 hover:bg-gray-600' : 'bg-gray-200 hover:bg-gray-300'
-            } text-amber-500`}
-            disabled={isSearching}
-          >
-            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-              <path fillRule="evenodd" d="M4 5a2 2 0 00-2 2v8a2 2 0 002 2h12a2 2 0 002-2V7a2 2 0 00-2-2h-1.586a1 1 0 01-.707-.293l-1.121-1.121A2 2 0 0011.172 3H8.828a2 2 0 00-1.414.586L6.293 4.707A1 1 0 015.586 5H4zm6 9a3 3 0 100-6 3 3 0 000 6z" clipRule="evenodd" />
-            </svg>
-          </button>
+          <div className="absolute right-3 top-1/2 -translate-y-1/2 flex items-center gap-2">
+            <div 
+              className="relative"
+              onMouseEnter={() => setShowTooltip(true)}
+              onMouseLeave={() => setShowTooltip(false)}
+              onClick={() => setShowTooltip(!showTooltip)}
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-amber-500 cursor-pointer" viewBox="0 0 20 20" fill="currentColor">
+                <path fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clipRule="evenodd" />
+              </svg>
+              {showTooltip && (
+                <div className={`absolute right-0 top-full mt-2 p-3 rounded-lg shadow-lg text-sm w-60 max-w-[90vw] ${isDarkMode ? 'bg-gray-800 text-white' : 'bg-white text-gray-900'}`}>
+                  <p className="leading-relaxed break-words">
+                    Example: &ldquo;An Oval shaped bottle with a horse figure on top of the bottle&rdquo;
+                  </p>
+                </div>
+              )}
+            </div>
+            <div style={{ display: searchQuery.length > 0 ? 'none' : 'block' }}>
+              <button
+                type="button"
+                onClick={handleCaptureClick}
+                className={`p-2 rounded-full ${
+                  isDarkMode ? 'bg-gray-700 hover:bg-gray-600' : 'bg-gray-200 hover:bg-gray-300'
+                } text-amber-500`}
+                disabled={isSearching}
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                  <path fillRule="evenodd" d="M4 5a2 2 0 00-2 2v8a2 2 0 002 2h12a2 2 0 002-2V7a2 2 0 00-2-2h-1.586a1 1 0 01-.707-.293l-1.121-1.121A2 2 0 0011.172 3H8.828a2 2 0 00-1.414.586L6.293 4.707A1 1 0 015.586 5H4zm6 9a3 3 0 100-6 3 3 0 000 6z" clipRule="evenodd" />
+                </svg>
+              </button>
+            </div>
+          </div>
         </div>
 
         <input
